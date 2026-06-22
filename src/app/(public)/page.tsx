@@ -110,7 +110,7 @@ export default function HomePage() {
 
       <HeroSection
         categoryBadge="Organic & Non-Toxic"
-        heading="Organic Mattress Cleaning in Los Angeles"
+        heading="Mattress Cleaning in Los Angeles"
         subheading="Eco-friendly, plant-based deep cleaning that's safe for your family and pets. We remove stains, odors, dust mites, and allergens — without harsh chemicals."
         ctaPrimaryLabel="Get a Free Quote"
         ctaPrimaryUrl="/contact"
