@@ -21,4 +21,5 @@ export const SERVICES_MENU = [
 export const ABOUT_MENU = [
   { name: "About Us", href: "/about" },
   { name: "Our Organic Products", href: "/organic-cleaning-products" },
+  { name: "Before & After Gallery", href: "/gallery" },
 ] as const;

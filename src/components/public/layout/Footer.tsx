@@ -20,6 +20,7 @@ const getStarted = [
 const company = [
   { name: "About Us", href: "/about" },
   { name: "Our Organic Products", href: "/organic-cleaning-products" },
+  { name: "Before & After Gallery", href: "/gallery" },
   { name: "Pricing", href: "/pricing" },
   { name: "Reviews", href: "/reviews" },
   { name: "Blog", href: "/blog" },

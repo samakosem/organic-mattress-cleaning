@@ -7,6 +7,7 @@ import { HeroSection } from "@/components/public/sections/HeroSection";
 import { ServicesSection } from "@/components/public/sections/ServicesSection";
 import { FaqSection } from "@/components/public/sections/FaqSection";
 import { TrustSection } from "@/components/public/sections/TrustSection";
+import { CityHowItWorks } from "@/components/public/sections/CityHowItWorks";
 import { CtaSection } from "@/components/public/sections/CtaSection";
 import { AnswerBlock } from "@/components/public/sections/AnswerBlock";
 import { CallNowCta } from "@/components/public/sections/CallNowCta";
@@ -213,6 +214,8 @@ export default async function ServiceAreaDetailPage({ params }: AreaPageProps) {
         subheading={`We bring the same eco-friendly process to every home in ${area.name} — safe for families, pets, and allergy-sensitive households.`}
         variant="dark"
       />
+
+      <CityHowItWorks cityName={area.name} />
 
       {relatedServices.length > 0 && (
         <ServicesSection

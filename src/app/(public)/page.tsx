@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Leaf, Heart, ShieldCheck, Sparkles, CheckCircle2, ArrowRight, Phone } from "lucide-react";
+import { Leaf, Heart, ShieldCheck, Sparkles, CheckCircle2, ArrowRight, Phone, Tag, MapPin, ImageIcon } from "lucide-react";
 import { HeroSection } from "@/components/public/sections/HeroSection";
 import { ServicesSection } from "@/components/public/sections/ServicesSection";
 import { TrustSection } from "@/components/public/sections/TrustSection";
@@ -85,6 +85,54 @@ const WHY_ORGANIC = [
   },
 ];
 
+const TRUST_CARDS = [
+  {
+    Icon: Leaf,
+    title: "Organic Cleaning Solutions",
+    body: "We use organic cleaning solutions and a plant-based, non-toxic approach designed for mattresses and indoor fabrics.",
+    href: "/organic-cleaning-products",
+  },
+  {
+    Icon: Heart,
+    title: "Family-Safe",
+    body: "Our process is designed for bedrooms, children's rooms, nurseries, and everyday sleeping spaces without harsh chemical odors.",
+    href: "/organic-cleaning-products",
+  },
+  {
+    Icon: ShieldCheck,
+    title: "Pet-Safe",
+    body: "A better fit for pet-friendly homes dealing with odor, everyday buildup, and indoor fabric cleaning needs.",
+    href: "/organic-cleaning-products",
+  },
+  {
+    Icon: Tag,
+    title: "Transparent Pricing",
+    body: "View our price guide to understand starting prices, typical ranges, and what can affect your final quote.",
+    href: "/pricing",
+  },
+  {
+    Icon: MapPin,
+    title: "Los Angeles Service",
+    body: "Mobile mattress cleaning for Los Angeles homes, apartments, condos, and surrounding LA communities.",
+    href: "/service-areas",
+  },
+  {
+    Icon: ImageIcon,
+    title: "Real Results, Honest Expectations",
+    body: "Stain and odor results depend on mattress fabric, stain age, odor depth, and prior treatments. We explain what's realistic before work begins.",
+    href: "/gallery",
+  },
+];
+
+const TRUST_QUICK_FACTS = [
+  "Organic solutions",
+  "Family-safe",
+  "Pet-safe",
+  "No harsh chemical smell",
+  "Transparent pricing",
+  "Los Angeles service",
+];
+
 export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Organic Mattress Cleaning Los Angeles | Non-Toxic Mattress Cleaning",
@@ -124,6 +172,57 @@ export default function HomePage() {
           { value: "Family", label: "& Pet Safe" },
         ]}
       />
+
+      {/* Stronger homepage trust section */}
+      <section className="py-16 sm:py-20 bg-surface border-t border-primary/10">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6">
+          <div className="max-w-2xl mb-4">
+            <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-3">
+              Why Los Angeles Families Choose Organic Mattress Cleaning
+            </h2>
+            <p className="text-text-secondary text-base leading-relaxed">
+              Organic cleaning solutions, transparent pricing, and mattress care designed for real homes,
+              apartments, condos, kids&apos; rooms, guest rooms, and pet-friendly households.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap gap-2.5 mb-10">
+            {TRUST_QUICK_FACTS.map((fact) => (
+              <span key={fact} className="px-3.5 py-1.5 rounded-full bg-white border border-primary/15 text-xs font-semibold text-primary-dark">
+                {fact}
+              </span>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
+            {TRUST_CARDS.map((card) => (
+              <Link
+                key={card.title}
+                href={card.href}
+                className="group bg-white rounded-2xl p-6 border border-primary/12 hover:border-cta/30 hover:shadow-md hover:shadow-primary/10 transition-all duration-200 flex flex-col gap-3"
+              >
+                <div className="w-10 h-10 rounded-xl bg-primary-light ring-1 ring-primary/15 flex items-center justify-center shrink-0">
+                  <card.Icon className="w-5 h-5 text-cta" aria-hidden />
+                </div>
+                <h3 className="font-bold text-text-primary text-base leading-snug group-hover:text-primary-dark transition-colors">
+                  {card.title}
+                </h3>
+                <p className="text-sm text-text-secondary leading-relaxed">{card.body}</p>
+              </Link>
+            ))}
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-3">
+            <Link href="/contact" className="btn btn-primary justify-center">
+              Get a Free Quote
+              <ArrowRight className="w-4 h-4" aria-hidden />
+            </Link>
+            <Link href="/pricing" className="btn btn-outline justify-center">
+              View Pricing
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* Why Organic */}
       <section className="py-16 sm:py-24 bg-white">

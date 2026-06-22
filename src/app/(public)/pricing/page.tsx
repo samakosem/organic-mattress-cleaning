@@ -506,6 +506,7 @@ export default function PricingPage() {
           { label: "Organic Mattress Cleaning", href: "/organic-mattress-cleaning" },
           { label: "Mattress Stain Removal", href: "/mattress-stain-removal" },
           { label: "Urine Odor Removal", href: "/urine-odor-removal" },
+          { label: "Before & After Gallery", href: "/gallery" },
         ]}
       />
     </>

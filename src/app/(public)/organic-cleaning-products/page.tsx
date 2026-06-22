@@ -494,7 +494,11 @@ export default function OrganicCleaningProductsPage() {
             <Link href="/pricing" className="text-cta hover:text-primary-dark font-semibold transition-colors">
               mattress cleaning price guide
             </Link>{" "}
-            for typical starting prices, or{" "}
+            for typical starting prices, view our{" "}
+            <Link href="/gallery" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              before &amp; after gallery
+            </Link>{" "}
+            for real project photos, or{" "}
             <Link href="/contact" className="text-cta hover:text-primary-dark font-semibold transition-colors">
               contact us
             </Link>{" "}
@@ -610,6 +614,7 @@ export default function OrganicCleaningProductsPage() {
           { label: "Organic Mattress Cleaning", href: "/organic-mattress-cleaning" },
           { label: "Mattress Cleaning", href: "/mattress-cleaning" },
           { label: "Pricing Guide", href: "/pricing" },
+          { label: "Before & After Gallery", href: "/gallery" },
         ]}
       />
     </>

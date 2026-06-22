@@ -51,9 +51,13 @@ export default function FaqPage() {
             <Link href="/pricing" className="text-cta hover:text-primary-dark font-semibold transition-colors">
               See our mattress cleaning price guide
             </Link>
-            , or learn about{" "}
+            , learn about{" "}
             <Link href="/organic-cleaning-products" className="text-cta hover:text-primary-dark font-semibold transition-colors">
               our organic cleaning products
+            </Link>
+            , or view our{" "}
+            <Link href="/gallery" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              before &amp; after gallery
             </Link>
             .
           </p>
