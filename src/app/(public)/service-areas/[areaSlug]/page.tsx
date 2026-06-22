@@ -90,6 +90,7 @@ export default async function ServiceAreaDetailPage({ params }: AreaPageProps) {
         ctaPrimaryLabel="Get a Free Quote"
         ctaPrimaryUrl="/contact"
         minHeight="min-h-[65vh]"
+        showInternalTrustBadges
       />
 
       {/* Mobile service banner */}

@@ -122,6 +122,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         ctaSecondaryLabel="(800) 735-1242"
         ctaSecondaryUrl="tel:+18007351242"
         minHeight="min-h-[70vh]"
+        showInternalTrustBadges
       />
 
       {/* What it is + benefits */}

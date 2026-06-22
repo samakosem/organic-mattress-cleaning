@@ -4,6 +4,7 @@ import { ArrowRight, Phone } from "lucide-react";
 import { PublicButton } from "@/components/ui/PublicButton";
 import { CompactHeroLeadForm } from "@/components/public/forms/CompactHeroLeadForm";
 import { HeroTrustBadges } from "@/components/public/sections/HeroTrustBadges";
+import { InternalHeroTrustBadges } from "@/components/public/sections/InternalHeroTrustBadges";
 
 interface StatItem {
   value: string;
@@ -29,9 +30,11 @@ interface HeroSectionProps {
   showLeadForm?: boolean;
   /** Homepage-only: real trust badge images near the form. */
   showTrustBadges?: boolean;
+  /** Service/city pages: compact trust badge row under the CTA buttons. */
+  showInternalTrustBadges?: boolean;
 }
 
-const DEFAULT_HERO_IMAGE = "/images/hero/mattress-cleaning-hero.webp";
+const DEFAULT_HERO_IMAGE = "/images/hero/default-hero-bedroom.webp";
 
 export function HeroSection({
   heading,
@@ -45,10 +48,11 @@ export function HeroSection({
   stats,
   minHeight = "min-h-[78vh]",
   imageSrc = DEFAULT_HERO_IMAGE,
-  imageAlt = "Organic, non-toxic mattress cleaning in a fresh, healthy Los Angeles bedroom",
+  imageAlt = "Organic mattress cleaning service hero image with clean bedroom, fresh mattress, natural light, and eco-friendly cleaning equipment",
   priority = false,
   showLeadForm = false,
   showTrustBadges = false,
+  showInternalTrustBadges = false,
 }: HeroSectionProps) {
   return (
     <section className={`relative ${minHeight} text-text-primary overflow-hidden flex flex-col justify-between`}>
@@ -157,6 +161,13 @@ export function HeroSection({
             {showTrustBadges && (
               <div className="mt-7 sm:mt-8">
                 <HeroTrustBadges />
+              </div>
+            )}
+
+            {/* Service/city pages: compact trust badge row under the CTA buttons */}
+            {showInternalTrustBadges && (
+              <div className="mt-6 sm:mt-7">
+                <InternalHeroTrustBadges />
               </div>
             )}
 
