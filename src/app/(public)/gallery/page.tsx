@@ -243,7 +243,15 @@ export default function GalleryPage() {
             <Link href="/pricing" className="text-cta hover:text-primary-dark font-semibold transition-colors">
               pricing guide
             </Link>{" "}
-            for typical starting prices, or{" "}
+            for typical starting prices, our{" "}
+            <Link href="/mattress-stain-guide" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              mattress stain guide
+            </Link>{" "}
+            for honest expectations by stain type, our{" "}
+            <Link href="/after-care" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              after-care guide
+            </Link>{" "}
+            for what to do once cleaning is done, or{" "}
             <Link href="/contact" className="text-cta hover:text-primary-dark font-semibold transition-colors">
               contact us
             </Link>{" "}

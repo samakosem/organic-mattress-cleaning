@@ -33,6 +33,13 @@ const featuredCities = SERVICE_AREAS.slice(0, 5).map((area) => ({
   href: getAreaHref(area),
 }));
 
+const helpfulGuides = [
+  { name: "Mattress Stain Guide", href: "/mattress-stain-guide" },
+  { name: "Mattress Material Cleaning Guide", href: "/mattress-material-cleaning-guide" },
+  { name: "Mattress Cleaning After-Care", href: "/after-care" },
+  { name: "Professional vs DIY Mattress Cleaning", href: "/professional-vs-diy-mattress-cleaning" },
+];
+
 export function Footer() {
   const year = new Date().getFullYear();
 
@@ -203,6 +210,18 @@ export function Footer() {
                 </Link>
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* Helpful Guides */}
+        <div className="border-t border-white/10 pt-8 sm:pt-10 mb-10 sm:mb-12">
+          <h3 className="text-white text-xs font-bold uppercase tracking-widest mb-4">Helpful Guides</h3>
+          <div className="flex flex-wrap gap-x-6 gap-y-2.5">
+            {helpfulGuides.map((guide) => (
+              <Link key={guide.href} href={guide.href} className="text-sm text-white/65 hover:text-white transition-colors">
+                {guide.name}
+              </Link>
+            ))}
           </div>
         </div>
 

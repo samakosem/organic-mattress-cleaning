@@ -64,6 +64,29 @@ export default function FaqPage() {
         </div>
       </div>
 
+      {/* Helpful Guides */}
+      <section className="py-14 sm:py-20 bg-surface border-t border-primary/10">
+        <div className="max-w-4xl mx-auto px-5 sm:px-6">
+          <h2 className="text-xl font-bold text-text-primary mb-6 text-center">Helpful Guides</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {[
+              { label: "Mattress Stain Guide", href: "/mattress-stain-guide" },
+              { label: "Mattress Material Cleaning Guide", href: "/mattress-material-cleaning-guide" },
+              { label: "Mattress Cleaning After-Care", href: "/after-care" },
+              { label: "Professional vs DIY Mattress Cleaning", href: "/professional-vs-diy-mattress-cleaning" },
+            ].map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="bg-white rounded-xl px-4 py-3.5 border border-primary/12 text-sm font-semibold text-text-primary hover:border-cta/30 hover:text-cta transition-colors text-center"
+              >
+                {guide.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Per-service FAQ — links each block back to its service page */}
       <section className="py-16 sm:py-24 bg-surface border-t border-primary/10">
         <div className="max-w-4xl mx-auto px-5 sm:px-6">

@@ -14,6 +14,8 @@ import { FaqSection } from "@/components/public/sections/FaqSection";
 import { AnswerBlock } from "@/components/public/sections/AnswerBlock";
 import { LeadForm } from "@/components/public/forms/LeadForm";
 import { PhoneLink } from "@/components/public/layout/PhoneLink";
+import { PricingSizeCard } from "@/components/public/pricing/PricingSizeCard";
+import { PricingGoalCard } from "@/components/public/pricing/PricingGoalCard";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { buildFaqSchema } from "@/lib/schema/faq";
@@ -197,8 +199,9 @@ export default function PricingPage() {
           <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-8">
             Starting Prices by Mattress Size
           </h2>
-          <div className="overflow-x-auto rounded-2xl border border-primary/12 bg-white">
-            <table className="w-full text-sm min-w-[640px]">
+          {/* Desktop/tablet table */}
+          <div className="hidden lg:block overflow-x-auto rounded-2xl border border-primary/12 bg-white">
+            <table className="w-full text-sm">
               <thead>
                 <tr className="bg-primary-light/60 text-left">
                   <th className="px-4 py-3.5 font-bold text-text-primary">Mattress Size</th>
@@ -226,6 +229,14 @@ export default function PricingPage() {
               </tbody>
             </table>
           </div>
+
+          {/* Mobile stacked cards */}
+          <div className="lg:hidden grid grid-cols-1 gap-4">
+            {PRICING_BY_SIZE.map((row) => (
+              <PricingSizeCard key={row.item} row={row} service={serviceBySlug(row.relatedServiceSlug)} />
+            ))}
+          </div>
+
           <p className="text-xs text-text-secondary/70 mt-4">
             These are starting prices and typical ranges, not guaranteed final prices. Final pricing is confirmed
             after we understand the mattress size, fabric, stain condition, odor level, and cleaning goals.
@@ -243,8 +254,9 @@ export default function PricingPage() {
           <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-8">
             What Different Cleaning Goals Typically Cost
           </h2>
-          <div className="overflow-x-auto rounded-2xl border border-primary/12 bg-surface">
-            <table className="w-full text-sm min-w-[640px]">
+          {/* Desktop/tablet table */}
+          <div className="hidden lg:block overflow-x-auto rounded-2xl border border-primary/12 bg-surface">
+            <table className="w-full text-sm">
               <thead>
                 <tr className="bg-primary-light/60 text-left">
                   <th className="px-4 py-3.5 font-bold text-text-primary">Cleaning Goal</th>
@@ -275,6 +287,13 @@ export default function PricingPage() {
                 })}
               </tbody>
             </table>
+          </div>
+
+          {/* Mobile stacked cards */}
+          <div className="lg:hidden grid grid-cols-1 gap-4">
+            {PRICING_BY_GOAL.map((row) => (
+              <PricingGoalCard key={row.item} row={row} service={serviceBySlug(row.relatedServiceSlug)} />
+            ))}
           </div>
         </div>
       </section>
@@ -452,6 +471,17 @@ export default function PricingPage() {
           },
         ]}
       />
+
+      <section className="py-10 bg-surface border-t border-primary/10">
+        <div className="max-w-3xl mx-auto px-5 sm:px-6 text-center">
+          <p className="text-sm text-text-secondary">
+            Want more detail before booking? See our{" "}
+            <Link href="/mattress-stain-guide" className="text-cta hover:text-primary-dark font-semibold transition-colors">mattress stain guide</Link>,{" "}
+            <Link href="/mattress-material-cleaning-guide" className="text-cta hover:text-primary-dark font-semibold transition-colors">mattress material cleaning guide</Link>, or{" "}
+            <Link href="/professional-vs-diy-mattress-cleaning" className="text-cta hover:text-primary-dark font-semibold transition-colors">professional vs DIY comparison</Link>.
+          </p>
+        </div>
+      </section>
 
       <CtaSection
         heading="Get a Clear Mattress Cleaning Quote Before We Start"

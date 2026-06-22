@@ -548,6 +548,35 @@ export default function HomePage() {
         </section>
       )}
 
+      {/* Helpful mattress cleaning guides */}
+      <section className="py-16 sm:py-20 bg-white border-t border-primary/10">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6">
+          <SectionHeading
+            subheading="Helpful Resources"
+            heading="Helpful Mattress Cleaning Guides"
+            description="Learn how stains, mattress materials, drying time, and DIY cleaning choices affect your mattress cleaning results."
+            className="mb-10"
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {[
+              { title: "Mattress Stain Guide", href: "/mattress-stain-guide" },
+              { title: "Mattress Material Cleaning Guide", href: "/mattress-material-cleaning-guide" },
+              { title: "After-Care Guide", href: "/after-care" },
+              { title: "Professional vs DIY Cleaning", href: "/professional-vs-diy-mattress-cleaning" },
+            ].map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="group bg-surface rounded-2xl p-5 border border-primary/12 hover:border-cta/30 hover:shadow-md hover:shadow-primary/10 transition-all duration-200 flex items-center justify-between gap-3"
+              >
+                <span className="text-sm font-bold text-text-primary group-hover:text-primary-dark transition-colors">{guide.title}</span>
+                <ArrowRight className="w-3.5 h-3.5 text-text-secondary/50 shrink-0 group-hover:translate-x-0.5 transition-transform" aria-hidden />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <FaqSection
         items={GENERAL_FAQS}
         eyebrow="Mattress Cleaning Questions"

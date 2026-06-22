@@ -498,7 +498,15 @@ export default function OrganicCleaningProductsPage() {
             <Link href="/gallery" className="text-cta hover:text-primary-dark font-semibold transition-colors">
               before &amp; after gallery
             </Link>{" "}
-            for real project photos, or{" "}
+            for real project photos, read our{" "}
+            <Link href="/mattress-material-cleaning-guide" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              mattress material cleaning guide
+            </Link>{" "}
+            or{" "}
+            <Link href="/professional-vs-diy-mattress-cleaning" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              professional vs DIY comparison
+            </Link>
+            , or{" "}
             <Link href="/contact" className="text-cta hover:text-primary-dark font-semibold transition-colors">
               contact us
             </Link>{" "}

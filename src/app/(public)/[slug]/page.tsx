@@ -28,6 +28,34 @@ import { getImagesForUse, beforeAfterImages } from "@/data/images";
 const STAIN_RELATED_SLUGS = ["mattress-stain-removal", "urine-odor-removal", "dust-mite-mattress-cleaning"];
 const AVAILABILITY_WIDGET_SLUGS = ["mattress-stain-removal", "urine-odor-removal", "mattress-cleaning", "organic-mattress-cleaning"];
 
+const SERVICE_GUIDE_LINKS: Record<string, { label: string; href: string }[]> = {
+  "mattress-stain-removal": [{ label: "Mattress Stain Guide", href: "/mattress-stain-guide" }],
+  "urine-odor-removal": [
+    { label: "Mattress Stain Guide", href: "/mattress-stain-guide" },
+    { label: "After-Care Guide", href: "/after-care" },
+  ],
+  "mattress-cleaning": [
+    { label: "Mattress Material Cleaning Guide", href: "/mattress-material-cleaning-guide" },
+    { label: "Professional vs DIY Mattress Cleaning", href: "/professional-vs-diy-mattress-cleaning" },
+  ],
+  "organic-mattress-cleaning": [
+    { label: "Our Organic Cleaning Products", href: "/organic-cleaning-products" },
+    { label: "Professional vs DIY Mattress Cleaning", href: "/professional-vs-diy-mattress-cleaning" },
+  ],
+  "baby-mattress-cleaning": [
+    { label: "Mattress Material Cleaning Guide", href: "/mattress-material-cleaning-guide" },
+    { label: "After-Care Guide", href: "/after-care" },
+  ],
+  "dust-mite-mattress-cleaning": [
+    { label: "After-Care Guide", href: "/after-care" },
+    { label: "Mattress Material Cleaning Guide", href: "/mattress-material-cleaning-guide" },
+  ],
+  "allergy-mattress-cleaning": [
+    { label: "After-Care Guide", href: "/after-care" },
+    { label: "Mattress Material Cleaning Guide", href: "/mattress-material-cleaning-guide" },
+  ],
+};
+
 interface ServicePageProps {
   params: Promise<{ slug: string }>;
 }
@@ -321,6 +349,19 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
               <Link href="/organic-cleaning-products" className="inline-flex items-center gap-1.5 text-sm font-semibold text-cta hover:text-primary-dark transition-colors">
                 Learn about our organic cleaning products →
               </Link>
+              {SERVICE_GUIDE_LINKS[service.slug] && (
+                <div className="mt-3 flex flex-col gap-2">
+                  {SERVICE_GUIDE_LINKS[service.slug].map((guide) => (
+                    <Link
+                      key={guide.href}
+                      href={guide.href}
+                      className="inline-flex items-center gap-1.5 text-sm font-semibold text-cta hover:text-primary-dark transition-colors"
+                    >
+                      {guide.label} →
+                    </Link>
+                  ))}
+                </div>
+              )}
             </div>
             <div className="bg-surface rounded-3xl p-8 border border-primary/15 shadow-sm">
               <h3 className="text-lg font-bold text-text-primary mb-1.5">Request Your Free Quote</h3>
