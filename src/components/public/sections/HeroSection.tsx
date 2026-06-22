@@ -153,26 +153,25 @@ export function HeroSection({
               )}
             </div>
 
-            {/* Mobile/tablet: compact lead form sits below the CTAs, full width, not overlapping the image */}
-            {showLeadForm && (
-              <div className="lg:hidden mt-8">
-                <CompactHeroLeadForm className="w-full" />
+            {/* Trust badges live in the left content area, right under the CTA buttons */}
+            {showTrustBadges && (
+              <div className="mt-7 sm:mt-8">
+                <HeroTrustBadges />
               </div>
             )}
 
-            {/* Mobile/tablet: trust badges in a compact 2x2 grid below the form */}
-            {showTrustBadges && (
-              <div className="lg:hidden mt-5">
-                <HeroTrustBadges />
+            {/* Mobile/tablet: compact lead form sits below the CTAs and badges, full width, not overlapping the image */}
+            {showLeadForm && (
+              <div className="lg:hidden mt-8">
+                <CompactHeroLeadForm className="w-full" />
               </div>
             )}
           </div>
 
           {/* Desktop: floating glass lead form in its own column, clear of the mattress/tool area of the image */}
           {showLeadForm && (
-            <div className="hidden lg:flex lg:flex-col lg:items-end gap-4 w-full">
+            <div className="hidden lg:block lg:justify-self-end w-full">
               <CompactHeroLeadForm />
-              {showTrustBadges && <HeroTrustBadges />}
             </div>
           )}
         </div>

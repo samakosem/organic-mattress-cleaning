@@ -15,21 +15,17 @@ const BADGES: TrustBadge[] = [
 
 export function HeroTrustBadges() {
   return (
-    <div
-      className="grid grid-cols-2 lg:grid-cols-1 gap-3 lg:gap-2.5 w-full lg:w-auto"
-      role="list"
-      aria-label="Trust badges"
-    >
+    <div className="grid grid-cols-2 gap-3 sm:gap-4 max-w-xl" role="list" aria-label="Trust badges">
       {BADGES.map((badge) => (
         <div
           key={badge.src}
           role="listitem"
-          className="flex items-center gap-2.5 bg-white/90 backdrop-blur-sm rounded-xl border border-primary/12 shadow-sm shadow-primary/5 px-3 py-2 lg:justify-start"
+          className="flex items-center gap-3 bg-white rounded-2xl border border-primary/15 shadow-sm shadow-primary/10 px-4 py-3.5"
         >
-          <div className="relative w-8 h-8 shrink-0">
-            <Image src={badge.src} alt={badge.alt} fill loading="lazy" sizes="32px" className="object-contain" />
+          <div className="relative w-11 h-11 sm:w-12 sm:h-12 shrink-0">
+            <Image src={badge.src} alt={badge.alt} fill loading="lazy" sizes="48px" className="object-contain" />
           </div>
-          <span className="text-xs font-semibold text-text-primary leading-snug">{badge.label}</span>
+          <span className="text-sm font-bold text-text-primary leading-snug">{badge.label}</span>
         </div>
       ))}
     </div>
