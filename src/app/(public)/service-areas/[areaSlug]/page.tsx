@@ -91,6 +91,8 @@ export default async function ServiceAreaDetailPage({ params }: AreaPageProps) {
         ctaPrimaryUrl="/contact"
         minHeight="min-h-[65vh]"
         showInternalTrustBadges
+        showLeadForm
+        leadFormSource={`city-page-${area.slug}`}
       />
 
       {/* Mobile service banner */}

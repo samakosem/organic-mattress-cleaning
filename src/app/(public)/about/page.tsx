@@ -153,6 +153,8 @@ export default function AboutPage() {
         ctaSecondaryLabel="(800) 735-1242"
         ctaSecondaryUrl="tel:+18007351242"
         minHeight="min-h-[60vh]"
+        showLeadForm
+        leadFormSource="about-page"
       />
 
       {/* Who we are */}

@@ -26,12 +26,16 @@ interface HeroSectionProps {
   imageAlt?: string;
   /** Only the homepage hero should set this — it's the largest contentful paint on the site. */
   priority?: boolean;
-  /** Homepage-only: floating glass lead form on desktop, compact card below CTAs on mobile. */
+  /** Floating glass lead form on desktop, compact card below CTAs/badges on mobile. */
   showLeadForm?: boolean;
   /** Homepage-only: real trust badge images near the form. */
   showTrustBadges?: boolean;
   /** Service/city pages: compact trust badge row under the CTA buttons. */
   showInternalTrustBadges?: boolean;
+  /** Lead attribution tag for this hero's form, e.g. "service-page-mattress-cleaning" or "city-page-santa-monica". */
+  leadFormSource?: string;
+  /** Preselects the Service dropdown on service pages. */
+  leadFormServiceSlug?: string;
 }
 
 const DEFAULT_HERO_IMAGE = "/images/hero/default-hero-bedroom.webp";
@@ -53,6 +57,8 @@ export function HeroSection({
   showLeadForm = false,
   showTrustBadges = false,
   showInternalTrustBadges = false,
+  leadFormSource,
+  leadFormServiceSlug,
 }: HeroSectionProps) {
   return (
     <section className={`relative ${minHeight} text-text-primary overflow-hidden flex flex-col justify-between`}>
@@ -174,7 +180,12 @@ export function HeroSection({
             {/* Mobile/tablet: compact lead form sits below the CTAs and badges, full width, not overlapping the image */}
             {showLeadForm && (
               <div className="lg:hidden mt-8">
-                <CompactHeroLeadForm className="w-full" />
+                <CompactHeroLeadForm
+                  className="w-full"
+                  idPrefix="hero-m"
+                  source={leadFormSource ? `${leadFormSource}-mobile` : undefined}
+                  defaultServiceSlug={leadFormServiceSlug}
+                />
               </div>
             )}
           </div>
@@ -182,7 +193,11 @@ export function HeroSection({
           {/* Desktop: floating glass lead form in its own column, clear of the mattress/tool area of the image */}
           {showLeadForm && (
             <div className="hidden lg:block lg:justify-self-end w-full">
-              <CompactHeroLeadForm />
+              <CompactHeroLeadForm
+                idPrefix="hero-d"
+                source={leadFormSource ? `${leadFormSource}-desktop` : undefined}
+                defaultServiceSlug={leadFormServiceSlug}
+              />
             </div>
           )}
         </div>

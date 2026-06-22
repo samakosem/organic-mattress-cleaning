@@ -124,6 +124,8 @@ export default function MattressStainGuidePage() {
         ctaSecondaryLabel="(800) 735-1242"
         ctaSecondaryUrl="tel:+18007351242"
         minHeight="min-h-[60vh]"
+        showLeadForm
+        leadFormSource="mattress-stain-guide-page"
       />
 
       {/* Direct Answer */}

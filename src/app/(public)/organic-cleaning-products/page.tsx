@@ -226,6 +226,8 @@ export default function OrganicCleaningProductsPage() {
         ctaSecondaryLabel="(800) 735-1242"
         ctaSecondaryUrl="tel:+18007351242"
         minHeight="min-h-[60vh]"
+        showLeadForm
+        leadFormSource="organic-products-page"
       />
 
       <div className="bg-white border-b border-primary/10">

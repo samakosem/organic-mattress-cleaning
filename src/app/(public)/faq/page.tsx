@@ -40,6 +40,8 @@ export default function FaqPage() {
         ctaPrimaryLabel="Get a Free Quote"
         ctaPrimaryUrl="/contact"
         minHeight="min-h-[55vh]"
+        showLeadForm
+        leadFormSource="faq-page"
       />
 
       <FaqSection items={GENERAL_FAQS} eyebrow="General Questions" heading="General Questions" variant="white" contactPrompt={null} />

@@ -106,6 +106,8 @@ export default function ProfessionalVsDiyPage() {
         ctaSecondaryLabel="(800) 735-1242"
         ctaSecondaryUrl="tel:+18007351242"
         minHeight="min-h-[60vh]"
+        showLeadForm
+        leadFormSource="professional-vs-diy-page"
       />
 
       {/* Direct Answer */}

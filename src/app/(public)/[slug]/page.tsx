@@ -123,6 +123,9 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         ctaSecondaryUrl="tel:+18007351242"
         minHeight="min-h-[70vh]"
         showInternalTrustBadges
+        showLeadForm
+        leadFormSource={`service-page-${service.slug}`}
+        leadFormServiceSlug={service.slug}
       />
 
       {/* What it is + benefits */}

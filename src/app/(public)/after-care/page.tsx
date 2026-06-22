@@ -135,6 +135,8 @@ export default function AfterCarePage() {
         ctaSecondaryLabel="(800) 735-1242"
         ctaSecondaryUrl="tel:+18007351242"
         minHeight="min-h-[60vh]"
+        showLeadForm
+        leadFormSource="after-care-page"
       />
 
       {/* Direct Answer */}

@@ -17,13 +17,26 @@ const errorText = "text-xs text-red-600 mt-1";
 interface CompactHeroLeadFormProps {
   source?: string;
   className?: string;
+  /** Preselects the Service dropdown — used on service pages to default to that service. */
+  defaultServiceSlug?: string;
+  /** Unique per render so field ids never collide when the form appears more than once on a page (desktop + mobile slots). */
+  idPrefix?: string;
 }
 
-export function CompactHeroLeadForm({ source = "homepage-hero-glass-form", className }: CompactHeroLeadFormProps) {
+export function CompactHeroLeadForm({
+  source = "homepage-hero-glass-form",
+  className,
+  defaultServiceSlug = "",
+  idPrefix = "hero",
+}: CompactHeroLeadFormProps) {
   const [state, action, isPending] = useActionState(submitLead, initialState);
 
   function fieldError(field: string) {
     return state.errors?.[field]?.[0] ?? null;
+  }
+
+  function id(field: string) {
+    return `${idPrefix}-${field}`;
   }
 
   if (state.success) {
@@ -81,11 +94,11 @@ export function CompactHeroLeadForm({ source = "homepage-hero-glass-form", class
           />
 
           <div>
-            <label htmlFor="hero-firstName" className={labelBase}>
+            <label htmlFor={id("firstName")} className={labelBase}>
               First name
             </label>
             <input
-              id="hero-firstName"
+              id={id("firstName")}
               name="firstName"
               type="text"
               autoComplete="given-name"
@@ -98,11 +111,11 @@ export function CompactHeroLeadForm({ source = "homepage-hero-glass-form", class
           </div>
 
           <div>
-            <label htmlFor="hero-phone" className={labelBase}>
+            <label htmlFor={id("phone")} className={labelBase}>
               Phone number
             </label>
             <input
-              id="hero-phone"
+              id={id("phone")}
               name="phone"
               type="tel"
               autoComplete="tel"
@@ -115,15 +128,15 @@ export function CompactHeroLeadForm({ source = "homepage-hero-glass-form", class
           </div>
 
           <div>
-            <label htmlFor="hero-service" className={labelBase}>
+            <label htmlFor={id("service")} className={labelBase}>
               Service
             </label>
             <select
-              id="hero-service"
+              id={id("service")}
               name="serviceInterest"
               aria-label="Service interest"
               className={cn(fieldBase, "bg-white/80", "border-white/70")}
-              defaultValue=""
+              defaultValue={defaultServiceSlug}
             >
               <option value="">What do you need?</option>
               {SERVICES.map((s) => (
@@ -135,11 +148,11 @@ export function CompactHeroLeadForm({ source = "homepage-hero-glass-form", class
           </div>
 
           <div>
-            <label htmlFor="hero-address" className={labelBase}>
+            <label htmlFor={id("address")} className={labelBase}>
               Address
             </label>
             <input
-              id="hero-address"
+              id={id("address")}
               name="address"
               type="text"
               autoComplete="street-address"
@@ -152,11 +165,11 @@ export function CompactHeroLeadForm({ source = "homepage-hero-glass-form", class
           </div>
 
           <div>
-            <label htmlFor="hero-notes" className={labelBase}>
+            <label htmlFor={id("notes")} className={labelBase}>
               What happened? <span className="text-text-secondary/50 font-normal">(optional)</span>
             </label>
             <textarea
-              id="hero-notes"
+              id={id("notes")}
               name="notes"
               rows={2}
               placeholder="Stain, odor, general cleaning…"
