@@ -1,19 +1,29 @@
 import type { Metadata } from "next";
-import { Star } from "lucide-react";
+import { Leaf, ShieldCheck, Heart, Clock, Phone } from "lucide-react";
 import { HeroSection } from "@/components/public/sections/HeroSection";
 import { CtaSection } from "@/components/public/sections/CtaSection";
+import { TestimonialCard } from "@/components/public/cards/TestimonialCard";
+import { LeadForm } from "@/components/public/forms/LeadForm";
+import { PhoneLink } from "@/components/public/layout/PhoneLink";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
-import { SOCIAL_URLS, GOOGLE_MAPS_URL } from "@/lib/constants/business";
+import { TESTIMONIALS } from "@/data/testimonials";
 
 export function generateMetadata(): Metadata {
   return buildMetadata({
-    title: "Reviews",
+    title: "Customer Testimonials",
     description:
-      "See what Los Angeles customers say about Organic Mattress Cleaning's eco-friendly, non-toxic mattress cleaning service.",
+      "What local customers say about Organic Mattress Cleaning's eco-friendly, non-toxic mattress cleaning service across Los Angeles.",
     canonical: "/reviews",
   });
 }
+
+const TRUST_BADGES = [
+  { Icon: Leaf, label: "Organic & Plant-Based" },
+  { Icon: ShieldCheck, label: "Non-Toxic Process" },
+  { Icon: Heart, label: "Family & Pet Safe" },
+  { Icon: Clock, label: "Open 24/7" },
+];
 
 export default function ReviewsPage() {
   const breadcrumbSchema = buildBreadcrumbSchema([
@@ -23,55 +33,123 @@ export default function ReviewsPage() {
 
   return (
     <>
+      {/*
+        Visible testimonials only — no AggregateRating or LocalBusiness review
+        schema is generated here. These quotes are feedback shared directly by
+        customers, not pulled from any third-party review platform.
+      */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <HeroSection
         breadcrumbs={[{ name: "Home", url: "/" }, { name: "Reviews", url: "/reviews" }]}
-        categoryBadge="Customer Reviews"
-        heading="What Our Customers Say"
-        subheading="We're a growing organic mattress cleaning service in Los Angeles. As we complete more jobs, we'll be sharing real customer feedback here."
+        categoryBadge="Customer Testimonials"
+        heading="What Local Customers Say"
+        subheading="Real feedback from Los Angeles-area households who've booked organic, non-toxic mattress cleaning with us."
         ctaPrimaryLabel="Get a Free Quote"
         ctaPrimaryUrl="/contact"
+        ctaSecondaryLabel="(800) 735-1242"
+        ctaSecondaryUrl="tel:+18007351242"
         minHeight="min-h-[55vh]"
       />
 
-      <section className="py-16 sm:py-24 bg-white">
-        <div className="max-w-2xl mx-auto px-5 sm:px-6 text-center">
-          <div className="flex justify-center mb-5" aria-hidden>
-            {[1, 2, 3, 4, 5].map((i) => (
-              <Star key={i} className="w-6 h-6 text-stone-200" />
+      {/* Trust badges */}
+      <section className="py-12 sm:py-16 bg-white border-b border-primary/10">
+        <div className="max-w-5xl mx-auto px-5 sm:px-6">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            {TRUST_BADGES.map((badge) => (
+              <div
+                key={badge.label}
+                className="flex flex-col items-center text-center gap-2.5 p-4 rounded-2xl bg-surface border border-primary/12"
+              >
+                <div className="w-10 h-10 rounded-xl bg-primary-light ring-1 ring-primary/15 flex items-center justify-center">
+                  <badge.Icon className="w-5 h-5 text-cta" aria-hidden />
+                </div>
+                <span className="text-xs font-semibold text-text-primary leading-snug">{badge.label}</span>
+              </div>
             ))}
           </div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-4">
-            We&apos;re Just Getting Started
+        </div>
+      </section>
+
+      {/* Testimonial grid */}
+      <section className="py-16 sm:py-24 bg-surface">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6">
+          <div className="max-w-2xl mb-4">
+            <p className="inline-flex items-center gap-1.5 text-xs font-bold text-cta tracking-widest uppercase mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-leaf inline-block" aria-hidden />
+              Customer Testimonials
+            </p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-3">
+              Feedback From Los Angeles Households
+            </h2>
+          </div>
+          <p className="text-xs text-text-secondary/60 mb-10">Feedback shared directly by customers.</p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {TESTIMONIALS.map((t, i) => (
+              <TestimonialCard key={`${t.name}-${i}`} testimonial={t} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Organic / non-toxic trust section */}
+      <section className="py-16 sm:py-24 bg-white border-t border-primary/10">
+        <div className="max-w-4xl mx-auto px-5 sm:px-6 text-center">
+          <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-primary-light ring-1 ring-primary/15 mb-6">
+            <Leaf className="w-6 h-6 text-primary-dark" aria-hidden />
+          </div>
+          <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-5">
+            Organic, Non-Toxic Mattress Cleaning You Can Feel Good About
           </h2>
-          <p className="text-text-secondary text-base leading-relaxed mb-8">
-            Organic Mattress Cleaning is a new, dedicated mattress cleaning service serving Los Angeles. We
-            haven&apos;t collected customer reviews yet — check back soon, or follow us on Facebook for updates
-            and early customer feedback as we grow.
-          </p>
-          <a
-            href={SOCIAL_URLS.facebook}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl border border-stone-300 hover:border-primary/40 text-text-primary hover:text-primary-dark font-semibold text-sm transition-colors"
-          >
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4" aria-hidden>
-              <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.883v2.27h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z" />
-            </svg>
-            Follow Us on Facebook
-          </a>
-          <p className="text-xs text-text-secondary/60 mt-6">
-            You can also find us on{" "}
-            <a href={GOOGLE_MAPS_URL} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary-dark underline underline-offset-2">
-              Google Maps
-            </a>
-            .
+          <p className="text-text-secondary text-base sm:text-lg leading-relaxed">
+            Every visit uses organic cleaning solutions built on a plant-based approach — safe for families,
+            safe for pets, and free of the harsh chemical smell that lingers after a traditional cleaning. Our
+            process is designed for mattresses, upholstery, and the everyday indoor environments your household
+            spends the most time in.
           </p>
         </div>
       </section>
 
-      <CtaSection heading="Be One of Our First Reviews" body="Book your organic mattress cleaning today and let us know how it went." />
+      {/* Mid-page CTA */}
+      <CtaSection
+        heading="Get Your Free Mattress Cleaning Quote"
+        body="Join Los Angeles-area households who've chosen organic, non-toxic mattress cleaning — no obligation, no pressure."
+      />
+
+      {/* Phone CTA + contact form CTA */}
+      <section className="py-16 sm:py-24 bg-surface">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+            <div>
+              <p className="inline-flex items-center gap-1.5 text-xs font-bold text-cta tracking-widest uppercase mb-3">
+                <span className="w-1.5 h-1.5 rounded-full bg-leaf inline-block" aria-hidden />
+                Ready When You Are
+              </p>
+              <h2 className="text-3xl lg:text-4xl font-bold text-text-primary leading-tight mb-5">
+                Talk to Us Before You Book
+              </h2>
+              <p className="text-text-secondary text-lg leading-relaxed mb-6">
+                Call now to ask questions or check availability, or send us a message and we&apos;ll follow up
+                shortly.
+              </p>
+              <PhoneLink
+                className="inline-flex items-center gap-3 px-5 py-3.5 rounded-2xl bg-cta text-white font-bold shadow-md shadow-cta/25 hover:bg-primary-dark transition-colors"
+                aria-label="Call Organic Mattress Cleaning now at (800) 735-1242"
+              >
+                <Phone className="w-4 h-4" aria-hidden />
+                Call (800) 735-1242
+              </PhoneLink>
+            </div>
+
+            <div className="bg-white rounded-3xl p-8 border border-primary/15 shadow-sm">
+              <h3 className="text-lg font-bold text-text-primary mb-1.5">Request Your Free Quote</h3>
+              <p className="text-text-secondary text-sm mb-6">We&apos;ll follow up shortly to confirm details.</p>
+              <LeadForm />
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

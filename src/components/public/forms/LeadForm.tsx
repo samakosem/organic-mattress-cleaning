@@ -159,6 +159,23 @@ export function LeadForm({ variant = "default", serviceInterest, className }: Le
         </>
       )}
 
+      {variant === "contact" && (
+        <div>
+          <label htmlFor="lf-address" className={labelBase}>
+            Service Address{optionalMark}
+          </label>
+          <input
+            id="lf-address"
+            name="address"
+            type="text"
+            autoComplete="street-address"
+            className={cn(inputBase, fieldError("address") ? "border-red-400" : "border-stone-200")}
+            placeholder="Street address, city, ZIP code"
+          />
+          {fieldError("address") && <p className={errorText}>{fieldError("address")}</p>}
+        </div>
+      )}
+
       <div>
         <label htmlFor="lf-notes" className={labelBase}>
           {variant === "contact" ? "Your message" : "Notes"}

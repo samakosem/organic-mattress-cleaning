@@ -24,6 +24,10 @@ import { getImagesForUse, beforeAfterImages, fleetImages } from "@/data/images";
 import { PhoneLink } from "@/components/public/layout/PhoneLink";
 import { BLOG_POSTS } from "@/data/blog";
 import { BlogPostCard } from "@/components/public/cards/BlogPostCard";
+import { TestimonialCard } from "@/components/public/cards/TestimonialCard";
+import { TESTIMONIALS } from "@/data/testimonials";
+
+const HOMEPAGE_TESTIMONIALS = TESTIMONIALS.slice(0, 6);
 
 const HOME_ANSWER_BLOCK = [
   {
@@ -219,6 +223,29 @@ export default function HomePage() {
       <ServicesSection services={SERVICES} />
 
       <BeforeAfterSection images={homeBeforeAfter} />
+
+      {/* Testimonials preview */}
+      <section className="py-16 sm:py-24 bg-surface border-t border-primary/10">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6">
+          <SectionHeading
+            subheading="Customer Testimonials"
+            heading="What Local Customers Say"
+            description="Feedback shared directly by customers across Los Angeles and nearby communities."
+            className="mb-12"
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
+            {HOMEPAGE_TESTIMONIALS.map((t, i) => (
+              <TestimonialCard key={`${t.name}-${i}`} testimonial={t} />
+            ))}
+          </div>
+          <div className="text-center">
+            <Link href="/reviews" className="btn btn-outline">
+              Read More Testimonials
+              <ArrowRight className="w-4 h-4" aria-hidden />
+            </Link>
+          </div>
+        </div>
+      </section>
 
       <TrustSection
         eyebrow="Why Choose Organic Mattress Cleaning"
