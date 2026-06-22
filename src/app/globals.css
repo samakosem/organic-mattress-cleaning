@@ -1,0 +1,296 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ─── Brand design tokens — Organic Mattress Cleaning ───────────────────── */
+:root {
+    /* Brand core — confident organic green, eco-premium */
+    --color-leaf-green: #7ed957;
+    --color-organic-green: #2e8b57;
+    --color-cta-green: #1f7a3f;
+    --color-organic-green-dark: #14532d;
+    --color-organic-green-light: #e3f3e8;
+    --brand-mint: #f3faf4;
+    --brand-eco-cream: #fafcf7;
+    --color-deep-navy: #0b2533;
+    --color-water-blue: #6ecff6;
+    --color-water-blue-light: #eaf8fd;
+
+    /* Backgrounds */
+    --background: #fafcf7;
+    --surface: #f3faf4;
+
+    /* Text */
+    --text-primary: #122b1c;
+    --text-secondary: #4d6358;
+    --text-light: #ffffff;
+    --text-light-secondary: rgba(255, 255, 255, 0.7);
+
+    /* Buttons */
+    --btn: var(--color-cta-green);
+    --btn-hover: var(--color-organic-green-dark);
+    --btn-radius: 10px;
+}
+
+@theme inline {
+    --font-sans: var(--font-body);
+    --font-heading: var(--font-display);
+
+    --color-primary: var(--color-organic-green);
+    --color-primary-dark: var(--color-organic-green-dark);
+    --color-primary-light: var(--color-organic-green-light);
+    --color-cta: var(--color-cta-green);
+    --color-leaf: var(--color-leaf-green);
+    --color-mint: var(--brand-mint);
+    --color-eco-cream: var(--brand-eco-cream);
+    --color-navy: var(--color-deep-navy);
+    --color-water: var(--color-water-blue);
+    --color-water-light: var(--color-water-blue-light);
+    --color-background: var(--background);
+    --color-surface: var(--surface);
+    --color-text-primary: var(--text-primary);
+    --color-text-secondary: var(--text-secondary);
+    --color-text-light: var(--text-light);
+    --color-text-light-secondary: var(--text-light-secondary);
+    --color-btn: var(--btn);
+    --color-btn-hover: var(--btn-hover);
+    --radius-btn: var(--btn-radius);
+}
+
+/* ─── Base resets ────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+    overflow-x: hidden;
+}
+
+/* ─── Content visibility — defer off-screen section rendering ────────────── */
+.cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 600px;
+}
+
+/* ─── Prose / rich text (blog posts) ──────────────────────────────────────── */
+.prose-custom {
+    color: #3c4a42;
+    font-size: 1.0625rem;
+    line-height: 1.8;
+}
+
+.prose-custom h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-top: 2.75rem;
+    margin-bottom: 0.875rem;
+    line-height: 1.3;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e1e9e3;
+}
+
+.prose-custom h3 {
+    font-size: 1.1875rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-top: 2rem;
+    margin-bottom: 0.625rem;
+}
+
+.prose-custom p {
+    margin-top: 0;
+    margin-bottom: 1.375rem;
+}
+
+.prose-custom a {
+    color: var(--color-organic-green-dark);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-weight: 500;
+}
+
+.prose-custom ul,
+.prose-custom ol {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.375rem;
+}
+
+.prose-custom li {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+}
+
+/* ─── Reusable button system ──────────────────────────────────────────────── */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.375rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1;
+    white-space: nowrap;
+    border-radius: var(--btn-radius);
+    border: 1.5px solid transparent;
+    cursor: pointer;
+    transition:
+        background-color 0.15s,
+        background 0.15s,
+        color 0.15s,
+        border-color 0.15s,
+        opacity 0.15s,
+        box-shadow 0.15s,
+        transform 0.15s;
+    text-decoration: none;
+    padding: 0.625rem 1.25rem;
+    min-height: 2.75rem;
+}
+
+.btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.btn-sm {
+    padding: 0.4rem 0.875rem;
+    min-height: 2.25rem;
+    font-size: 0.8125rem;
+}
+.btn-lg {
+    padding: 0.875rem 1.75rem;
+    min-height: 3.25rem;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--btn) 0%, var(--btn-hover) 100%);
+    color: #ffffff;
+    border-color: transparent;
+    box-shadow: 0 4px 16px rgba(31, 122, 63, 0.32);
+}
+.btn-primary:hover {
+    background: linear-gradient(135deg, var(--color-organic-green) 0%, var(--btn-hover) 100%);
+    border-color: transparent;
+    box-shadow: 0 6px 22px rgba(31, 122, 63, 0.4);
+    transform: translateY(-1px);
+}
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--btn);
+    border-color: var(--btn);
+    border-width: 1.5px;
+}
+.btn-outline:hover {
+    background-color: color-mix(in srgb, var(--btn) 10%, transparent);
+    border-color: var(--btn-hover);
+    color: var(--btn-hover);
+}
+
+.btn-ghost {
+    background-color: transparent;
+    color: var(--color-deep-navy);
+    border-color: transparent;
+}
+.btn-ghost:hover {
+    background-color: color-mix(in srgb, var(--color-deep-navy) 8%, transparent);
+}
+
+.btn-white {
+    background-color: #ffffff;
+    color: var(--color-deep-navy);
+    border-color: #ffffff;
+}
+.btn-white:hover {
+    background-color: #f1f5f3;
+    border-color: #f1f5f3;
+}
+
+.btn-white-outline {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.65);
+}
+.btn-white-outline:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #ffffff;
+}
+
+/* ─── Focus ring ─────────────────────────────────────────────────────────── */
+:focus-visible {
+    outline: 2px solid var(--color-water-blue);
+    outline-offset: 2px;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b7e4c2;
+    border-radius: 3px;
+}
+
+@media (min-width: 1024px) {
+    html {
+        scrollbar-width: auto;
+        scrollbar-color: #9bd4ab #eef8f0;
+    }
+
+    ::-webkit-scrollbar {
+        width: 14px;
+        height: 14px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #eef8f0;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #9bd4ab;
+        border-radius: 999px;
+        border: 3px solid #eef8f0;
+        background-clip: padding-box;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #94b89a;
+    }
+}
+
+/* ─── Line clamp utilities ───────────────────────────────────────────────── */
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
