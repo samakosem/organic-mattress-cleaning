@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, X, Phone, ArrowRight, ChevronDown } from "lucide-react";
-import { PRIMARY_NAV_LINKS, SERVICES_MENU } from "@/lib/constants/nav";
+import { PRIMARY_NAV_LINKS, SERVICES_MENU, ABOUT_MENU } from "@/lib/constants/nav";
 import { SERVICE_AREAS, getAreaHref } from "@/data/serviceAreas";
 import { PhoneLink } from "./PhoneLink";
 import { BrandLogo } from "./BrandLogo";
@@ -13,6 +13,7 @@ export function MobileMenu() {
   const { isOpen, setOpen } = useMobileMenu();
   const [servicesExpanded, setServicesExpanded] = useState(false);
   const [areasExpanded, setAreasExpanded] = useState(false);
+  const [aboutExpanded, setAboutExpanded] = useState(false);
 
   function close() {
     setOpen(false);
@@ -120,6 +121,31 @@ export function MobileMenu() {
                   >
                     View All Service Areas →
                   </Link>
+                </div>
+              )}
+
+              {/* About collapsible */}
+              <button
+                type="button"
+                onClick={() => setAboutExpanded((v) => !v)}
+                className="w-full flex items-center justify-between min-h-[44px] px-3.5 py-2.5 rounded-xl text-base font-semibold text-text-primary hover:bg-primary-light transition-colors"
+                aria-expanded={aboutExpanded}
+              >
+                About
+                <ChevronDown className={`w-4.5 h-4.5 text-text-secondary transition-transform ${aboutExpanded ? "rotate-180" : ""}`} aria-hidden />
+              </button>
+              {aboutExpanded && (
+                <div className="pl-3 space-y-1">
+                  {ABOUT_MENU.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={close}
+                      className="flex items-center min-h-[44px] px-3.5 py-2 rounded-lg text-sm text-text-secondary hover:bg-primary-light hover:text-primary-dark transition-colors"
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
                 </div>
               )}
 
