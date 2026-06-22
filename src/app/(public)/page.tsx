@@ -247,6 +247,55 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Organic cleaning products preview */}
+      <section className="py-16 sm:py-24 bg-surface border-t border-primary/10">
+        <div className="max-w-3xl mx-auto px-5 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-4">
+            Organic Cleaning Products You Can Feel Good About
+          </h2>
+          <p className="text-text-secondary text-base sm:text-lg leading-relaxed mb-8">
+            We use organic cleaning solutions and a plant-based, non-toxic approach designed for mattresses,
+            upholstery, baby mattresses, and indoor family environments — without harsh chemical odors or sticky
+            residue.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+            {[
+              { Icon: Leaf, label: "Plant-Based Approach" },
+              { Icon: Heart, label: "Family & Pet Safe" },
+              { Icon: ShieldCheck, label: "No Harsh Chemical Smell" },
+            ].map((card) => (
+              <div key={card.label} className="flex flex-col items-center gap-2.5 p-5 rounded-2xl bg-white border border-primary/12">
+                <div className="w-10 h-10 rounded-xl bg-primary-light ring-1 ring-primary/15 flex items-center justify-center">
+                  <card.Icon className="w-5 h-5 text-cta" aria-hidden />
+                </div>
+                <span className="text-sm font-semibold text-text-primary">{card.label}</span>
+              </div>
+            ))}
+          </div>
+          <Link href="/organic-cleaning-products" className="btn btn-primary">
+            Learn About Our Organic Products
+            <ArrowRight className="w-4 h-4" aria-hidden />
+          </Link>
+        </div>
+      </section>
+
+      {/* Pricing guide preview */}
+      <section className="py-16 sm:py-24 bg-white border-t border-primary/10">
+        <div className="max-w-3xl mx-auto px-5 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-4">
+            Mattress Cleaning Pricing Guide
+          </h2>
+          <p className="text-text-secondary text-base sm:text-lg leading-relaxed mb-7">
+            Mattress cleaning prices vary based on mattress size, fabric, stains, odors, and cleaning goals. View
+            our Los Angeles price guide to understand typical starting prices and what can affect your quote.
+          </p>
+          <Link href="/pricing" className="btn btn-primary">
+            View Price Guide
+            <ArrowRight className="w-4 h-4" aria-hidden />
+          </Link>
+        </div>
+      </section>
+
       <TrustSection
         eyebrow="Why Choose Organic Mattress Cleaning"
         heading="Premium Mattress Care for Los Angeles Homes"

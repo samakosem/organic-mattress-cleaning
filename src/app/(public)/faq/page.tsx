@@ -44,6 +44,22 @@ export default function FaqPage() {
 
       <FaqSection items={GENERAL_FAQS} eyebrow="General Questions" heading="General Questions" variant="white" contactPrompt={null} />
 
+      <div className="bg-white border-t border-primary/10">
+        <div className="max-w-4xl mx-auto px-5 sm:px-6 py-8 text-center">
+          <p className="text-sm text-text-secondary">
+            Wondering about cost?{" "}
+            <Link href="/pricing" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              See our mattress cleaning price guide
+            </Link>
+            , or learn about{" "}
+            <Link href="/organic-cleaning-products" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              our organic cleaning products
+            </Link>
+            .
+          </p>
+        </div>
+      </div>
+
       {/* Per-service FAQ — links each block back to its service page */}
       <section className="py-16 sm:py-24 bg-surface border-t border-primary/10">
         <div className="max-w-4xl mx-auto px-5 sm:px-6">

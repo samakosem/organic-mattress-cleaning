@@ -252,6 +252,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
       </section>
 
+      <div className="bg-white border-t border-primary/10">
+        <div className="max-w-3xl mx-auto px-5 sm:px-6 py-8 text-center">
+          <p className="text-sm text-text-secondary">
+            Wondering what this typically costs?{" "}
+            <Link href="/pricing" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              See our mattress cleaning price guide
+            </Link>
+            .
+          </p>
+        </div>
+      </div>
+
       <CtaSection
         heading="Ready for a Fresher, Healthier Mattress?"
         body="Get a free quote today for organic mattress cleaning in Los Angeles — no obligation, no pressure."

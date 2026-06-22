@@ -1,5 +1,7 @@
 export const PRIMARY_NAV_LINKS = [
   { name: "Home", href: "/" },
+  { name: "Our Organic Products", href: "/organic-cleaning-products" },
+  { name: "Pricing", href: "/pricing" },
   { name: "About", href: "/about" },
   { name: "Reviews", href: "/reviews" },
   { name: "FAQ", href: "/faq" },

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { CheckCircle2, ClipboardList, Wrench, PartyPopper, Users, Leaf } from "lucide-react";
 import { HeroSection } from "@/components/public/sections/HeroSection";
 import { ServicesSection } from "@/components/public/sections/ServicesSection";
@@ -307,12 +308,19 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 Get a Free Quote for {service.name}
               </h2>
               <p className="text-text-secondary text-lg leading-relaxed mb-5">
-                Tell us about your mattress and we&apos;ll provide a clear price with no hidden fees.
+                Tell us about your mattress and we&apos;ll provide a clear price with no hidden fees. See our{" "}
+                <Link href="/pricing" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+                  mattress cleaning price guide
+                </Link>{" "}
+                for typical starting prices.
               </p>
-              <div className="p-5 rounded-2xl bg-surface border border-primary/12">
+              <div className="p-5 rounded-2xl bg-surface border border-primary/12 mb-4">
                 <h3 className="text-sm font-bold text-text-primary mb-1.5">When to Schedule</h3>
                 <p className="text-text-secondary text-sm leading-relaxed">{service.whenToSchedule}</p>
               </div>
+              <Link href="/organic-cleaning-products" className="inline-flex items-center gap-1.5 text-sm font-semibold text-cta hover:text-primary-dark transition-colors">
+                Learn about our organic cleaning products →
+              </Link>
             </div>
             <div className="bg-surface rounded-3xl p-8 border border-primary/15 shadow-sm">
               <h3 className="text-lg font-bold text-text-primary mb-1.5">Request Your Free Quote</h3>

@@ -205,6 +205,24 @@ export const ecoImages: ImageAsset[] = [
     width: 1672,
     height: 941,
   },
+  {
+    src: "/images/eco/ChatGPT Image Jun 21, 2026, 01_17_09 PM (1).webp",
+    alt: "Organic mattress cleaning solution used for non-toxic mattress cleaning in Los Angeles",
+    title: "Organic Mattress Cleaning Products",
+    category: "eco",
+    suggestedUse: ["organic-cleaning-products"],
+    width: 1672,
+    height: 941,
+  },
+  {
+    src: "/images/eco/ChatGPT Image Jun 21, 2026, 01_17_09 PM (2).webp",
+    alt: "Eco-friendly mattress cleaning process for indoor bedrooms and upholstery",
+    title: "Non-Toxic Mattress Cleaning Process",
+    category: "eco",
+    suggestedUse: ["organic-cleaning-products-inline"],
+    width: 1672,
+    height: 941,
+  },
 ];
 
 /** Before/after — generic, unbranded landscape examples (safe for any page) */
