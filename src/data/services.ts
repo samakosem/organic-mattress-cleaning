@@ -14,7 +14,7 @@ export const SERVICES: ServicePage[] = [
     introParagraphs: [
       "Most mattress cleaning services reach for the same industrial degreasers and synthetic deodorizers used on carpets and upholstery. We built our entire process around the opposite idea: your mattress sits inches from your face for roughly a third of your life, so whatever touches it should be safe enough to breathe without a second thought.",
       "Our organic approach uses plant-derived surfactants, mineral-based deodorizers, and biodegradable enzyme treatments instead of bleach, ammonia, or synthetic fragrance. Nothing we use is tested on animals, and nothing leaves behind the chemical haze that lingers after a typical 'deep clean.'",
-      "This isn't a stripped-down or watered-down service — it's a different philosophy. We believe a mattress can be thoroughly sanitized, freshened, and restored using ingredients that respect your household, your pets, and the planet, without compromising on results.",
+      "This isn't a stripped-down or watered-down service. It's a different philosophy. We believe a mattress can be thoroughly sanitized, freshened, and restored using ingredients that respect your household, your pets, and the planet, without compromising on results.",
     ],
     benefits: [
       "Plant-based cleaning agents with no bleach, ammonia, or synthetic fragrance",
@@ -65,7 +65,7 @@ export const SERVICES: ServicePage[] = [
       },
       {
         q: "Do organic cleaning products cost more?",
-        a: "Pricing depends on your mattress size and condition, not on the fact that we use organic products — that is simply our standard. Request a free quote and we will give you a clear price before any work begins.",
+        a: "Pricing depends on your mattress size and condition, not on the fact that we use organic products, since that is simply our standard. Request a free quote and we will give you a clear price before any work begins.",
       },
       {
         q: "Are your organic products better for the environment too?",
@@ -90,7 +90,7 @@ export const SERVICES: ServicePage[] = [
       "Concern about harsh chemical residue or off-gassing from typical 'deep clean' services",
       "A desire to reduce household chemical exposure without giving up a thorough clean",
       "Mattresses that have never been professionally cleaned and need a non-toxic starting point",
-      "Households with multiple sensitivities — kids, pets, allergies — that need one product standard for everyone",
+      "Households with multiple sensitivities, such as kids, pets, and allergies, that need one product standard for everyone",
     ],
     ecoImportance:
       "A mattress sits closer to your nose and mouth than almost anything else in your home, for roughly a third of every day, so what's used on it matters more than what's used on a countertop or floor. Plant-derived and biodegradable ingredients reduce the household chemical load without asking you to trade away cleaning performance.",
@@ -127,7 +127,7 @@ export const SERVICES: ServicePage[] = [
       },
       {
         q: "Does 'organic' mean the clean is less powerful?",
-        a: "No. Organic describes the ingredients, not a reduction in cleaning power — our plant-based formulas are paired with professional-grade extraction equipment for a thorough result.",
+        a: "No. Organic describes the ingredients, not a reduction in cleaning power. Our plant-based formulas are combined with professional-grade extraction equipment for a thorough result.",
       },
       {
         q: "What's the difference between this and your other mattress cleaning service?",
@@ -148,7 +148,7 @@ export const SERVICES: ServicePage[] = [
     introHeading: "A Mattress Goes Through a Lot",
     introParagraphs: [
       "Every night your mattress absorbs sweat, body oils, skin cells, and whatever else makes its way past the sheets. Over months and years, that buildup settles into the fibers and padding, leaving behind dullness, odor, and the kind of grime you can't see but can definitely feel.",
-      "Our mattress cleaning service uses professional-grade equipment and a multi-step process to lift that buildup out — not just mask it. We treat visible stains, deodorize trapped odors, and clean deep into the surface layers where everyday wear actually lives.",
+      "Our mattress cleaning service uses professional-grade equipment and a multi-step process to lift that buildup out instead of just masking it. We treat visible stains, deodorize trapped odors, and clean deep into the surface layers where everyday wear actually lives.",
       "We also use eco-friendly, low-toxicity products as a standard feature of the job, so you get a genuinely deep clean without bringing a fresh batch of harsh chemicals into your bedroom.",
     ],
     benefits: [
@@ -282,7 +282,7 @@ export const SERVICES: ServicePage[] = [
       "High-heat steam treatment that targets bacteria and germs at the source, leaving your mattress sanitized, not just freshened.",
     introHeading: "Clean Isn't Always Sanitized",
     introParagraphs: [
-      "A mattress can look and smell clean while still harboring bacteria deep within its fibers. Sanitizing is a different job than basic cleaning — it's about reducing the germs you can't see, not just lifting the stains you can.",
+      "A mattress can look and smell clean while still harboring bacteria deep within its fibers. Sanitizing is a different job than basic cleaning. It's about reducing the germs you can't see, not just lifting the stains you can.",
       "Our sanitizing service uses high-heat steam to penetrate deep into the mattress layers, where bacteria and germs tend to collect. This thermal approach works alongside our organic solutions, giving you both hygiene and a non-toxic process in the same visit.",
       "Whether you're recovering from an illness in the household, preparing a mattress for a new family member, or simply want a higher standard of hygiene, this service is built around that specific goal.",
     ],
@@ -363,7 +363,7 @@ export const SERVICES: ServicePage[] = [
       "Wanting a non-toxic alternative to harsh chemical disinfectant sprays",
     ],
     ecoImportance:
-      "We rely primarily on high-heat steam rather than harsh chemical disinfectants, because heat-based sanitizing can support a cleaner sleep surface without leaving behind the fumes or residue that strong disinfectant products often do. The organic solution we pair with that heat is chosen for the same reason — hygiene support without a chemical trade-off.",
+      "We rely primarily on high-heat steam rather than harsh chemical disinfectants, because heat-based sanitizing can support a cleaner sleep surface without leaving behind the fumes or residue that strong disinfectant products often do. The organic solution we pair with that heat is chosen for the same reason: hygiene support without a chemical trade-off.",
     expectations: {
       before:
         "We evaluate the mattress and talk through any specific hygiene concerns you have so we can calibrate the heat and solution approach to your situation.",
@@ -381,7 +381,7 @@ export const SERVICES: ServicePage[] = [
       "Fits naturally into a seasonal or new-arrival home refresh routine",
     ],
     whenToSchedule:
-      "This service is a good fit any time hygiene is the primary concern rather than a specific stain or odor — after an illness has passed through the house, before a new baby's room is finalized, or simply on a seasonal basis if you want sanitizing as part of regular mattress care.",
+      "This service is a good fit any time hygiene is the primary concern rather than a specific stain or odor: after an illness has passed through the house, before a new baby's room is finalized, or simply on a seasonal basis if you want sanitizing as part of regular mattress care.",
     answerBlock: [
       {
         q: "Do you offer mattress sanitizing in Los Angeles?",
@@ -417,7 +417,7 @@ export const SERVICES: ServicePage[] = [
       "From blood and food to sweat and accidental spills, our organic spot treatments target stains at the source without harsh bleach.",
     introHeading: "Not All Stains Are the Same",
     introParagraphs: [
-      "Blood, urine, food spills, and sweat each interact with mattress fabric differently, and treating them all the same way usually leads to disappointing results — or a stain that fades but never fully disappears. Our technicians identify the stain type first, then apply the specific organic treatment designed for it.",
+      "Blood, urine, food spills, and sweat each interact with mattress fabric differently, and treating them all the same way usually leads to disappointing results, or a stain that fades but never fully disappears. Our technicians identify the stain type first, then apply the specific organic treatment designed for it.",
       "We use enzyme-based and plant-derived stain lifters rather than bleach or harsh solvents, which can sometimes set certain stains permanently or damage mattress fibers. This targeted approach gives protein-based stains like blood and food the enzymatic treatment they need, while sweat and other residues get a different organic approach.",
       "The result is a more effective, more careful stain removal process that protects your mattress while giving stubborn marks the best possible chance of lifting clean.",
     ],
@@ -482,10 +482,10 @@ export const SERVICES: ServicePage[] = [
       "Organic mattress stain removal in LA for blood, urine, food, and sweat stains. Enzyme-based, non-toxic treatment. Free quotes. Open 24/7.",
     fullPath: "/mattress-stain-removal",
     whatItIs:
-      "Mattress stain removal is a targeted spot-treatment service for specific marks — blood, food, sweat, and general spills — using enzyme-based and plant-derived stain lifters matched to the stain type rather than one generic chemical. It's a focused alternative to a full mattress clean when the issue is isolated to a particular spot.",
+      "Mattress stain removal is a targeted spot-treatment service for specific marks, including blood, food, sweat, and general spills, using enzyme-based and plant-derived stain lifters matched to the stain type rather than one generic chemical. It's a focused alternative to a full mattress clean when the issue is isolated to a particular spot.",
     whoNeedsIt: [
       "Anyone with a single visible stain rather than overall mattress dullness or odor",
-      "Households dealing with a recent spill — food, drink, or otherwise — that hasn't been treated yet",
+      "Households dealing with a recent spill, food, drink, or otherwise, that hasn't been treated yet",
       "People with an older, set-in stain who want an honest assessment before committing to a full clean",
       "Parents or pet owners dealing with an isolated accident spot rather than recurring odor issues",
       "Anyone who tried a DIY stain remover and ended up with a ring mark or a stain that spread instead of lifting",
@@ -517,7 +517,7 @@ export const SERVICES: ServicePage[] = [
       "Honest, realistic expectations set before any treatment begins",
     ],
     whenToSchedule:
-      "Treat fresh stains as soon as possible — the sooner a stain is professionally treated, the better the odds of a full lift. For older, set-in stains, it's still worth scheduling an assessment, though we'll be upfront that some long-set marks may lighten significantly rather than disappear completely.",
+      "Treat fresh stains as soon as possible. The sooner a stain is professionally treated, the better the odds of a full lift. For older, set-in stains, it's still worth scheduling an assessment, though we'll be upfront that some long-set marks may lighten significantly rather than disappear completely.",
     answerBlock: [
       {
         q: "Do you offer mattress stain removal in Los Angeles?",
@@ -554,7 +554,7 @@ export const SERVICES: ServicePage[] = [
     introHeading: "The Allergen You Can't See",
     introParagraphs: [
       "Dust mites thrive in mattress fibers, feeding on shed skin cells and multiplying in the warm, humid environment your body creates every night. You won't see them, but if you wake up congested, sneezing, or itchy, your mattress may be a contributing factor worth addressing.",
-      "Standard vacuuming barely scratches the surface — dust mites and the allergen particles they leave behind live deep within the padding layers, far below where a household vacuum can reach. Our process uses deep extraction equipment specifically suited to pulling allergens out from those lower layers, not just the top inch of fabric.",
+      "Standard vacuuming barely scratches the surface. Dust mites and the allergen particles they leave behind live deep within the padding layers, far below where a household vacuum can reach. Our process uses deep extraction equipment specifically suited to pulling allergens out from those lower layers, not just the top inch of fabric.",
       "Combined with our organic, fragrance-free solutions, this service is built for sensitive sleepers who want a noticeably fresher mattress environment at night.",
     ],
     benefits: [
@@ -618,7 +618,7 @@ export const SERVICES: ServicePage[] = [
       "Deep extraction dust mite mattress cleaning in LA targets allergens for easier breathing. Fragrance-free, organic process. Free quotes, open 24/7.",
     fullPath: "/dust-mite-mattress-cleaning",
     whatItIs:
-      "Dust mite mattress cleaning is a deep-extraction service focused specifically on dust mites and the allergen particles they leave behind in mattress padding. Unlike general cleaning, the entire process — from pre-treatment to drying — is built around reducing exposure to this one specific allergen source for sensitive sleepers.",
+      "Dust mite mattress cleaning is a deep-extraction service focused specifically on dust mites and the allergen particles they leave behind in mattress padding. Unlike general cleaning, the entire process, from pre-treatment to drying, is built around reducing exposure to this one specific allergen source for sensitive sleepers.",
     whoNeedsIt: [
       "Sensitive sleepers who wake up congested, sneezing, or itchy without an obvious cause",
       "Households where someone has known dust mite or environmental allergy sensitivities",
@@ -688,7 +688,7 @@ export const SERVICES: ServicePage[] = [
       "Enzyme-based organic treatment breaks down urine odor at the molecular level instead of covering it up with fragrance.",
     introHeading: "Why Urine Odor Keeps Coming Back",
     introParagraphs: [
-      "Urine odor is notoriously persistent because the uric acid crystals it leaves behind aren't fully addressed by surface cleaning or air fresheners. Once those crystals dry into mattress fibers, they can reactivate and release odor again whenever humidity rises — which is exactly why the smell often returns days or weeks after a quick cleanup.",
+      "Urine odor is notoriously persistent because the uric acid crystals it leaves behind aren't fully addressed by surface cleaning or air fresheners. Once those crystals dry into mattress fibers, they can reactivate and release odor again whenever humidity rises, which is exactly why the smell often returns days or weeks after a quick cleanup.",
       "Our treatment uses enzyme-based organic formulas designed to help break down those uric acid crystals at the source, rather than masking the smell with fragrance. This is the same enzymatic science used in dedicated pet-accident treatments, applied with professional-grade extraction for a deeper result.",
       "Whether the odor is from a pet accident or a child's bedwetting incident, we treat it with the same discreet, thorough process and organic ingredients.",
     ],
@@ -737,7 +737,7 @@ export const SERVICES: ServicePage[] = [
       },
       {
         q: "Can old, dried urine stains still be treated?",
-        a: "Often yes — enzyme treatments can frequently help address older urine stains and odor, though results can vary with age and depth of penetration. We'll assess the area in person and set realistic expectations.",
+        a: "Often yes. Enzyme treatments can frequently help address older urine stains and odor, though results can vary with age and depth of penetration. We'll assess the area in person and set realistic expectations.",
       },
       {
         q: "Is the enzyme treatment safe for kids and pets?",
@@ -904,7 +904,7 @@ export const SERVICES: ServicePage[] = [
       "Wanting a fresher sleep environment after exhausting other allergy management steps",
     ],
     ecoImportance:
-      "For allergy-sensitive homes, the products used matter just as much as what's being removed — synthetic fragrance and chemical residue can themselves act as irritants. This service is built entirely around hypoallergenic, fragrance-free organic solutions so the treatment doesn't undo its own purpose.",
+      "For allergy-sensitive homes, the products used matter just as much as what's being removed, since synthetic fragrance and chemical residue can themselves act as irritants. This service is built entirely around hypoallergenic, fragrance-free organic solutions so the treatment doesn't undo its own purpose.",
     expectations: {
       before:
         "We talk through your household's specific concerns and inspect the mattress for likely dust, dander, and debris buildup before choosing our hypoallergenic approach.",
@@ -958,8 +958,8 @@ export const SERVICES: ServicePage[] = [
       "Ultra-gentle, non-toxic formulas designed specifically for crib and baby mattresses, where safety matters more than anything else.",
     introHeading: "Your Baby's Mattress Deserves Its Own Standard",
     introParagraphs: [
-      "A crib mattress isn't just smaller than an adult mattress — it demands an entirely different level of caution. Babies spend the majority of their early life in direct, prolonged contact with that surface, often face-down, which means anything left behind by a cleaning product is something they may be breathing in or absorbing through skin contact.",
-      "We approach baby and crib mattress cleaning with a dedicated, ultra-gentle formula that skips the chemicals found in many standard cleaning products entirely. No bleach, no ammonia, no synthetic fragrance — just plant-derived ingredients chosen specifically for use around infants.",
+      "A crib mattress isn't just smaller than an adult mattress. It demands an entirely different level of caution. Babies spend the majority of their early life in direct, prolonged contact with that surface, often face-down, which means anything left behind by a cleaning product is something they may be breathing in or absorbing through skin contact.",
+      "We approach baby and crib mattress cleaning with a dedicated, ultra-gentle formula that skips the chemicals found in many standard cleaning products entirely. No bleach, no ammonia, no synthetic fragrance. Just plant-derived ingredients chosen specifically for use around infants.",
       "From spit-up and leaks to general freshening between uses, this service is built to give parents one less thing to worry about in the nursery.",
     ],
     benefits: [
@@ -1065,7 +1065,7 @@ export const SERVICES: ServicePage[] = [
       },
       {
         q: "Is this safe for kids and pets?",
-        a: "Yes, and it's formulated specifically with infant safety as the top priority — no bleach, ammonia, or synthetic fragrance anywhere in the process.",
+        a: "Yes, and it's formulated specifically with infant safety as the top priority, with no bleach, ammonia, or synthetic fragrance anywhere in the process.",
       },
       {
         q: "How do I book this service?",

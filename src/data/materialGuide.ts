@@ -68,7 +68,7 @@ export const MATERIAL_DEEP_DIVES: MaterialDeepDive[] = [
     title: "Memory Foam Mattress Cleaning",
     paragraphs: [
       "Memory foam's dense structure means it absorbs and holds onto moisture longer than coil-based mattresses, which makes moisture control the central concern when cleaning it.",
-      "Odor — including urine odor — can settle deeper into foam than into other materials, which is part of why enzyme-based treatment is often recommended specifically for foam mattresses with odor concerns.",
+      "Odor, including urine odor, can settle deeper into foam than into other materials, which is part of why enzyme-based treatment is often recommended specifically for foam mattresses with odor concerns.",
       "Our organic approach uses a low-moisture method on memory foam specifically to reduce the risk of slow drying or trapped dampness, with clear drying guidance provided after the visit.",
     ],
   },
@@ -85,7 +85,7 @@ export const MATERIAL_DEEP_DIVES: MaterialDeepDive[] = [
     paragraphs: [
       "The extra padded layer on top of a pillow-top mattress is exactly where sweat, body oil, and visible yellowing tend to concentrate, since it's the surface in most direct, prolonged contact with the body.",
       "That same padding can also trap moisture if too much liquid is used during cleaning, which is why a careful, low-moisture approach matters more here than on a flatter mattress surface.",
-      "Stain age plays a big role in pillow-top results — recently developed yellowing tends to improve more than discoloration that's been building for years.",
+      "Stain age plays a big role in pillow-top results. Recently developed yellowing tends to improve more than discoloration that's been building for years.",
     ],
   },
   {

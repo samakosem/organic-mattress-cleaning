@@ -18,7 +18,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Contact Us",
     description:
-      "Contact Organic Mattress Cleaning for a free quote on eco-friendly mattress cleaning in Los Angeles. Call (800) 735-1242 or request a quote online — open 24/7.",
+      "Contact Organic Mattress Cleaning for a free quote on eco-friendly mattress cleaning in Los Angeles. Call (800) 735-1242 or request a quote online. Open 24/7.",
     canonical: "/contact",
   });
 }

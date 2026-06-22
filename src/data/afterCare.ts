@@ -40,7 +40,7 @@ export const DRYING_GUIDE: DryingGuideRow[] = [
     cleaningType: "Memory Foam / Pillow-Top Care",
     dryingConsideration: "Usually the slowest-drying mattress types due to dense material.",
     whatAffectsDrying: "Foam density and how much moisture was needed for treatment.",
-    afterCareTip: "Give extra time before covering — these materials hold moisture longer than innerspring mattresses.",
+    afterCareTip: "Give extra time before covering, since these materials hold moisture longer than innerspring mattresses.",
   },
 ];
 

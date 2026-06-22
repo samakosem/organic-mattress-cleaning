@@ -79,7 +79,7 @@ export function DesktopNav() {
                     href={getAreaHref(area)}
                     className="block px-3 py-2 rounded-lg text-sm text-text-secondary hover:bg-primary-light hover:text-primary-dark transition-colors"
                   >
-                    {area.isPrimaryMarket ? `${area.name} — Main Service Area` : area.name}
+                    {area.isPrimaryMarket ? `${area.name} (Main Service Area)` : area.name}
                   </Link>
                 ))}
               </div>

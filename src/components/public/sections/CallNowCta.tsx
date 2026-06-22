@@ -11,7 +11,7 @@ interface CallNowCtaProps {
 /** Standalone phone-call CTA strip — drop between content sections to surface the phone number without a form. */
 export function CallNowCta({
   heading = `Need Mattress Cleaning Today? Call ${BUSINESS_PHONE}`,
-  body = "Speak directly with Organic Mattress Cleaning — open 24/7 across Los Angeles.",
+  body = "Speak directly with Organic Mattress Cleaning, open 24/7 across Los Angeles.",
   variant = "light",
 }: CallNowCtaProps) {
   const dark = variant === "dark";

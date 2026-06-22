@@ -105,9 +105,9 @@ export default function ReviewsPage() {
             Organic, Non-Toxic Mattress Cleaning You Can Feel Good About
           </h2>
           <p className="text-text-secondary text-base sm:text-lg leading-relaxed">
-            Every visit uses organic cleaning solutions built on a plant-based approach — safe for families,
-            safe for pets, and free of the harsh chemical smell that lingers after a traditional cleaning. Our
-            process is designed for mattresses, upholstery, and the everyday indoor environments your household
+            Every visit uses organic cleaning solutions built on a plant-based approach. It&apos;s safe for families
+            and pets, and free of the harsh chemical smell that lingers after a traditional cleaning. The
+            process works for mattresses, upholstery, and the everyday indoor environments your household
             spends the most time in.
           </p>
         </div>
@@ -116,7 +116,7 @@ export default function ReviewsPage() {
       {/* Mid-page CTA */}
       <CtaSection
         heading="Get Your Free Mattress Cleaning Quote"
-        body="Join Los Angeles-area households who've chosen organic, non-toxic mattress cleaning — no obligation, no pressure."
+        body="Join Los Angeles-area households who've chosen organic, non-toxic mattress cleaning. No obligation, no pressure."
       />
 
       {/* Phone CTA + contact form CTA */}

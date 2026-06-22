@@ -6,7 +6,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/constants/business";
 export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Privacy Policy",
-    description: `Privacy policy for ${SITE_NAME} — how we collect, use, and protect your information.`,
+    description: `Privacy policy for ${SITE_NAME}: how we collect, use, and protect your information.`,
     canonical: "/privacy-policy",
   });
 }

@@ -240,7 +240,7 @@ export default function ProfessionalVsDiyPage() {
           <p className="text-text-secondary text-base sm:text-lg leading-relaxed">
             Inspection first, organic cleaning solutions, a non-toxic process, fabric-aware methods, stain and
             odor treatment options, careful moisture control, drying guidance, transparent pricing, and honest
-            expectations — that&apos;s the standard we bring to every visit.
+            expectations. That is the standard we bring to every visit.
           </p>
         </div>
       </section>

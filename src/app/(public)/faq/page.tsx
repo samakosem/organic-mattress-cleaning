@@ -14,7 +14,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Frequently Asked Questions",
     description:
-      "Answers to common questions about organic mattress cleaning in Los Angeles — process, safety, pricing, and what to expect.",
+      "Answers to common questions about organic mattress cleaning in Los Angeles, including process, safety, pricing, and what to expect.",
     canonical: "/faq",
   });
 }

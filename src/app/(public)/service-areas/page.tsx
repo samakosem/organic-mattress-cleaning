@@ -72,7 +72,7 @@ export default function ServiceAreasPage() {
                   <MapPin className="w-5 h-5 text-cta" aria-hidden />
                 </div>
                 <h3 className="text-base font-bold text-text-primary mb-1.5 group-hover:text-primary-dark transition-colors">
-                  {area.isPrimaryMarket ? `${area.name} — Main Service Area` : area.name}
+                  {area.isPrimaryMarket ? `${area.name} (Main Service Area)` : area.name}
                 </h3>
                 <p className="text-xs text-text-secondary/70 uppercase tracking-wide font-medium mb-3">{area.region}</p>
                 <p className="text-sm text-text-secondary leading-relaxed mb-4 flex-1">{area.heroTagline}</p>

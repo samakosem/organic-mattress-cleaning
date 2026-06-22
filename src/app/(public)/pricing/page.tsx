@@ -281,7 +281,7 @@ export default function PricingPage() {
                             View service →
                           </Link>
                         ) : (
-                          "—"
+                          "N/A"
                         )}
                       </td>
                     </tr>
@@ -347,7 +347,7 @@ export default function PricingPage() {
             <div>
               <h3 className="text-base font-bold text-text-primary mb-2">Organic Cleaning Solution Needs</h3>
               <p className="text-text-secondary text-sm leading-relaxed">
-                Our plant-based, non-toxic formulas are the standard on every visit, not a premium upgrade — so this
+                Our plant-based, non-toxic formulas are the standard on every visit, not a premium upgrade, so this
                 doesn&apos;t add cost on top of the listed starting prices.
               </p>
             </div>

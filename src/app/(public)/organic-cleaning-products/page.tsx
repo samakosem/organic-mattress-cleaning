@@ -39,7 +39,7 @@ const DESIGNED_FOR = [
   {
     Icon: BedDouble,
     title: "Mattresses",
-    body: "Our plant-based approach is designed for everyday mattress fabric — memory foam, hybrid, and innerspring alike — without harsh chemical odor left behind.",
+    body: "Our plant-based approach works on everyday mattress fabric, including memory foam, hybrid, and innerspring alike, without harsh chemical odor left behind.",
   },
   {
     Icon: Baby,
@@ -92,12 +92,12 @@ const PROCESS_STEPS = [
   {
     n: "03",
     title: "Fabric-Safe Cleaning",
-    body: "The cleaning method is selected based on the mattress material and condition — what works for memory foam isn't always right for a delicate natural-fiber cover.",
+    body: "The cleaning method is selected based on the mattress material and condition. What works for memory foam isn't always right for a delicate natural-fiber cover.",
   },
   {
     n: "04",
     title: "Odor & Sanitizing Options",
-    body: "Optional treatment is available for general odor, urine accidents, or sanitizing goals. We don't promise a medical outcome — just a cleaner, fresher result.",
+    body: "Optional treatment is available for general odor, urine accidents, or sanitizing goals. We don't promise a medical outcome, just a cleaner, fresher result.",
   },
   {
     n: "05",
@@ -118,7 +118,7 @@ const MATTRESS_TYPES = [
   { title: "Latex Mattresses", body: "Natural latex responds differently to cleaning solutions than synthetic foam, so it's evaluated individually." },
   { title: "Innerspring Mattresses", body: "Traditional coil construction is generally compatible with our standard organic cleaning approach." },
   { title: "Crib & Baby Mattresses", body: "Smaller surface, gentle formulas, and extra care given how directly infants contact the surface." },
-  { title: "Guest Room Mattresses", body: "Often lightly used but long overdue for attention — a good candidate for a routine organic refresh." },
+  { title: "Guest Room Mattresses", body: "Often lightly used but long overdue for attention, making them a good candidate for a routine organic refresh." },
   { title: "Pet-Affected Mattresses", body: "May need enzyme-based odor treatment alongside the standard organic cleaning process." },
 ];
 
@@ -157,7 +157,7 @@ const PRODUCTS_FAQS = [
   },
   {
     q: "Can organic cleaning remove mattress stains?",
-    a: "Our process can help lift many common stains. Results vary depending on the stain type, age, and how deep it's set into the fabric — older or chemical stains may not fully disappear.",
+    a: "Our process can help lift many common stains. Results vary depending on the stain type, age, and how deep it's set into the fabric. Older or chemical stains may not fully disappear.",
   },
   {
     q: "Can organic cleaning remove urine odor from a mattress?",
@@ -189,7 +189,7 @@ const PRODUCTS_FAQS = [
   },
   {
     q: "Do you offer organic upholstery cleaning too?",
-    a: "Our organic cleaning approach is designed for mattresses and extends naturally to upholstered surfaces and other indoor fabric — ask when requesting a quote.",
+    a: "Our organic cleaning approach is designed for mattresses and extends naturally to upholstered surfaces and other indoor fabric. Ask when requesting a quote.",
   },
   {
     q: "How do I know which cleaning method my mattress needs?",
@@ -312,8 +312,8 @@ export default function OrganicCleaningProductsPage() {
                   it&apos;s designed to be effective without making the bedroom smell like a chemical cleanup afterward.
                 </p>
                 <p className="text-text-secondary text-base leading-relaxed">
-                  This isn&apos;t a tradeoff between effectiveness and safety — it&apos;s our standard approach on every
-                  visit, designed for mattresses and indoor fabrics specifically, with low-moisture care when
+                  This is not a tradeoff between effectiveness and safety. It is our standard approach on every
+                  visit, built for mattresses and indoor fabrics specifically, with low-moisture care when
                   appropriate and a focus on being gentle on fabric while still addressing everyday buildup.
                 </p>
               </div>
@@ -527,7 +527,7 @@ export default function OrganicCleaningProductsPage() {
             {[
               "Older stains may not fully disappear, even with thorough treatment.",
               "Deep urine contamination may need a dedicated enzyme treatment beyond routine cleaning.",
-              "Different fabrics respond differently — what works on memory foam may not work the same on a natural-fiber cover.",
+              "Different fabrics respond differently. What works on memory foam may not work the same on a natural-fiber cover.",
               "Chemical stains, bleach marks, dye transfer, and old yellowing can be permanent.",
               "The final method depends on the mattress fabric and our inspection findings.",
               "You'll get a clear explanation of what to expect before any work begins.",
@@ -566,7 +566,7 @@ export default function OrganicCleaningProductsPage() {
           },
           {
             q: "Can organic cleaning fully remove every stain or odor?",
-            a: "Not always. Results vary based on mattress condition — older or chemical stains may improve significantly but not disappear completely.",
+            a: "Not always. Results vary based on mattress condition, and older or chemical stains may improve significantly but not disappear completely.",
           },
         ]}
       />

@@ -29,7 +29,7 @@ const company = [
 ];
 
 const featuredCities = SERVICE_AREAS.slice(0, 5).map((area) => ({
-  name: area.isPrimaryMarket ? `${area.name} — Main Service Area` : area.name,
+  name: area.isPrimaryMarket ? `${area.name} (Main Service Area)` : area.name,
   href: getAreaHref(area),
 }));
 

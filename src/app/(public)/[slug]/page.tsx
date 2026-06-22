@@ -316,14 +316,14 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       ) : (
         <CallNowCta
           heading={`Need ${service.name} Today? Call (800) 735-1242`}
-          body="Speak with Organic Mattress Cleaning — open 24/7 across Los Angeles."
+          body="Speak with Organic Mattress Cleaning, open 24/7 across Los Angeles."
         />
       )}
 
       <TrustSection
         eyebrow="Why Choose Us"
         heading="Organic, Family-Safe Mattress Care"
-        subheading="Every visit uses plant-based, non-toxic products — safe for kids, pets, and allergy-sensitive households."
+        subheading="Every visit uses plant-based, non-toxic products that are safe for kids, pets, and allergy-sensitive households."
         variant="dark"
       />
 
@@ -398,7 +398,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         variant="surface"
       />
 
-      <CtaSection heading={`Ready to Book ${service.name}?`} body="Get a free quote today — no obligation, no pressure." />
+      <CtaSection heading={`Ready to Book ${service.name}?`} body="Get a free quote today, no obligation, no pressure." />
     </>
   );
 }

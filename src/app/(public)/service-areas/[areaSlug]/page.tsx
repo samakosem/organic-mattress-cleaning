@@ -100,7 +100,7 @@ export default async function ServiceAreaDetailPage({ params }: AreaPageProps) {
         <div className="max-w-6xl mx-auto px-5 sm:px-6 py-3.5 flex items-center justify-center gap-2.5 text-center">
           <Truck className="w-4 h-4 text-primary-dark shrink-0" aria-hidden />
           <p className="text-sm font-semibold text-primary-dark">
-            Mobile mattress cleaning available in {area.name} — serving homes, apartments, condos, and families from our Los Angeles service area.
+            Mobile mattress cleaning available in {area.name}, serving homes, apartments, condos, and families from our Los Angeles service area.
           </p>
         </div>
       </div>
@@ -214,7 +214,7 @@ export default async function ServiceAreaDetailPage({ params }: AreaPageProps) {
       <TrustSection
         eyebrow={`Serving ${area.name}`}
         heading="Organic, Non-Toxic Mattress Care"
-        subheading={`We bring the same eco-friendly process to every home in ${area.name} — safe for families, pets, and allergy-sensitive households.`}
+        subheading={`We bring the same eco-friendly process to every home in ${area.name}, safe for families, pets, and allergy-sensitive households.`}
         variant="dark"
       />
 
@@ -242,7 +242,7 @@ export default async function ServiceAreaDetailPage({ params }: AreaPageProps) {
                 Get a Free Quote for Your {area.name} Home
               </h2>
               <p className="text-text-secondary text-lg leading-relaxed mb-5">
-                We&apos;ll review your mattress and provide a clear, upfront price — no obligation.
+                We&apos;ll review your mattress and provide a clear, upfront price, with no obligation.
               </p>
               <div className="p-5 rounded-2xl bg-surface border border-primary/12 mb-6">
                 <h3 className="text-sm font-bold text-text-primary mb-1.5">How Scheduling Works</h3>
@@ -284,9 +284,9 @@ export default async function ServiceAreaDetailPage({ params }: AreaPageProps) {
         relatedLinks={relatedServices.slice(0, 3).map((s) => ({ label: s.name, href: s.fullPath }))}
       />
 
-      <AnswerBlock items={area.answerBlock} heading={`Quick Answers — ${area.name}`} />
+      <AnswerBlock items={area.answerBlock} heading={`Quick Answers: ${area.name}`} />
 
-      <CtaSection heading={`Book Organic Mattress Cleaning in ${area.name}`} body="Get a free quote today — no obligation, no pressure." />
+      <CtaSection heading={`Book Organic Mattress Cleaning in ${area.name}`} body="Get a free quote today, no obligation, no pressure." />
 
       <div className="py-10 bg-white border-t border-primary/10">
         <div className="max-w-6xl mx-auto px-5 sm:px-6 flex flex-wrap items-center justify-between gap-4">

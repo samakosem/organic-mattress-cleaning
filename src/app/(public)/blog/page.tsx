@@ -158,7 +158,7 @@ export default function BlogPage() {
         </div>
       </section>
 
-      <CtaSection heading="Need Help Now?" body="Skip the wait — get a free quote for organic mattress cleaning today." />
+      <CtaSection heading="Need Help Now?" body="Skip the wait and get a free quote for organic mattress cleaning today." />
     </>
   );
 }

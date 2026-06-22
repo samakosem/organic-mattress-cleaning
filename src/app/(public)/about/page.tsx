@@ -51,7 +51,7 @@ const VALUES = [
 ];
 
 const PHILOSOPHY_STEPS = [
-  "Inspect the mattress first — fabric, stains, odor, and condition.",
+  "Inspect the mattress first, checking fabric, stains, odor, and condition.",
   "Choose the cleaning method based on mattress type and condition.",
   "Use organic, non-toxic cleaning solutions throughout.",
   "Treat stains and odors carefully, with fabric-aware methods.",
@@ -184,7 +184,7 @@ export default function AboutPage() {
             <p className="text-text-secondary text-base leading-relaxed">
               Families want safer options for kids and pets, and organic, non-toxic cleaning is a natural fit with
               how modern households already think about indoor home care. Customers also deserve clear
-              expectations and transparent pricing rather than vague promises — that&apos;s the standard we built
+              expectations and transparent pricing rather than vague promises. That is the standard we built
               this service around.
             </p>
           </div>
@@ -301,7 +301,7 @@ export default function AboutPage() {
               "Organic cleaning solutions on every visit.",
               "No harsh chemical smell left behind.",
               "Optional stain, odor, and sanitizing treatments based on your needs.",
-              "Results vary by mattress fabric and condition — we explain this upfront.",
+              "Results vary by mattress fabric and condition. We explain this upfront.",
               "Customers can send photos before booking for a more informed estimate.",
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">

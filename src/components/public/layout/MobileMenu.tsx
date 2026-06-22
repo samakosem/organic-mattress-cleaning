@@ -111,7 +111,7 @@ export function MobileMenu() {
                       onClick={close}
                       className="flex items-center min-h-[44px] px-3.5 py-2 rounded-lg text-sm text-text-secondary hover:bg-primary-light hover:text-primary-dark transition-colors"
                     >
-                      {area.isPrimaryMarket ? `${area.name} — Main Service Area` : area.name}
+                      {area.isPrimaryMarket ? `${area.name} (Main Service Area)` : area.name}
                     </Link>
                   ))}
                   <Link

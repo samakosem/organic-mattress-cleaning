@@ -266,7 +266,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
       <CtaSection
         heading="Ready for a Fresher, Healthier Mattress?"
-        body="Get a free quote today for organic mattress cleaning in Los Angeles — no obligation, no pressure."
+        body="Get a free quote today for organic mattress cleaning in Los Angeles, no obligation, no pressure."
       />
 
       {otherPosts.length > 0 && (

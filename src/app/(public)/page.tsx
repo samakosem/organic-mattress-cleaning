@@ -32,7 +32,7 @@ const HOMEPAGE_TESTIMONIALS = TESTIMONIALS.slice(0, 6);
 const HOME_ANSWER_BLOCK = [
   {
     q: "Does Organic Mattress Cleaning serve Los Angeles?",
-    a: "Yes. Organic Mattress Cleaning is a mobile service serving Los Angeles and nearby communities including Santa Monica, Beverly Hills, Burbank, Pasadena, and more — open 24/7.",
+    a: "Yes. Organic Mattress Cleaning is a mobile service serving Los Angeles and nearby communities including Santa Monica, Beverly Hills, Burbank, Pasadena, and more. We are open 24/7.",
   },
   {
     q: "What makes organic mattress cleaning different?",
@@ -52,11 +52,11 @@ const HOME_ANSWER_BLOCK = [
   },
   {
     q: "What mattress problems can professional cleaning help with?",
-    a: "Professional mattress cleaning can help remove visible stains, freshen odors from sweat or pet accidents, and reduce dust mites and allergens — supporting a fresher, more comfortable sleep surface.",
+    a: "Professional mattress cleaning can help remove visible stains, freshen odors from sweat or pet accidents, and reduce dust mites and allergens, supporting a fresher, more comfortable sleep surface.",
   },
   {
     q: "Do you offer mattress cleaning across all of Los Angeles?",
-    a: "Yes. Organic Mattress Cleaning serves Los Angeles and nearby communities including Santa Monica, Beverly Hills, Burbank, Pasadena, and more — see our full service area list for details.",
+    a: "Yes. Organic Mattress Cleaning serves Los Angeles and nearby communities including Santa Monica, Beverly Hills, Burbank, Pasadena, and more. See our full service area list for details.",
   },
 ];
 
@@ -137,7 +137,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Organic Mattress Cleaning Los Angeles | Non-Toxic Mattress Cleaning",
     description:
-      "Eco-friendly, non-toxic mattress cleaning serving Los Angeles. Family-safe and pet-safe deep cleaning, sanitizing, and stain removal. Open 24/7 — get a free quote.",
+      "Eco-friendly, non-toxic mattress cleaning serving Los Angeles. Family-safe and pet-safe deep cleaning, sanitizing, and stain removal. Open 24/7. Free quotes.",
     canonical: "/",
   });
 }
@@ -159,7 +159,7 @@ export default function HomePage() {
       <HeroSection
         categoryBadge="Organic & Non-Toxic"
         heading="Mattress Cleaning in Los Angeles"
-        subheading="Eco-friendly, plant-based deep cleaning that's safe for your family and pets. We remove stains, odors, dust mites, and allergens — without harsh chemicals."
+        subheading="Eco-friendly, plant-based deep cleaning that's safe for your family and pets. We remove stains, odors, dust mites, and allergens without harsh chemicals."
         ctaPrimaryLabel="Get a Free Quote"
         ctaPrimaryUrl="/contact"
         ctaSecondaryLabel="(800) 735-1242"
@@ -282,7 +282,7 @@ export default function HomePage() {
                 <SectionHeading
                   subheading="See Our Process"
                   heading="Professional Mattress Cleaning in Action"
-                  description="Our technicians use professional-grade extraction equipment paired with organic, plant-based solutions — designed to clean deeply without harsh chemical residue."
+                  description="Our technicians use professional-grade extraction equipment and organic, plant-based solutions that clean deeply without leaving harsh chemical residue behind."
                   layout="stacked"
                 />
               </div>
@@ -300,7 +300,7 @@ export default function HomePage() {
                 <SectionHeading
                   subheading="What We Use"
                   heading="Eco-Friendly Products & Tools"
-                  description="Plant-based cleaning solutions, non-toxic formulas, and a low-residue approach — chosen for freshness, safety, and a healthier sleep environment."
+                  description="We use plant-based cleaning solutions, non-toxic formulas, and a low-residue process chosen for freshness, safety, and better indoor comfort."
                   layout="stacked"
                 />
               </div>
@@ -356,7 +356,7 @@ export default function HomePage() {
           </h2>
           <p className="text-text-secondary text-base sm:text-lg leading-relaxed mb-8">
             We use organic cleaning solutions and a plant-based, non-toxic approach designed for mattresses,
-            upholstery, baby mattresses, and indoor family environments — without harsh chemical odors or sticky
+            upholstery, baby mattresses, and indoor family environments, with no harsh chemical odors or sticky
             residue.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
@@ -400,7 +400,7 @@ export default function HomePage() {
       <TrustSection
         eyebrow="Why Choose Organic Mattress Cleaning"
         heading="Premium Mattress Care for Los Angeles Homes"
-        subheading="We treat every mattress with the same care we'd want for our own family — safe products, thorough process, and real attention to detail."
+        subheading="We treat every mattress with the same care we'd want for our own family: safe products, thorough process, and real attention to detail."
         variant="light"
       />
 
@@ -409,7 +409,7 @@ export default function HomePage() {
         heading="How We Clean Your Mattress"
         description="A simple four-step process from booking to a fresher, healthier mattress."
         steps={[
-          { n: "01", t: "Book Your Visit", d: "Tell us about your mattress and schedule a time that works for you — including same-day options." },
+          { n: "01", t: "Book Your Visit", d: "Tell us about your mattress and schedule a time that works for you, including same-day options." },
           { n: "02", t: "Inspection", d: "We inspect the mattress for stains, odors, and problem areas before choosing the right organic treatment." },
           { n: "03", t: "Deep Cleaning", d: "Plant-based solutions lift stains, neutralize odors, and extract dust mites and allergens from deep within the fabric." },
           { n: "04", t: "Dry & Ready", d: "Quick-dry methods mean your mattress is ready to use again the same day, fresh and sanitized." },
@@ -443,7 +443,7 @@ export default function HomePage() {
               <SectionHeading
                 subheading="Free, No Obligation"
                 heading="Get a Free Quote for Organic Mattress Cleaning"
-                description="Tell us about your mattress and we'll give you a clear, upfront price — no hidden fees, no pressure."
+                description="Tell us about your mattress and we'll give you a clear, upfront price, with no hidden fees and no pressure."
                 id="quote-heading"
                 layout="stacked"
                 className="mb-7 sm:mb-8"

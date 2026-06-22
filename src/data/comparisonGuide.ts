@@ -58,7 +58,7 @@ export const DIY_VS_PRO_TABLE: DiyVsProRow[] = [
   {
     factor: "Cost",
     diy: "Lower upfront cost, but mistakes can be costly to fix later.",
-    professional: "Transparent pricing based on mattress size and condition — see our pricing guide.",
+    professional: "Transparent pricing based on mattress size and condition. See our pricing guide.",
   },
   {
     factor: "Best for",

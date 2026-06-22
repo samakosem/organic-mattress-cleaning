@@ -107,7 +107,7 @@ export const PRICING_BY_GOAL: GoalPricingItem[] = [
   {
     item: "Two-Sided Mattress Cleaning",
     priceImpact: "+$40–$100",
-    whyItChanges: "Depends on mattress size and access — doubles the surface area cleaned.",
+    whyItChanges: "Depends on mattress size and access, since it doubles the surface area cleaned.",
     relatedServiceSlug: "mattress-cleaning",
   },
   {

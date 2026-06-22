@@ -12,7 +12,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       "Non-toxic, plant-based mattress cleaning that comes to you, anywhere across the city of Los Angeles.",
     introHeading: "Citywide Mattress Care, One Visit at a Time",
     introParagraphs: [
-      "Los Angeles is a city of dense apartments, mid-century bungalows, and everything in between, which means mattresses here face a wide range of conditions — from dry Santa Ana winds carrying dust indoors to older buildings with less ventilation that can trap humidity and odor near the bedroom.",
+      "Los Angeles is a city of dense apartments, mid-century bungalows, and everything in between, which means mattresses here face a wide range of conditions, from dry Santa Ana winds carrying dust indoors to older buildings with less ventilation that can trap humidity and odor near the bedroom.",
       "Our mobile team travels throughout LA neighborhoods with the same organic, low-toxicity process at every stop. Whether you're in a high-rise downtown or a single-family home in the flats, we bring professional equipment and plant-based formulas directly to your door.",
     ],
     benefits: [
@@ -53,7 +53,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       "Inconsistent mattress upkeep in shared or multi-tenant housing",
     ],
     schedulingNote:
-      "Mobile mattress cleaning is available throughout Los Angeles, from downtown high-rises to neighborhoods in the flats and foothills. Scheduling works the same everywhere in the city — tell us your neighborhood and any building access details, and we'll bring our equipment directly to your door.",
+      "Mobile mattress cleaning is available throughout Los Angeles, from downtown high-rises to neighborhoods in the flats and foothills. Scheduling works the same everywhere in the city. Tell us your neighborhood and any building access details, and we'll bring our equipment directly to your door.",
     answerBlock: [
       {
         q: "Do you offer mattress cleaning in Los Angeles?",
@@ -61,7 +61,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
       {
         q: "Do you have a physical office in Los Angeles I can visit?",
-        a: "No, we operate as a mobile-only service. There's no storefront to visit — our technicians and equipment come directly to your home or apartment.",
+        a: "No, we operate as a mobile-only service. There's no storefront to visit. Our technicians and equipment come directly to your home or apartment.",
       },
       {
         q: "Can you service apartments, condos, and high-rises?",
@@ -125,7 +125,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       "Increased mattress wear in active, outdoor-oriented households",
     ],
     schedulingNote:
-      "Mobile mattress cleaning is available throughout Santa Monica and nearby coastal neighborhoods, including beachfront condo buildings. Scheduling works the same as anywhere else we serve — request a quote, tell us your building type, and we'll confirm a visit time.",
+      "Mobile mattress cleaning is available throughout Santa Monica and nearby coastal neighborhoods, including beachfront condo buildings. Scheduling works the same as anywhere else we serve. Request a quote, tell us your building type, and we'll confirm a visit time.",
     answerBlock: [
       {
         q: "Do you offer mattress cleaning in Santa Monica?",
@@ -157,8 +157,8 @@ export const SERVICE_AREAS: ServiceArea[] = [
     introHeading: "Coastal Living Deserves a Cleaner, Healthier Mattress",
     introParagraphs: [
       "Malibu homes live close to the ocean, and that proximity brings a specific set of mattress challenges that inland Los Angeles households rarely deal with. Salt air and ocean moisture work their way into bedrooms even with windows closed, and the constant in-and-out of beach days near Zuma Beach, Carbon Beach, or Broad Beach means sand, sunscreen, and salt residue regularly end up on bedding and, eventually, the mattress underneath it. Add in the wear from kids, pets, and frequent guests in larger Malibu Colony and Point Dume households, and a mattress here tends to need more attention than the average suburban home.",
-      "Vacation rental turnover is its own category of wear. Whether it's a Malibu Canyon hillside property or a place closer to the Pepperdine area, mattresses that see frequent guest stays accumulate sweat, body oils, and the occasional spill at a faster pace than a primary residence, simply because more people sleep on them in a given month. Guest rooms in full-time residences face a milder version of the same issue — used heavily during visits, then forgotten about between them.",
-      "Organic Mattress Cleaning brings a plant-based, non-toxic process directly to Malibu homes, whether that's a beachfront condo, a hillside house, or a vacation property between bookings. Our formulas are built to cut through salt residue and humidity-driven odor without leaving behind the kind of chemical smell that can linger in a coastal home's recirculated air. The process is family-safe and pet-safe by design, which matters in a community where kids, dogs, and frequent house guests are part of daily life. We don't promise a mattress that's instantly like new — results depend on the stain, the fabric, and how long an issue has been sitting — but we do bring a careful, honest process and the right equipment to meaningfully improve what's there.",
+      "Vacation rental turnover is its own category of wear. Whether it's a Malibu Canyon hillside property or a place closer to the Pepperdine area, mattresses that see frequent guest stays accumulate sweat, body oils, and the occasional spill at a faster pace than a primary residence, simply because more people sleep on them in a given month. Guest rooms in full-time residences face a milder version of the same issue: used heavily during visits, then forgotten about between them.",
+      "Organic Mattress Cleaning brings a plant-based, non-toxic process directly to Malibu homes, whether that's a beachfront condo, a hillside house, or a vacation property between bookings. Our formulas are built to cut through salt residue and humidity-driven odor without leaving behind the kind of chemical smell that can linger in a coastal home's recirculated air. The process is family-safe and pet-safe by design, which matters in a community where kids, dogs, and frequent house guests are part of daily life. We don't promise a mattress that's instantly like new. Results depend on the stain, the fabric, and how long an issue has been sitting, but we do bring a careful, honest process and the right equipment to meaningfully improve what's there.",
     ],
     benefits: [
       "Fast-drying, low-moisture process suited to ocean humidity and salt air",
@@ -219,7 +219,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       "Dust and allergen buildup in hillside and canyon-area homes",
     ],
     schedulingNote:
-      "Mobile mattress cleaning is available throughout Malibu, from beachfront condos near Carbon Beach to hillside homes in Malibu Canyon. Scheduling works the same as anywhere else we serve — request a quote, tell us about your property and any access details, and we'll confirm a visit time.",
+      "Mobile mattress cleaning is available throughout Malibu, from beachfront condos near Carbon Beach to hillside homes in Malibu Canyon. Scheduling works the same as anywhere else we serve. Request a quote, tell us about your property and any access details, and we'll confirm a visit time.",
     answerBlock: [
       {
         q: "Do you offer mattress cleaning in Malibu?",
@@ -291,7 +291,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       "Households wanting a discreet service that doesn't disrupt daily routines",
     ],
     schedulingNote:
-      "Mobile mattress cleaning is available in Beverly Hills, with scheduling coordinated discreetly around household routines or staff availability. The process works the same as everywhere else we serve — we simply tailor timing and access details to your preferences.",
+      "Mobile mattress cleaning is available in Beverly Hills, with scheduling coordinated discreetly around household routines or staff availability. The process works the same as everywhere else we serve. We simply tailor timing and access details to your preferences.",
     answerBlock: [
       {
         q: "Do you offer mattress cleaning in Beverly Hills?",
@@ -435,7 +435,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       "Noise or disruption concerns in shared, multi-tenant buildings",
     ],
     schedulingNote:
-      "Mobile mattress cleaning is available throughout Hollywood, including upper-floor walk-ups and high-rise units. Scheduling works the same as anywhere else we serve — flexible hours, including evenings, to fit demanding work schedules.",
+      "Mobile mattress cleaning is available throughout Hollywood, including upper-floor walk-ups and high-rise units. Scheduling works the same as anywhere else we serve, with flexible hours, including evenings, to fit demanding work schedules.",
     answerBlock: [
       {
         q: "Do you offer mattress cleaning in Hollywood?",
@@ -571,7 +571,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     seoDescription:
       "Professional mattress cleaning in Glendale, CA. Organic, non-toxic service for stains, odors, dust mites, and allergy-sensitive homes. Open 24/7.",
     whyEcoFriendly:
-      "Glendale's multi-generational households often have grandparents, parents, and kids sharing one home, which means a wide range of sensitivities under one roof — from a senior's respiratory concerns to a young child's allergies. A single fragrance-free, organic standard works across that entire range without needing a different chemical approach for each family member.",
+      "Glendale's multi-generational households often have grandparents, parents, and kids sharing one home, which means a wide range of sensitivities under one roof, from a senior's respiratory concerns to a young child's allergies. A single fragrance-free, organic standard works across that entire range without needing a different chemical approach for each family member.",
     commonIssues: [
       "Varying mattress conditions across multiple bedrooms used by different generations",
       "Sensitivity concerns for elderly family members alongside young kids in the same household",
@@ -826,9 +826,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
       "Organic, non-toxic mattress cleaning for Woodland Hills homes, apartments, condos, and family households.",
     introHeading: "Valley Heat and Family Life Both Take a Toll on a Mattress",
     introParagraphs: [
-      "Woodland Hills sits deep in the San Fernando Valley, where summer heat runs noticeably warmer than the Westside and dust and pollen tend to settle indoors more persistently during dry stretches of weather. That combination speeds up how quickly a mattress accumulates dust, allergens, and the general buildup that comes from daily use — especially in family homes near Warner Center and along Ventura Boulevard, where households are often larger and bedrooms see more daily traffic.",
-      "Kids' bedrooms face their own version of this — spills, occasional accidents, and everyday sweat add up faster in a room that gets used hard. Guest rooms in Woodland Hills' larger single-family homes face the opposite problem: lighter use, but mattresses that go months between any real attention, letting dust and dander settle in undisturbed. Apartments and condos near the Topanga Canyon area and toward Calabasas-adjacent neighborhoods deal with similar buildup in a smaller footprint, where pet odors and everyday wear are harder to air out without strong cross-ventilation.",
-      "Organic Mattress Cleaning brings a plant-based, non-toxic process directly to Woodland Hills homes, apartments, and condos. The formulas we use are built to address dust mites, allergens, sweat, and pet accidents without leaving behind a strong chemical smell — something that matters in a Valley home where windows often stay closed against the heat. The process is family-safe and pet-safe, and it's designed to genuinely help reduce the buildup that accumulates between cleanings rather than just covering it with fragrance. Results depend on the mattress and the specific issue, but the goal on every visit is a noticeably fresher, healthier surface to sleep on.",
+      "Woodland Hills sits deep in the San Fernando Valley, where summer heat runs noticeably warmer than the Westside and dust and pollen tend to settle indoors more persistently during dry stretches of weather. That combination speeds up how quickly a mattress accumulates dust, allergens, and the general buildup that comes from daily use, especially in family homes near Warner Center and along Ventura Boulevard, where households are often larger and bedrooms see more daily traffic.",
+      "Kids' bedrooms face their own version of this: spills, occasional accidents, and everyday sweat add up faster in a room that gets used hard. Guest rooms in Woodland Hills' larger single-family homes face the opposite problem: lighter use, but mattresses that go months between any real attention, letting dust and dander settle in undisturbed. Apartments and condos near the Topanga Canyon area and toward Calabasas-adjacent neighborhoods deal with similar buildup in a smaller footprint, where pet odors and everyday wear are harder to air out without strong cross-ventilation.",
+      "Organic Mattress Cleaning brings a plant-based, non-toxic process directly to Woodland Hills homes, apartments, and condos. The formulas we use are built to address dust mites, allergens, sweat, and pet accidents without leaving behind a strong chemical smell, which matters in a Valley home where windows often stay closed against the heat. The process is family-safe and pet-safe, and it's designed to genuinely help reduce the buildup that accumulates between cleanings rather than just covering it with fragrance. Results depend on the mattress and the specific issue, but the goal on every visit is a noticeably fresher, healthier surface to sleep on.",
     ],
     benefits: [
       "Deep extraction process suited to Valley heat and dust buildup",
@@ -889,7 +889,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       "Neglected guest room mattresses that go months between any attention",
     ],
     schedulingNote:
-      "Mobile mattress cleaning is available throughout Woodland Hills, from family homes near Warner Center to apartments and condos toward the Topanga Canyon area. Scheduling works the same as anywhere else we serve — request a quote, tell us about your home, and we'll confirm a visit time.",
+      "Mobile mattress cleaning is available throughout Woodland Hills, from family homes near Warner Center to apartments and condos toward the Topanga Canyon area. Scheduling works the same as anywhere else we serve. Request a quote, tell us about your home, and we'll confirm a visit time.",
     answerBlock: [
       {
         q: "Do you offer mattress cleaning in Woodland Hills?",
@@ -921,7 +921,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     introHeading: "Flexible Care for Studio City's Varied Living Spaces",
     introParagraphs: [
       "Studio City sits at the intersection of hillside homes, flat-street bungalows, and condo developments, drawing a mix of families and entertainment-industry professionals who often keep unconventional, production-driven schedules. That variety means our mobile team needs to adapt to everything from steep driveway access to early-call-time scheduling requests.",
-      "Whatever your home style or work schedule looks like, our organic cleaning process stays the same — plant-based formulas, professional extraction, and a non-toxic result, delivered on a timeline that fits a Studio City household.",
+      "Whatever your home style or work schedule looks like, our organic cleaning process stays the same: plant-based formulas, professional extraction, and a non-toxic result, delivered on a timeline that fits a Studio City household.",
     ],
     benefits: [
       "Adapts to hillside, flat-street, and condo property types",

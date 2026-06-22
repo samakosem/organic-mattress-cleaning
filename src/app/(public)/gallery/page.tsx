@@ -79,7 +79,7 @@ const GALLERY_FAQS = [
   },
   {
     q: "Can yellow mattress stains be cleaned?",
-    a: "Often, yes — yellowing from sweat and body oils typically responds well to treatment, though very old yellowing may only partially improve.",
+    a: "Often, yes. Yellowing from sweat and body oils typically responds well to treatment, though very old yellowing may only partially improve.",
   },
 ];
 
@@ -219,7 +219,7 @@ export default function GalleryPage() {
             </p>
             <p className="text-text-secondary text-sm leading-relaxed">
               <strong className="text-text-primary">Food and drink spills</strong> respond best when treated soon
-              after the spill — older, set-in spills are more stubborn. Learn more about{" "}
+              after the spill. Older, set-in spills are more stubborn. Learn more about{" "}
               <Link href="/mattress-cleaning" className="text-cta hover:text-primary-dark font-semibold transition-colors">mattress cleaning</Link>.
             </p>
             <p className="text-text-secondary text-sm leading-relaxed">

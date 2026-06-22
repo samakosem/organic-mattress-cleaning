@@ -40,7 +40,7 @@ export async function sendLeadEmail(payload: LeadEmailPayload) {
   ].filter(Boolean) as [string, string][];
 
   const html = `
-    <h2>New lead — ${SITE_NAME}</h2>
+    <h2>New lead: ${SITE_NAME}</h2>
     <table cellpadding="6" style="border-collapse:collapse">
       ${rows.map(([label, value]) => `<tr><td><strong>${label}</strong></td><td>${value}</td></tr>`).join("")}
     </table>

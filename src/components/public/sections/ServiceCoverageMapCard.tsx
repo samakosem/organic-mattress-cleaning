@@ -34,14 +34,14 @@ export function ServiceCoverageMapCard() {
                 >
                   <span className="w-2 h-2 rounded-full bg-cta shrink-0" aria-hidden />
                   <span className="text-sm font-medium text-primary-dark group-hover:text-cta transition-colors truncate">
-                    {area.isPrimaryMarket ? `${area.name} — Main Service Area` : area.name}
+                    {area.isPrimaryMarket ? `${area.name} (Main Service Area)` : area.name}
                   </span>
                 </Link>
               ))}
             </div>
             <p className="text-xs text-text-secondary/60 mt-6 flex items-center gap-1.5">
               <MapPin className="w-3.5 h-3.5 shrink-0" aria-hidden />
-              Service coverage areas shown — not a live technician location map.
+              Service coverage areas shown. Not a live technician location map.
             </p>
           </div>
         </div>

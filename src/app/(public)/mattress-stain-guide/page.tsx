@@ -118,7 +118,7 @@ export default function MattressStainGuidePage() {
         breadcrumbs={[{ name: "Home", url: "/" }, { name: "Mattress Stain Guide", url: "/mattress-stain-guide" }]}
         categoryBadge="Stain Removal • Organic Mattress Cleaning • Los Angeles"
         heading="Mattress Stain Guide"
-        subheading="A practical guide to urine stains, sweat stains, yellowing, blood, wine, coffee, food spills, pet stains, and older mattress stains — with honest expectations about what professional organic cleaning can and cannot do."
+        subheading="A practical guide to urine stains, sweat stains, yellowing, blood, wine, coffee, food spills, pet stains, and older mattress stains, with honest expectations about what professional organic cleaning can and cannot do."
         ctaPrimaryLabel="Get a Free Quote"
         ctaPrimaryUrl="/contact"
         ctaSecondaryLabel="(800) 735-1242"
@@ -293,8 +293,8 @@ export default function MattressStainGuidePage() {
             </p>
             <p className="text-text-secondary text-base leading-relaxed">
               Yellowing in particular can become permanent the longer it&apos;s left untreated, since it&apos;s a chemical
-              change in the fabric rather than surface dirt. Previous DIY cleaning attempts — especially with
-              bleach or strong chemicals — can also affect how a mattress responds to professional treatment
+              change in the fabric rather than surface dirt. Previous DIY cleaning attempts, especially with
+              bleach or strong chemicals, can also affect how a mattress responds to professional treatment
               later.
             </p>
             <p className="text-text-secondary text-base leading-relaxed">

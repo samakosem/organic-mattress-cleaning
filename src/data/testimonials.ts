@@ -12,7 +12,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Santa Monica, CA",
     service: "Organic Mattress Cleaning",
     quote:
-      "Our mattress hadn't been deep cleaned in years and I was nervous about strong chemical smells with a toddler in the house. There was none of that — just a noticeably fresher mattress by the end of the day.",
+      "Our mattress hadn't been deep cleaned in years and I was nervous about strong chemical smells with a toddler in the house. There was none of that, just a noticeably fresher mattress by the end of the day.",
   },
   {
     name: "David R.",
@@ -47,7 +47,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Glendale, CA",
     service: "Urine Odor Removal",
     quote:
-      "Our dog had an accident on the bed that we couldn't fully get rid of ourselves. The enzyme treatment they used actually worked — no more smell, even on warm days.",
+      "Our dog had an accident on the bed that we couldn't fully get rid of ourselves. The enzyme treatment they used actually worked. No more smell, even on warm days.",
   },
   {
     name: "Emily S.",
@@ -61,7 +61,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "West Hollywood, CA",
     service: "Mattress Sanitizing",
     quote:
-      "Lived in my apartment for three years and never thought about the mattress until a friend recommended this. Glad I finally did it — no regrets.",
+      "Lived in my apartment for three years and never thought about the mattress until a friend recommended this. Glad I finally did it, no regrets.",
   },
   {
     name: "Olivia P.",
@@ -96,7 +96,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Marina del Rey, CA",
     service: "Organic Mattress Cleaning",
     quote:
-      "Was specifically looking for a non-toxic option since I'm sensitive to strong cleaning products. No headache, no lingering smell — exactly what I wanted.",
+      "Was specifically looking for a non-toxic option since I'm sensitive to strong cleaning products. No headache, no lingering smell. Exactly what I wanted.",
   },
   {
     name: "Joshua N.",
@@ -131,7 +131,7 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Woodland Hills, CA",
     service: "Mattress Cleaning",
     quote:
-      "Valley heat means our bedroom windows stay shut most of the summer, so I was worried about lingering smell after a cleaning. There wasn't any — just a clean mattress.",
+      "Valley heat means our bedroom windows stay shut most of the summer, so I was worried about lingering smell after a cleaning. There wasn't any, just a clean mattress.",
   },
   {
     name: "Stephanie V.",

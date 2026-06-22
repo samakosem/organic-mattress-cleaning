@@ -25,14 +25,14 @@ export const STAIN_TYPES: StainTypeInfo[] = [
     name: "Yellowing",
     cause: "Long-term sweat and body oil oxidation on the mattress surface.",
     difficulty: "Often Difficult",
-    whatAffectsResults: "Age of the discoloration — older yellowing can be partially or fully permanent.",
+    whatAffectsResults: "Age of the discoloration. Older yellowing can be partially or fully permanent.",
     relatedServiceSlug: "mattress-stain-removal",
   },
   {
     name: "Blood Stains",
     cause: "Cuts, injuries, or menstrual accidents.",
     difficulty: "Moderate",
-    whatAffectsResults: "How fresh the stain is — dried, set-in blood is harder to treat than fresh blood.",
+    whatAffectsResults: "How fresh the stain is. Dried, set-in blood is harder to treat than fresh blood.",
     relatedServiceSlug: "mattress-stain-removal",
   },
   {
@@ -58,7 +58,7 @@ export const STAIN_TYPES: StainTypeInfo[] = [
   },
   {
     name: "Food Spills",
-    cause: "Eating in bed — crumbs, sauces, or general spills.",
+    cause: "Eating in bed, including crumbs, sauces, or general spills.",
     difficulty: "Usually Easier",
     whatAffectsResults: "How greasy or sugary the spill was and how quickly it was addressed.",
     relatedServiceSlug: "mattress-stain-removal",

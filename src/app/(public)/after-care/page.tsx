@@ -196,7 +196,7 @@ export default function AfterCarePage() {
         <div className="max-w-6xl mx-auto px-5 sm:px-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-3">Drying Time Guide</h2>
           <p className="text-text-secondary text-sm mb-8 max-w-2xl">
-            Drying times are typical considerations, not exact guarantees — actual time varies by mattress and
+            Drying times are typical considerations, not exact guarantees. Actual time varies by mattress and
             conditions.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-primary/12 bg-surface">
@@ -234,7 +234,7 @@ export default function AfterCarePage() {
                 <li>Only when the mattress is dry to the touch.</li>
                 <li>Avoid trapping moisture by covering it too soon.</li>
                 <li>A mattress protector should only go on once it&apos;s fully dry.</li>
-                <li>Check seams and pillow-top areas closely — they can stay damp longer.</li>
+                <li>Check seams and pillow-top areas closely, since they can stay damp longer.</li>
               </ul>
             </div>
             <div>

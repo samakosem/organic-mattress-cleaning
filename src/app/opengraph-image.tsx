@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { SITE_NAME } from "@/lib/constants/business";
 
-export const alt = "Organic Mattress Cleaning — Eco-Friendly, Non-Toxic Mattress Cleaning in Los Angeles";
+export const alt = "Organic Mattress Cleaning: Eco-Friendly, Non-Toxic Mattress Cleaning in Los Angeles";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
