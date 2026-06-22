@@ -3,6 +3,7 @@ import Image from "next/image";
 import { ArrowRight, Phone } from "lucide-react";
 import { PublicButton } from "@/components/ui/PublicButton";
 import { CompactHeroLeadForm } from "@/components/public/forms/CompactHeroLeadForm";
+import { HeroTrustBadges } from "@/components/public/sections/HeroTrustBadges";
 
 interface StatItem {
   value: string;
@@ -26,6 +27,8 @@ interface HeroSectionProps {
   priority?: boolean;
   /** Homepage-only: floating glass lead form on desktop, compact card below CTAs on mobile. */
   showLeadForm?: boolean;
+  /** Homepage-only: real trust badge images near the form. */
+  showTrustBadges?: boolean;
 }
 
 const DEFAULT_HERO_IMAGE = "/images/hero/mattress-cleaning-hero.webp";
@@ -45,6 +48,7 @@ export function HeroSection({
   imageAlt = "Organic, non-toxic mattress cleaning in a fresh, healthy Los Angeles bedroom",
   priority = false,
   showLeadForm = false,
+  showTrustBadges = false,
 }: HeroSectionProps) {
   return (
     <section className={`relative ${minHeight} text-text-primary overflow-hidden flex flex-col justify-between`}>
@@ -155,12 +159,20 @@ export function HeroSection({
                 <CompactHeroLeadForm className="w-full" />
               </div>
             )}
+
+            {/* Mobile/tablet: trust badges in a compact 2x2 grid below the form */}
+            {showTrustBadges && (
+              <div className="lg:hidden mt-5">
+                <HeroTrustBadges />
+              </div>
+            )}
           </div>
 
           {/* Desktop: floating glass lead form in its own column, clear of the mattress/tool area of the image */}
           {showLeadForm && (
-            <div className="hidden lg:block lg:justify-self-end w-full">
+            <div className="hidden lg:flex lg:flex-col lg:items-end gap-4 w-full">
               <CompactHeroLeadForm />
+              {showTrustBadges && <HeroTrustBadges />}
             </div>
           )}
         </div>

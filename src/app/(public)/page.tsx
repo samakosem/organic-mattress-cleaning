@@ -166,10 +166,12 @@ export default function HomePage() {
         ctaSecondaryUrl="tel:+18007351242"
         priority
         showLeadForm
+        showTrustBadges
+        imageSrc="/images/hero/organic-mattress-cleaning-hero-bedroom.webp"
+        imageAlt="Organic mattress cleaning hero image with clean bed, eco-friendly bedroom, and non-toxic cleaning equipment"
         stats={[
-          { value: "100%", label: "Non-Toxic Process" },
           { value: "24/7", label: "Availability" },
-          { value: "Family", label: "& Pet Safe" },
+          { value: "Free", label: "Quote, No Obligation" },
         ]}
       />
 
