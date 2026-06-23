@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Inter } from "next/font/google";
 import "./globals.css";
 import { SITE_NAME, SITE_URL } from "@/lib/constants/business";
+import { MicrosoftClarity } from "@/components/analytics/MicrosoftClarity";
 
 const display = Plus_Jakarta_Sans({
   variable: "--font-display",
@@ -50,7 +51,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-white text-text-primary">{children}</body>
+      <body className="min-h-full flex flex-col bg-white text-text-primary">
+        {children}
+        <MicrosoftClarity />
+      </body>
     </html>
   );
 }

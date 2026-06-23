@@ -67,6 +67,7 @@ export function buildOrganizationSchema() {
     url: `${SITE_URL}/`,
     logo: LOGO_URL,
     image: LOGO_URL,
+    sameAs: SCHEMA_SAME_AS,
   };
 }
 

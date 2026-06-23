@@ -19,9 +19,15 @@ export const GOOGLE_MAPS_URL = "https://maps.app.goo.gl/sb6DfrErpjMubYqd7";
 
 export const SOCIAL_URLS = {
   facebook: "https://www.facebook.com/profile.php?id=61591083026340",
+  instagram: "https://www.instagram.com/organic_mattress_cleaning/",
+  youtube: "https://www.youtube.com/@OrganicMattressCleaning",
 } as const;
 
-export const SCHEMA_SAME_AS: string[] = [SOCIAL_URLS.facebook];
+export const SCHEMA_SAME_AS: string[] = [
+  SOCIAL_URLS.facebook,
+  SOCIAL_URLS.instagram,
+  SOCIAL_URLS.youtube,
+];
 
 export const SERVICE_AREA_CITIES: string[] = [
   "Los Angeles",
