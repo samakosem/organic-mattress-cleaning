@@ -17,11 +17,12 @@ export function buildLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": `${SITE_URL}/#business`,
+    "@id": `${SITE_URL}/#localbusiness`,
     name: SITE_NAME,
+    legalName: SITE_NAME,
     description:
       "Eco-friendly, non-toxic organic mattress cleaning serving Los Angeles. Family-safe and pet-safe deep cleaning, sanitizing, stain and odor removal.",
-    url: SITE_URL,
+    url: `${SITE_URL}/`,
     image: LOGO_URL,
     logo: LOGO_URL,
     telephone: BUSINESS_PHONE_TEL,
@@ -46,8 +47,12 @@ export function buildWebsiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": `${SITE_URL}/#website`,
-    url: SITE_URL,
+    url: `${SITE_URL}/`,
     name: SITE_NAME,
+    alternateName: [`${SITE_NAME} Los Angeles`, `${SITE_NAME} LA`],
+    publisher: {
+      "@id": `${SITE_URL}/#organization`,
+    },
   };
 }
 
@@ -58,8 +63,10 @@ export function buildOrganizationSchema() {
     "@type": "Organization",
     "@id": `${SITE_URL}/#organization`,
     name: SITE_NAME,
-    url: SITE_URL,
+    legalName: SITE_NAME,
+    url: `${SITE_URL}/`,
     logo: LOGO_URL,
+    image: LOGO_URL,
   };
 }
 
@@ -78,7 +85,7 @@ export function buildServiceSchema(
     url,
     provider: {
       "@type": "LocalBusiness",
-      "@id": `${SITE_URL}/#business`,
+      "@id": `${SITE_URL}/#localbusiness`,
       name: SITE_NAME,
     },
     areaServed: SERVICE_AREA_CITIES.map((name) => ({ "@type": "City", name })),
@@ -109,7 +116,7 @@ export function buildAreaServiceSchema(
     },
     provider: {
       "@type": "LocalBusiness",
-      "@id": `${SITE_URL}/#business`,
+      "@id": `${SITE_URL}/#localbusiness`,
       name: SITE_NAME,
       telephone: BUSINESS_PHONE_TEL,
       address: {

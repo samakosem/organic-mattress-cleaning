@@ -135,10 +135,11 @@ const TRUST_QUICK_FACTS = [
 
 export function generateMetadata(): Metadata {
   return buildMetadata({
-    title: "Organic Mattress Cleaning Los Angeles | Non-Toxic Mattress Cleaning",
+    title: "Mattress Cleaning in Los Angeles | Organic, Non-Toxic Service",
     description:
-      "Eco-friendly, non-toxic mattress cleaning serving Los Angeles. Family-safe and pet-safe deep cleaning, sanitizing, and stain removal. Open 24/7. Free quotes.",
+      "Mattress Cleaning in Los Angeles with plant-based, non-toxic stain removal, sanitizing, dust mite treatment and odor removal. Family-safe service, upfront pricing, free quote, open 24/7.",
     canonical: "/",
+    exactTitle: true,
   });
 }
 
@@ -159,7 +160,7 @@ export default function HomePage() {
       <HeroSection
         categoryBadge="Organic & Non-Toxic"
         heading="Mattress Cleaning in Los Angeles"
-        subheading="Eco-friendly, plant-based deep cleaning that's safe for your family and pets. We remove stains, odors, dust mites, and allergens without harsh chemicals."
+        subheading="Organic mattress cleaning in Los Angeles, built around a non-toxic, plant-based process. We handle stain removal, odor removal, and dust mite treatment in a family-safe and pet-safe way, without harsh chemicals."
         ctaPrimaryLabel="Get a Free Quote"
         ctaPrimaryUrl="/contact"
         ctaSecondaryLabel="(800) 735-1242"

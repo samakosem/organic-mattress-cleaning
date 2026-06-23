@@ -10,6 +10,8 @@ interface BuildMetadataOptions {
   canonical: string;
   ogImagePath?: string;
   noIndex?: boolean;
+  /** Use title exactly as given, skipping the automatic brand suffix — for pages with a fixed, exact target title (e.g. homepage). */
+  exactTitle?: boolean;
 }
 
 export function buildMetadata({
@@ -18,12 +20,13 @@ export function buildMetadata({
   canonical,
   ogImagePath = "/opengraph-image",
   noIndex = false,
+  exactTitle = false,
 }: BuildMetadataOptions): Metadata {
   const resolvedDescription = description || DEFAULT_DESCRIPTION;
   const canonicalUrl = canonical.startsWith("http") ? canonical : `${SITE_URL}${canonical}`;
   const ogImage = ogImagePath.startsWith("http") ? ogImagePath : `${SITE_URL}${ogImagePath}`;
   // Avoid double brand suffix — if the title already names the brand, use it as-is.
-  const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
+  const fullTitle = exactTitle || title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
 
   return {
     title: { absolute: fullTitle },

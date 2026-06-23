@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Clock, Lock, Leaf } from "lucide-react";
+import { ArrowRight, Clock } from "lucide-react";
 import { HeroSection } from "@/components/public/sections/HeroSection";
 import { CtaSection } from "@/components/public/sections/CtaSection";
 import { BlogPostCard } from "@/components/public/cards/BlogPostCard";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
-import { BLOG_POSTS, PLANNED_BLOG_POSTS } from "@/data/blog";
+import { BLOG_POSTS } from "@/data/blog";
 import { getImagesForUse } from "@/data/images";
 
 export function generateMetadata(): Metadata {
@@ -125,34 +125,6 @@ export default function BlogPage() {
               {restPosts.map((post) => (
                 <BlogPostCard key={post.slug} post={post} />
               ))}
-            </div>
-          )}
-
-          {/* Planned / coming soon */}
-          {PLANNED_BLOG_POSTS.length > 0 && (
-            <div>
-              <h2 className="text-xl font-bold text-text-primary mb-6">Coming Soon</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                {PLANNED_BLOG_POSTS.map((post) => (
-                  <div
-                    key={post.title}
-                    className="rounded-2xl border border-dashed border-primary/20 bg-surface/60 overflow-hidden flex flex-col opacity-80"
-                  >
-                    <div className="w-full aspect-[16/9] bg-primary-light/40 flex items-center justify-center">
-                      <Leaf className="w-8 h-8 text-primary/30" aria-hidden />
-                    </div>
-                    <div className="p-6 flex flex-col flex-1">
-                      <span className="text-xs font-bold text-text-secondary/60 uppercase tracking-wide mb-2">{post.category}</span>
-                      <h3 className="text-base font-bold text-text-secondary leading-snug mb-2">{post.title}</h3>
-                      <p className="text-sm text-text-secondary/80 leading-relaxed mb-4 flex-1">{post.excerpt}</p>
-                      <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-text-secondary/60">
-                        <Lock className="w-3 h-3" aria-hidden />
-                        Coming soon
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
             </div>
           )}
         </div>
