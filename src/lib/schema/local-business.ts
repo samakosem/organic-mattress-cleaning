@@ -10,6 +10,7 @@ import {
   GOOGLE_MAPS_URL,
   SCHEMA_SAME_AS,
   SERVICE_AREA_CITIES,
+  LOGO_URL,
 } from "@/lib/constants/business";
 
 export function buildLocalBusinessSchema() {
@@ -21,6 +22,8 @@ export function buildLocalBusinessSchema() {
     description:
       "Eco-friendly, non-toxic organic mattress cleaning serving Los Angeles. Family-safe and pet-safe deep cleaning, sanitizing, stain and odor removal.",
     url: SITE_URL,
+    image: LOGO_URL,
+    logo: LOGO_URL,
     telephone: BUSINESS_PHONE_TEL,
     priceRange: "$$",
     address: {
@@ -45,6 +48,18 @@ export function buildWebsiteSchema() {
     "@id": `${SITE_URL}/#website`,
     url: SITE_URL,
     name: SITE_NAME,
+  };
+}
+
+/** Lean Organization entity referencing the same business identity as LocalBusiness, with logo for brand recognition in search results. */
+export function buildOrganizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: LOGO_URL,
   };
 }
 

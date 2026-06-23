@@ -21,6 +21,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { buildFaqSchema } from "@/lib/schema/faq";
 import { buildServiceSchema } from "@/lib/schema/local-business";
+import { SITE_URL } from "@/lib/constants/business";
 import { SERVICES } from "@/data/services";
 import { SERVICE_AREAS, getAreaHref } from "@/data/serviceAreas";
 import { getImagesForUse, beforeAfterImages } from "@/data/images";
@@ -85,7 +86,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
     { name: service.name, url: service.fullPath },
   ]);
   const faqSchema = buildFaqSchema(service.faqs);
-  const serviceSchema = buildServiceSchema(service.name, service.seoDescription, `https://organicmattresscleaning.com${service.fullPath}`);
+  const serviceSchema = buildServiceSchema(service.name, service.seoDescription, `${SITE_URL}${service.fullPath}`);
 
   const relatedServices = service.relatedServiceSlugs
     .map((s) => SERVICES.find((svc) => svc.slug === s))

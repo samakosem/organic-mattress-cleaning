@@ -3,11 +3,12 @@ import { HeaderSpacer } from "@/components/public/layout/HeaderSpacer";
 import { Footer } from "@/components/public/layout/Footer";
 import { StickyMobileCta } from "@/components/public/layout/StickyMobileCta";
 import { MobileMenuProvider } from "@/components/public/layout/MobileMenuContext";
-import { buildLocalBusinessSchema, buildWebsiteSchema } from "@/lib/schema/local-business";
+import { buildLocalBusinessSchema, buildWebsiteSchema, buildOrganizationSchema } from "@/lib/schema/local-business";
 
 export default function PublicLayout({ children }: { children: React.ReactNode }) {
   const localBusinessSchema = buildLocalBusinessSchema();
   const websiteSchema = buildWebsiteSchema();
+  const organizationSchema = buildOrganizationSchema();
 
   return (
     <>
@@ -18,6 +19,10 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
       />
 
       <MobileMenuProvider>

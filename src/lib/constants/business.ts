@@ -1,7 +1,8 @@
 /** Single source of truth for business facts — schema, footer, header, trust strips. */
 
 export const SITE_NAME = "Organic Mattress Cleaning";
-export const SITE_URL = "https://organicmattresscleaning.com";
+export const SITE_URL = "https://www.organicmattresscleaning.com";
+export const LOGO_URL = `${SITE_URL}/organic-mattress-cleaning-logo.png`;
 
 export const BUSINESS_PHONE = "(800) 735-1242";
 export const BUSINESS_PHONE_TEL = "+18007351242";
