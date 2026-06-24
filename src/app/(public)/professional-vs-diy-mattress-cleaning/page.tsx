@@ -15,7 +15,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Professional vs DIY Mattress Cleaning | Organic Mattress Cleaning",
     description:
-      "Compare professional vs DIY mattress cleaning, including stain treatment, urine odor, drying risk, mattress material concerns, organic cleaning, cost, and when to call a professional in Los Angeles.",
+      "Compare professional vs DIY mattress cleaning for stains, urine odor, drying risks, mattress materials and organic cleaning in Los Angeles.",
     canonical: "/professional-vs-diy-mattress-cleaning",
   });
 }

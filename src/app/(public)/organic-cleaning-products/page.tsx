@@ -30,7 +30,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Organic Mattress Cleaning Products | Non-Toxic Mattress Cleaning Los Angeles",
     description:
-      "Learn about our organic mattress cleaning products, plant-based cleaning approach, and non-toxic process for mattresses, upholstery, baby mattresses, and family homes in Los Angeles.",
+      "Learn about our organic, plant-based mattress cleaning products and non-toxic process for mattresses, upholstery and family homes in Los Angeles.",
     canonical: "/organic-cleaning-products",
   });
 }

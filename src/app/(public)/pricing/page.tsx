@@ -33,7 +33,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Mattress Cleaning Prices Los Angeles | Organic Mattress Cleaning Cost Guide",
     description:
-      "See mattress cleaning prices in Los Angeles, including organic mattress cleaning, stain removal, urine odor treatment, sanitizing, dust mite cleaning, and baby mattress cleaning. Final pricing depends on mattress size, fabric, stain severity, odor level, and cleaning goals.",
+      "See mattress cleaning prices in Los Angeles for organic cleaning, stain removal, odor treatment, sanitizing and dust mite service. Get a free quote.",
     canonical: "/pricing",
   });
 }

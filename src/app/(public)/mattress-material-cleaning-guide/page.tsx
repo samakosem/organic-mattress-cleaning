@@ -15,7 +15,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Mattress Material Cleaning Guide | Organic Mattress Cleaning",
     description:
-      "Learn how mattress material affects cleaning methods, moisture control, stain treatment, drying time, and organic mattress cleaning options for memory foam, latex, hybrid, pillow-top, innerspring, and baby mattresses.",
+      "Learn how mattress material affects cleaning, stain treatment, moisture control and drying time for memory foam, latex, hybrid and pillow-top beds.",
     canonical: "/mattress-material-cleaning-guide",
   });
 }

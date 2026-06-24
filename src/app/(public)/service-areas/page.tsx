@@ -14,7 +14,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Service Areas | Organic Mattress Cleaning Los Angeles",
     description:
-      "Organic Mattress Cleaning provides eco-friendly mattress cleaning across Los Angeles and surrounding communities including Santa Monica, Beverly Hills, Burbank, and more.",
+      "Organic mattress cleaning across Los Angeles, including Santa Monica, Beverly Hills, Burbank, Malibu, Woodland Hills and nearby communities.",
     canonical: "/service-areas",
   });
 }

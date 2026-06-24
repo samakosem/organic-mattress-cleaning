@@ -15,7 +15,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Mattress Stain Guide | Organic Mattress Cleaning",
     description:
-      "Learn what causes mattress stains, which stains are harder to remove, when organic mattress stain treatment can help, and when to call a professional in Los Angeles. Results vary by stain type, age, fabric, and prior cleaning attempts.",
+      "Learn what causes mattress stains, which stains are harder to remove, and when organic mattress stain treatment can help in Los Angeles homes.",
     canonical: "/mattress-stain-guide",
   });
 }

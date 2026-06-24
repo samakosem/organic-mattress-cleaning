@@ -137,7 +137,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Mattress Cleaning in Los Angeles | Organic, Non-Toxic Service",
     description:
-      "Mattress Cleaning in Los Angeles with plant-based, non-toxic stain removal, sanitizing, dust mite treatment and odor removal. Family-safe service, upfront pricing, free quote, open 24/7.",
+      "Organic mattress cleaning in Los Angeles with non-toxic stain, odor, dust mite and sanitizing service. Family-safe, upfront pricing and free quotes.",
     canonical: "/",
     exactTitle: true,
   });

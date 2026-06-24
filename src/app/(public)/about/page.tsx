@@ -34,7 +34,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "About Organic Mattress Cleaning | Los Angeles Non-Toxic Mattress Cleaning",
     description:
-      "Learn about Organic Mattress Cleaning, our non-toxic mattress cleaning approach, organic cleaning solutions, Los Angeles service area, and why families choose us for mattress stains, odors, sanitizing, and indoor fabric care.",
+      "Learn about Organic Mattress Cleaning, our non-toxic process, Los Angeles service area, and family-safe care for stains, odors and sanitizing.",
     canonical: "/about",
   });
 }

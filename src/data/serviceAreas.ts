@@ -208,7 +208,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     ],
     seoTitle: "Mattress Cleaning Malibu, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Malibu, CA. Organic, non-toxic service for stains, odors, dust mites, allergens, and coastal homes. Family-safe, pet-safe, and open 24/7.",
+      "Professional mattress cleaning in Malibu, CA with organic, non-toxic stain, odor, dust mite and allergen treatment. Family-safe and pet-safe.",
     whyEcoFriendly:
       "Malibu's ocean-adjacent air keeps moisture and salt residue lingering in fabric longer than inland homes ever experience, which is exactly the kind of environment where strong chemical deodorizers tend to get reapplied repeatedly without actually resolving the underlying buildup. Plant-based, fast-drying formulas are built to work with that coastal humidity instead of fighting it, addressing odor and residue at the source rather than just masking it between visits.",
     commonIssues: [
@@ -878,7 +878,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     ],
     seoTitle: "Mattress Cleaning Woodland Hills, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Woodland Hills, CA. Organic, non-toxic service for stains, odors, dust mites, allergens, and family homes. Safe for kids, pets, and sensitive sleepers.",
+      "Professional mattress cleaning in Woodland Hills, CA with organic, non-toxic stain, odor, dust mite and allergen treatment. Safe for kids and pets.",
     whyEcoFriendly:
       "Woodland Hills' warmer Valley climate means windows often stay closed against the heat, which traps dust, pollen, and everyday odor indoors rather than letting it air out naturally. Harsh chemical cleaners can add another layer of airborne residue to that already-closed environment, while plant-based, fragrance-free formulas address dust mites and odor at the source without contributing to indoor air quality concerns.",
     commonIssues: [

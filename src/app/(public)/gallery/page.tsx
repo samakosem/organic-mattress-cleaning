@@ -16,7 +16,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Mattress Cleaning Before & After Gallery | Organic Mattress Cleaning Los Angeles",
     description:
-      "View real mattress cleaning before and after photos, stain treatment examples, organic mattress cleaning results, and service photos from Los Angeles homes. Results vary by mattress condition, stain age, fabric type, odor depth, and cleaning goal.",
+      "View mattress cleaning before and after photos, stain treatment examples and organic cleaning results from Los Angeles homes. Results may vary.",
     canonical: "/gallery",
   });
 }

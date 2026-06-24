@@ -15,7 +15,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({
     title: "Mattress Cleaning After-Care Guide | Organic Mattress Cleaning",
     description:
-      "Learn what to do after professional mattress cleaning, including drying time, ventilation, when to put sheets back, when to sleep on the mattress, and how to keep your mattress fresher longer.",
+      "Mattress cleaning after-care guide: drying time, ventilation, when to put sheets back and how to keep your mattress fresh after service.",
     canonical: "/after-care",
   });
 }
