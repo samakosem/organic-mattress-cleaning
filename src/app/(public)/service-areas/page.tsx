@@ -35,7 +35,7 @@ export default function ServiceAreasPage() {
         breadcrumbs={[{ name: "Home", url: "/" }, { name: "Service Areas", url: "/service-areas" }]}
         categoryBadge="Los Angeles & Surrounding Areas"
         heading="Organic Mattress Cleaning Service Areas"
-        subheading="We bring eco-friendly, non-toxic mattress cleaning directly to your home across Los Angeles and the surrounding communities."
+        subheading="Looking for mattress cleaning near me? We bring eco-friendly, non-toxic mattress cleaning directly to your home across Los Angeles and the surrounding communities."
         ctaPrimaryLabel="Get a Free Quote"
         ctaPrimaryUrl="/contact"
         minHeight="min-h-[60vh]"

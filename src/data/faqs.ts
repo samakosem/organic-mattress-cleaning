@@ -33,4 +33,8 @@ export const GENERAL_FAQS: FaqItem[] = [
     q: "How much does mattress cleaning cost?",
     a: "Pricing depends on your mattress size and current condition, so we don't quote a flat number upfront. Reach out for a free, no-obligation quote and we'll give you clear pricing before any work begins.",
   },
+  {
+    q: "Is there mattress cleaning near me in Los Angeles?",
+    a: "Yes. We're a mobile mattress cleaning service that comes directly to your home anywhere in Los Angeles and surrounding communities, so there's no need to find a drop-off location near you. Tell us your neighborhood when requesting a quote and we'll confirm availability.",
+  },
 ];

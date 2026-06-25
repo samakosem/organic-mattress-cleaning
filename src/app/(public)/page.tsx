@@ -113,7 +113,7 @@ const TRUST_CARDS = [
   {
     Icon: MapPin,
     title: "Los Angeles Service",
-    body: "Mobile mattress cleaning for Los Angeles homes, apartments, condos, and surrounding LA communities.",
+    body: "Searching for mattress cleaning near me? Our mobile team serves Los Angeles homes, apartments, condos, and surrounding LA communities directly.",
     href: "/service-areas",
   },
   {

@@ -112,6 +112,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
         q: "How often should a mattress be cleaned in a coastal climate?",
         a: "Many Santa Monica households benefit from cleaning slightly more often than inland areas due to humidity, often every six months or so depending on usage.",
       },
+      {
+        q: "Do you offer mattress cleaning near the Third Street Promenade and Ocean Park areas?",
+        a: "Yes, our mobile team regularly services homes, apartments, and condos throughout Santa Monica, including the Third Street Promenade, Ocean Park, and Sunset Park neighborhoods.",
+      },
+      {
+        q: "Is parking an issue for mobile service in busy Santa Monica neighborhoods?",
+        a: "Not usually. Let us know about any building-specific parking or loading details when scheduling, and our technicians will plan accordingly.",
+      },
+      {
+        q: "Do you work with renters as well as homeowners?",
+        a: "Yes, we regularly serve renters in Santa Monica's many apartment buildings as well as homeowners, with the same organic, non-toxic process either way.",
+      },
     ],
     seoTitle: "Mattress Cleaning Santa Monica, CA | Organic Mattress Cleaning",
     seoDescription:
@@ -278,6 +290,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
         q: "Will harsh chemicals be used on delicate mattress fabrics?",
         a: "No, we use organic, plant-based solutions throughout, which is especially important for delicate or specialty fabrics that can be damaged by harsh solvents.",
       },
+      {
+        q: "Do you serve homes near Rodeo Drive and the Beverly Hills Flats?",
+        a: "Yes, our mobile team regularly services homes throughout Beverly Hills, including the Flats, Trousdale Estates, and properties near Rodeo Drive.",
+      },
+      {
+        q: "Is the process safe for allergy-sensitive household members?",
+        a: "Yes, our fragrance-free, organic formulas are designed to be gentle on allergy-sensitive sleepers while still providing a thorough deep clean.",
+      },
+      {
+        q: "Can you accommodate guard-gated or security-controlled properties?",
+        a: "Yes, just let us know about gate codes, security check-in, or any access requirements when scheduling, and we'll plan our visit accordingly.",
+      },
     ],
     seoTitle: "Mattress Cleaning Beverly Hills, CA | Organic Mattress Cleaning",
     seoDescription:
@@ -349,6 +373,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
       {
         q: "Is the process safe if I have multiple pets at home?",
         a: "Yes, our organic, enzyme-based formulas are safe for households with multiple pets once the mattress has fully dried.",
+      },
+      {
+        q: "Do you service the Sunset Strip and Norma Triangle areas?",
+        a: "Yes, our mobile team regularly covers all of West Hollywood, including the Sunset Strip, Norma Triangle, and Boystown neighborhoods.",
+      },
+      {
+        q: "Do I need HOA or building management approval for mobile cleaning?",
+        a: "Most buildings don't require special approval, but let us know about any HOA rules or check-in procedures when booking so we can plan around them.",
+      },
+      {
+        q: "Are renters able to book this service, or only homeowners?",
+        a: "Renters are welcome to book directly. Many of our West Hollywood customers are renters in apartment and condo buildings.",
       },
     ],
     seoTitle: "Mattress Cleaning West Hollywood, CA | Organic Mattress Cleaning",
@@ -422,6 +458,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
         q: "Is the cleaning process disruptive to neighbors in shared buildings?",
         a: "No, our process is quiet and contained to your unit, making it suitable for apartment and multi-tenant buildings.",
       },
+      {
+        q: "Do you service homes near Hollywood Boulevard and Franklin Village?",
+        a: "Yes, our mobile team covers neighborhoods throughout Hollywood, including Franklin Village, the Hollywood Hills foothills, and areas near Hollywood Boulevard.",
+      },
+      {
+        q: "Is the process safe for allergy-sensitive renters in older buildings?",
+        a: "Yes, our organic, fragrance-free formulas are designed to be gentle for allergy-sensitive sleepers, which can matter in older buildings with dustier indoor air.",
+      },
+      {
+        q: "Do you clean mattresses for short-term renters between leases?",
+        a: "Yes, we can clean a mattress between tenants or before move-in, helping freshen a unit that's had previous occupants.",
+      },
     ],
     seoTitle: "Mattress Cleaning Hollywood, CA | Organic Mattress Cleaning",
     seoDescription:
@@ -493,6 +541,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
       {
         q: "Is the process safe for households with several pets?",
         a: "Yes, our organic formulas are designed to be safe for households with multiple pets once mattresses are fully dry.",
+      },
+      {
+        q: "Do you service homes near Magnolia Park and Rancho Equestrian?",
+        a: "Yes, our mobile team covers residential neighborhoods throughout Burbank, including Magnolia Park, the Media District, and the Rancho Equestrian area.",
+      },
+      {
+        q: "Do you clean mattresses in apartments and condos, not just houses?",
+        a: "Yes, we regularly serve apartments and condos throughout Burbank in addition to single-family homes.",
+      },
+      {
+        q: "Is this a good option for kids with seasonal allergies?",
+        a: "Yes, our fragrance-free, organic deep cleaning can help reduce allergen buildup in kids' mattresses, which many Burbank parents ask about during allergy season.",
       },
     ],
     seoTitle: "Mattress Cleaning Burbank, CA | Organic Mattress Cleaning",
@@ -566,6 +626,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
         q: "Is this a good option for households managing allergies and mobility needs together?",
         a: "Yes, our hypoallergenic, non-toxic process is designed to work well across a household with a range of needs, from allergy sensitivity to general comfort and hygiene.",
       },
+      {
+        q: "Do you service neighborhoods near the Americana at Brand and Adams Hill?",
+        a: "Yes, our mobile team covers residential neighborhoods throughout Glendale, including areas near the Americana at Brand, Adams Hill, and Verdugo Woodlands.",
+      },
+      {
+        q: "Do you serve condo and apartment buildings, not just single-family homes?",
+        a: "Yes, we regularly serve condos and apartment buildings throughout Glendale in addition to single-family homes.",
+      },
+      {
+        q: "How long does it take for the mattress to dry after cleaning?",
+        a: "Most mattresses are dry to the touch within a few hours thanks to our low-moisture extraction process, though full drying time can vary by mattress size and material.",
+      },
     ],
     seoTitle: "Mattress Cleaning Glendale, CA | Organic Mattress Cleaning",
     seoDescription:
@@ -637,6 +709,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
       {
         q: "Do you serve neighborhoods throughout Pasadena?",
         a: "Yes, our mobile team services residential neighborhoods throughout Pasadena. Let us know your area when requesting a quote.",
+      },
+      {
+        q: "Do you cover homes near Old Town Pasadena and Bungalow Heaven?",
+        a: "Yes, our mobile team regularly services homes near Old Town Pasadena, Bungalow Heaven, and the Linda Vista hillside neighborhoods.",
+      },
+      {
+        q: "Is the process safe for kids and pets in family homes?",
+        a: "Yes, our organic, non-toxic formulas are family-safe and pet-safe, suitable for Pasadena's many multi-generational and family-oriented households.",
+      },
+      {
+        q: "Do you clean mattresses in condos as well as historic single-family homes?",
+        a: "Yes, we service condos and apartment buildings throughout Pasadena in addition to historic single-family homes.",
       },
     ],
     seoTitle: "Mattress Cleaning Pasadena, CA | Organic Mattress Cleaning",
@@ -710,6 +794,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
         q: "How long does cleaning a larger mattress take?",
         a: "Larger mattresses such as king-size typically take a bit longer than standard sizes. We'll give you an accurate time estimate based on your specific mattress.",
       },
+      {
+        q: "Do you service homes south of the boulevard near Encino Hills?",
+        a: "Yes, our mobile team covers both the flatland neighborhoods and the Encino Hills area south of Ventura Boulevard.",
+      },
+      {
+        q: "Is the process safe for households with pets and allergy concerns?",
+        a: "Yes, our organic, fragrance-free formulas are pet-safe and designed to help reduce allergen buildup for allergy-sensitive household members.",
+      },
+      {
+        q: "Do you clean mattresses in condos as well as single-family homes?",
+        a: "Yes, we regularly service condos and apartment buildings throughout Encino in addition to single-family and hillside homes.",
+      },
     ],
     seoTitle: "Mattress Cleaning Encino, CA | Organic Mattress Cleaning",
     seoDescription:
@@ -781,6 +877,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
       {
         q: "How quickly can you get someone out for a same-week appointment?",
         a: "Availability varies, but we work to accommodate prompt scheduling whenever possible. Contact us directly for current availability in Sherman Oaks.",
+      },
+      {
+        q: "Do you service homes near the Sherman Oaks Galleria and Ventura Boulevard?",
+        a: "Yes, our mobile team regularly covers neighborhoods near the Sherman Oaks Galleria, Ventura Boulevard, and the surrounding flatland streets.",
+      },
+      {
+        q: "Is the cleaning safe for households with kids and pets?",
+        a: "Yes, our organic, non-toxic formulas are family-safe and pet-safe, which fits well with Sherman Oaks' many active families.",
+      },
+      {
+        q: "Do you service condos and townhomes as well as single-family houses?",
+        a: "Yes, we regularly clean mattresses in condos and townhomes throughout Sherman Oaks in addition to single-family homes.",
       },
     ],
     seoTitle: "Mattress Cleaning Sherman Oaks, CA | Organic Mattress Cleaning",
@@ -948,6 +1056,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
         q: "Can you work around a production schedule that changes frequently?",
         a: "Yes, we understand scheduling needs can shift on short notice in this area, and we do our best to accommodate rescheduling requests when possible.",
       },
+      {
+        q: "Do you service homes near Ventura Boulevard and Fryman Canyon?",
+        a: "Yes, our mobile team covers Studio City's flat-street neighborhoods near Ventura Boulevard as well as hillside properties closer to Fryman Canyon.",
+      },
+      {
+        q: "Is the cleaning process suitable for households with allergy-sensitive kids?",
+        a: "Yes, our fragrance-free, organic process is designed to help reduce allergen buildup, which works well for Studio City's many families with young kids.",
+      },
+      {
+        q: "Will pets at home be disturbed by the equipment?",
+        a: "Our equipment runs at a moderate noise level, and most pets adjust quickly. Let us know if you'd like pets kept in a separate room during the visit.",
+      },
     ],
     seoTitle: "Mattress Cleaning Studio City, CA | Organic Mattress Cleaning",
     seoDescription:
@@ -1019,6 +1139,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
       {
         q: "Is the cleaning solution safe for households with several kids?",
         a: "Yes, our organic, non-toxic formulas are designed to be safe for households with multiple children sharing bedroom space.",
+      },
+      {
+        q: "Do you service apartment communities near Van Nuys Boulevard and the Civic Center?",
+        a: "Yes, our mobile team regularly covers apartment communities and homes near Van Nuys Boulevard, the Civic Center area, and surrounding residential streets.",
+      },
+      {
+        q: "Can this help with allergy concerns in shared bedrooms?",
+        a: "Yes, our fragrance-free organic process can help reduce dust mites and allergen buildup, which matters in shared bedrooms with multiple kids.",
+      },
+      {
+        q: "How soon can the mattress be used after cleaning?",
+        a: "Most mattresses are dry to the touch within a few hours thanks to our low-moisture extraction process, though this can vary by mattress size and material.",
       },
     ],
     seoTitle: "Mattress Cleaning Van Nuys, CA | Organic Mattress Cleaning",
@@ -1092,6 +1224,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
         q: "Do you offer service for first apartments or smaller budgets?",
         a: "We provide clear, upfront quotes based on mattress size and condition, so you know the cost before committing, regardless of mattress size.",
       },
+      {
+        q: "Do you cover the NoHo Arts District and nearby Valley Village?",
+        a: "Yes, our mobile team services the NoHo Arts District core as well as nearby Valley Village and surrounding North Hollywood neighborhoods.",
+      },
+      {
+        q: "Is the process safe for growing families with pets?",
+        a: "Yes, our organic, non-toxic process is family-safe and pet-safe, which fits well with North Hollywood's mix of young families and pet owners.",
+      },
+      {
+        q: "Can you handle a mattress that's been in storage or recently moved in?",
+        a: "Yes, we can clean mattresses that have been in storage or recently brought into a new apartment, helping refresh them before regular use begins.",
+      },
     ],
     seoTitle: "Mattress Cleaning North Hollywood, CA | Organic Mattress Cleaning",
     seoDescription:
@@ -1163,6 +1307,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
       {
         q: "How do I get an accurate quote for my mattress?",
         a: "Reach out with your mattress size and any specific concerns, and we'll provide a clear, free quote before scheduling your appointment.",
+      },
+      {
+        q: "Do you cover homes near Downtown Culver City and the Arts District?",
+        a: "Yes, our mobile team services Downtown Culver City, the Arts District, and surrounding residential streets near the historic core.",
+      },
+      {
+        q: "Is the process safe for young families with kids and pets?",
+        a: "Yes, our organic, non-toxic formulas are family-safe and pet-safe, suitable for Culver City's mix of young professionals and growing families.",
+      },
+      {
+        q: "How long before the mattress can be slept on again?",
+        a: "Most mattresses are dry to the touch within a few hours thanks to our low-moisture extraction process, with exact timing depending on size and material.",
       },
     ],
     seoTitle: "Mattress Cleaning Culver City, CA | Organic Mattress Cleaning",
@@ -1236,6 +1392,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
         q: "How often should marina-area residents clean their mattress?",
         a: "Due to higher humidity exposure, marina-area households may benefit from cleaning somewhat more often than inland neighborhoods, though we can recommend a schedule for your specific home.",
       },
+      {
+        q: "Do you service buildings along Admiralty Way and the marina docks?",
+        a: "Yes, our mobile team regularly services condo and apartment buildings along Admiralty Way and throughout the marina-adjacent neighborhoods.",
+      },
+      {
+        q: "Is the process safe for households with pets and young kids?",
+        a: "Yes, our organic, non-toxic formulas are family-safe and pet-safe, suitable for Marina del Rey's mix of families and pet owners.",
+      },
+      {
+        q: "Is parking or gated building access an issue for mobile service?",
+        a: "Not usually. Let us know about gate codes, guest parking, or loading details when scheduling, and we'll plan our visit accordingly.",
+      },
     ],
     seoTitle: "Mattress Cleaning Marina del Rey, CA | Organic Mattress Cleaning",
     seoDescription:
@@ -1308,6 +1476,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
         q: "Do you service canal-front and bungalow-style homes?",
         a: "Yes, our mobile team services Venice's full range of home styles, including canal-front cottages and classic beach bungalows.",
       },
+      {
+        q: "Do you cover homes near Abbot Kinney and Rose Avenue?",
+        a: "Yes, our mobile team regularly services homes and apartments near Abbot Kinney Boulevard, Rose Avenue, and the Venice canals.",
+      },
+      {
+        q: "Is the process safe for renters as well as homeowners?",
+        a: "Yes, renters are welcome to book directly. Many of our Venice customers are renters in apartments and shared bungalows.",
+      },
+      {
+        q: "Is the cleaning safe for households with pets and kids?",
+        a: "Yes, our organic, non-toxic formulas are family-safe and pet-safe, fitting Venice's mix of families, pet owners, and roommates.",
+      },
     ],
     seoTitle: "Mattress Cleaning Venice, CA | Organic Mattress Cleaning",
     seoDescription:
@@ -1379,6 +1559,18 @@ export const SERVICE_AREAS: ServiceArea[] = [
       {
         q: "Is the cleaning solution safe for kids' and guest bedrooms alike?",
         a: "Yes, our organic, non-toxic formulas are safe across every bedroom in the house, whether it's a child's room or a guest suite.",
+      },
+      {
+        q: "Do you service homes near Brentwood Village and San Vicente Boulevard?",
+        a: "Yes, our mobile team regularly services homes near Brentwood Village, San Vicente Boulevard, and the surrounding residential streets.",
+      },
+      {
+        q: "Is the process suitable for allergy-sensitive family members?",
+        a: "Yes, our fragrance-free, organic formulas are designed to help reduce allergen buildup for allergy-sensitive sleepers in family bedrooms.",
+      },
+      {
+        q: "How soon after cleaning can the bed be made up again?",
+        a: "Most mattresses are dry to the touch within a few hours thanks to our low-moisture extraction process, with exact timing depending on mattress size.",
       },
     ],
     seoTitle: "Mattress Cleaning Brentwood, CA | Organic Mattress Cleaning",
