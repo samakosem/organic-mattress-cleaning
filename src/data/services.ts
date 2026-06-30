@@ -72,9 +72,9 @@ export const SERVICES: ServicePage[] = [
         a: "Yes. Our formulas are biodegradable and avoid the harsh synthetic chemicals found in many conventional cleaning products, which means less environmental impact both in your home and after they're rinsed away.",
       },
     ],
-    seoTitle: "Organic Mattress Cleaning Los Angeles | Non-Toxic",
+    seoTitle: "Organic Mattress Cleaning Los Angeles | Plant-Based, Non-Toxic",
     seoDescription:
-      "Plant-based, non-toxic mattress cleaning in Los Angeles. Safe for kids and pets, zero harsh chemicals. Open 24/7. Request your free quote today.",
+      "Plant-based, non-toxic organic mattress cleaning in Los Angeles. Safe for kids, pets, and allergy-sensitive homes. No bleach, no ammonia. Free quotes, open 24/7.",
     fullPath: "/organic-mattress-cleaning",
     whatItIs:
       "Organic mattress cleaning is our flagship, whole-process approach to refreshing a mattress using plant-derived surfactants, mineral-based deodorizers, and biodegradable enzyme treatments in place of bleach, ammonia, and synthetic fragrance. It is the foundation every other service on this site builds from, applied to general upkeep rather than one specific problem.",
@@ -134,7 +134,7 @@ export const SERVICES: ServicePage[] = [
         a: "This page describes our core eco-friendly philosophy and standard process. Our general Mattress Cleaning service focuses more specifically on deep stain, sweat, and odor removal using that same organic foundation.",
       },
     ],
-    relatedServiceSlugs: ["mattress-cleaning", "allergy-mattress-cleaning", "baby-mattress-cleaning"],
+    relatedServiceSlugs: ["mattress-cleaning", "allergy-mattress-cleaning", "dust-mite-mattress-cleaning"],
   },
   {
     slug: "mattress-cleaning",
@@ -207,9 +207,9 @@ export const SERVICES: ServicePage[] = [
         a: "Pricing depends on mattress size and current condition. Request a free quote and we'll provide a clear, upfront price before any work begins.",
       },
     ],
-    seoTitle: "Mattress Cleaning Los Angeles | Organic Mattress Cleaning",
+    seoTitle: "Mattress Cleaning Los Angeles | Deep Cleaning, Stains & Odors",
     seoDescription:
-      "Professional mattress cleaning in LA removes stains, sweat, and odors with deep extraction equipment. Eco-friendly process. Free quotes, open 24/7.",
+      "Professional mattress cleaning in Los Angeles removes stains, sweat, body oils, and odors using deep extraction equipment. Eco-friendly process. Free quotes, open 24/7.",
     fullPath: "/mattress-cleaning",
     whatItIs:
       "Mattress cleaning is our general deep-cleaning service for the everyday buildup every mattress accumulates: sweat, body oils, dust, surface grime, and the dullness and odor that come with it. It's a broader, more practical service than a single-issue treatment, built for the routine maintenance every mattress eventually needs.",
@@ -269,7 +269,7 @@ export const SERVICES: ServicePage[] = [
         a: "It's built on the same eco-friendly product standard, but this service is focused specifically on general deep cleaning of stains, sweat, and odor rather than being a broader philosophy page.",
       },
     ],
-    relatedServiceSlugs: ["mattress-stain-removal", "mattress-sanitizing", "organic-mattress-cleaning"],
+    relatedServiceSlugs: ["organic-mattress-cleaning", "mattress-stain-removal", "urine-odor-removal"],
   },
   {
     slug: "mattress-sanitizing",
@@ -342,9 +342,9 @@ export const SERVICES: ServicePage[] = [
         a: "Cost depends on mattress size and the scope of treatment needed. Contact us for a free, no-obligation quote.",
       },
     ],
-    seoTitle: "Mattress Sanitizing Los Angeles | Organic Mattress Cleaning",
+    seoTitle: "Mattress Sanitizing Los Angeles | Steam & Organic Treatment",
     seoDescription:
-      "Professional mattress sanitizing in LA uses high-heat steam and organic agents to target bacteria and germs. Non-toxic process. Free quotes, 24/7.",
+      "Professional mattress sanitizing in Los Angeles uses high-heat steam and organic agents to reduce bacteria and germs. Non-toxic, family-safe. Free quotes, open 24/7.",
     fullPath: "/mattress-sanitizing",
     whatItIs:
       "Mattress sanitizing is a hygiene-focused service that uses high-heat steam alongside organic solutions to help sanitize a sleep surface, going beyond what stain or odor cleaning addresses. It's positioned around freshness and a cleaner sleep surface, not as a medical or disinfecting treatment.",
@@ -404,7 +404,7 @@ export const SERVICES: ServicePage[] = [
         a: "Yes, many customers pair sanitizing with our stain removal or urine odor removal services in the same visit for a more complete result.",
       },
     ],
-    relatedServiceSlugs: ["urine-odor-removal", "mattress-cleaning", "allergy-mattress-cleaning"],
+    relatedServiceSlugs: ["mattress-cleaning", "urine-odor-removal", "baby-mattress-cleaning"],
   },
   {
     slug: "mattress-stain-removal",
@@ -477,9 +477,9 @@ export const SERVICES: ServicePage[] = [
         a: "Cost depends on the number, size, and type of stains being treated. Reach out for a free quote and we'll walk you through pricing before starting.",
       },
     ],
-    seoTitle: "Mattress Stain Removal Los Angeles | Organic Mattress Cleaning",
+    seoTitle: "Mattress Stain Removal Los Angeles | Blood, Urine, Food & Sweat",
     seoDescription:
-      "Organic mattress stain removal in LA for blood, urine, food, and sweat stains. Enzyme-based, non-toxic treatment. Free quotes. Open 24/7.",
+      "Organic mattress stain removal in Los Angeles for blood, urine, food, wine, and sweat stains. Enzyme-based, non-toxic treatment. Free quotes. Open 24/7.",
     fullPath: "/mattress-stain-removal",
     whatItIs:
       "Mattress stain removal is a targeted spot-treatment service for specific marks, including blood, food, sweat, and general spills, using enzyme-based and plant-derived stain lifters matched to the stain type rather than one generic chemical. It's a focused alternative to a full mattress clean when the issue is isolated to a particular spot.",
@@ -540,7 +540,7 @@ export const SERVICES: ServicePage[] = [
         a: "Yes, our technicians identify each stain individually and apply the matched treatment, so blood, food, and sweat stains on the same mattress can all be addressed in a single appointment.",
       },
     ],
-    relatedServiceSlugs: ["urine-odor-removal", "mattress-cleaning", "mattress-sanitizing"],
+    relatedServiceSlugs: ["urine-odor-removal", "organic-mattress-cleaning", "mattress-cleaning"],
   },
   {
     slug: "dust-mite-mattress-cleaning",
@@ -613,9 +613,9 @@ export const SERVICES: ServicePage[] = [
         a: "Pricing is based on mattress size and condition. Contact us for a free quote tailored to your specific mattress.",
       },
     ],
-    seoTitle: "Dust Mite Mattress Cleaning LA | Organic Mattress Cleaning",
+    seoTitle: "Dust Mite Mattress Cleaning Los Angeles | Deep Allergen Extraction",
     seoDescription:
-      "Deep extraction dust mite mattress cleaning in LA targets allergens for easier breathing. Fragrance-free, organic process. Free quotes, open 24/7.",
+      "Dust mite mattress cleaning in Los Angeles using deep extraction to reduce allergens. Fragrance-free, organic process for allergy-sensitive homes. Free quotes, open 24/7.",
     fullPath: "/dust-mite-mattress-cleaning",
     whatItIs:
       "Dust mite mattress cleaning is a deep-extraction service focused specifically on dust mites and the allergen particles they leave behind in mattress padding. Unlike general cleaning, the entire process, from pre-treatment to drying, is built around reducing exposure to this one specific allergen source for sensitive sleepers.",
@@ -675,7 +675,7 @@ export const SERVICES: ServicePage[] = [
         a: "This service is focused specifically on dust mites and their allergen particles within mattress padding, while our allergy mattress cleaning service takes a broader approach covering dust, dander, and other debris for allergy-sensitive homes.",
       },
     ],
-    relatedServiceSlugs: ["allergy-mattress-cleaning", "organic-mattress-cleaning", "baby-mattress-cleaning"],
+    relatedServiceSlugs: ["allergy-mattress-cleaning", "organic-mattress-cleaning", "mattress-sanitizing"],
   },
   {
     slug: "urine-odor-removal",
@@ -748,9 +748,9 @@ export const SERVICES: ServicePage[] = [
         a: "Pricing depends on the size and number of affected areas. Contact us for a free, no-obligation quote.",
       },
     ],
-    seoTitle: "Urine Odor Removal Los Angeles | Organic Mattress Cleaning",
+    seoTitle: "Urine Odor Removal from Mattress Los Angeles | Enzyme Treatment",
     seoDescription:
-      "Enzyme-based urine odor removal for mattresses in LA. Breaks down odor at the source, safe for kids and pets. Free quotes, open 24/7.",
+      "Enzyme-based urine odor removal for mattresses in Los Angeles. Breaks down pet and human urine odor at the source. Safe for kids and pets. Free quotes, open 24/7.",
     fullPath: "/urine-odor-removal",
     whatItIs:
       "Urine odor removal is an enzyme-based, organic treatment that targets the uric acid crystals left behind by both pet accidents and child bedwetting incidents, addressing the odor source rather than masking it with fragrance. It's a discreet, judgment-free service built around one specific, common household problem.",
@@ -810,7 +810,7 @@ export const SERVICES: ServicePage[] = [
         a: "Yes, urine odor and the visible stain it often leaves behind are commonly treated together in the same visit for a more complete result.",
       },
     ],
-    relatedServiceSlugs: ["mattress-stain-removal", "baby-mattress-cleaning", "mattress-sanitizing"],
+    relatedServiceSlugs: ["mattress-stain-removal", "baby-mattress-cleaning", "organic-mattress-cleaning"],
   },
   {
     slug: "allergy-mattress-cleaning",
@@ -883,9 +883,9 @@ export const SERVICES: ServicePage[] = [
         a: "Cost depends on mattress size and condition. Reach out for a free quote and we'll provide clear pricing upfront.",
       },
     ],
-    seoTitle: "Allergy Mattress Cleaning LA | Organic Mattress Cleaning",
+    seoTitle: "Allergy Mattress Cleaning Los Angeles | Hypoallergenic, Fragrance-Free",
     seoDescription:
-      "Hypoallergenic, fragrance-free mattress cleaning in LA designed for allergy-sensitive homes. Deep allergen extraction. Free quotes. Open 24/7.",
+      "Hypoallergenic, fragrance-free allergy mattress cleaning in Los Angeles. Deep extraction reduces dust, dander, and allergens for sensitive homes. Free quotes. Open 24/7.",
     fullPath: "/allergy-mattress-cleaning",
     whatItIs:
       "Allergy mattress cleaning is a hypoallergenic, fragrance-free service designed for allergy-sensitive homes that want a cleaner, fresher sleep environment. It takes a broader approach than our dust mite service, addressing dust, pet dander, and general debris together rather than focusing on one specific allergen source.",
@@ -945,7 +945,7 @@ export const SERVICES: ServicePage[] = [
         a: "Dust mite cleaning focuses specifically on dust mites and their allergen particles, while allergy mattress cleaning takes a broader approach covering dust, pet dander, and general debris for allergy-sensitive homes.",
       },
     ],
-    relatedServiceSlugs: ["dust-mite-mattress-cleaning", "organic-mattress-cleaning", "baby-mattress-cleaning"],
+    relatedServiceSlugs: ["dust-mite-mattress-cleaning", "organic-mattress-cleaning", "mattress-sanitizing"],
   },
   {
     slug: "baby-mattress-cleaning",
@@ -1018,9 +1018,9 @@ export const SERVICES: ServicePage[] = [
         a: "Pricing depends on the mattress size and condition. Contact us for a free quote with clear, upfront pricing.",
       },
     ],
-    seoTitle: "Baby Mattress Cleaning LA | Organic Mattress Cleaning",
+    seoTitle: "Baby & Crib Mattress Cleaning Los Angeles | Non-Toxic, Infant-Safe",
     seoDescription:
-      "Ultra-gentle, non-toxic baby and crib mattress cleaning in LA. Safe for infants, no harsh chemicals. Free quotes. Open 24/7 mobile service.",
+      "Ultra-gentle, non-toxic baby and crib mattress cleaning in Los Angeles. No bleach, no ammonia, no synthetic fragrance. Safe for infants. Free quotes. Open 24/7.",
     fullPath: "/baby-mattress-cleaning",
     whatItIs:
       "Baby mattress cleaning is a dedicated, ultra-gentle service for crib, bassinet, and toddler mattresses, using nursery-safe, plant-derived formulas chosen for infant safety rather than general-purpose cleaning products. It exists because a baby's prolonged, direct contact with that surface calls for a different standard than an adult mattress.",
@@ -1080,6 +1080,6 @@ export const SERVICES: ServicePage[] = [
         a: "Yes, this is a common reason families book this service, giving a secondhand crib mattress a gentle, non-toxic refresh before a baby uses it.",
       },
     ],
-    relatedServiceSlugs: ["urine-odor-removal", "organic-mattress-cleaning", "allergy-mattress-cleaning"],
+    relatedServiceSlugs: ["urine-odor-removal", "allergy-mattress-cleaning", "mattress-sanitizing"],
   },
 ];
