@@ -36,7 +36,14 @@ export function buildLocalBusinessSchema() {
       addressCountry: "US",
     },
     areaServed: SERVICE_AREA_CITIES.map((name) => ({ "@type": "City", name })),
-    openingHours: BUSINESS_HOURS_DISPLAY === "Open 24/7" ? "Mo-Su 00:00-23:59" : undefined,
+    openingHoursSpecification: BUSINESS_HOURS_DISPLAY === "Open 24/7" ? [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        opens: "00:00",
+        closes: "23:59",
+      },
+    ] : undefined,
     sameAs: SCHEMA_SAME_AS,
     hasMap: GOOGLE_MAPS_URL,
   };
@@ -52,6 +59,14 @@ export function buildWebsiteSchema() {
     alternateName: [`${SITE_NAME} Los Angeles`, `${SITE_NAME} LA`],
     publisher: {
       "@id": `${SITE_URL}/#organization`,
+    },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_URL}/?s={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
     },
   };
 }

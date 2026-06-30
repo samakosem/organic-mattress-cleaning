@@ -29,6 +29,6 @@ export function buildBlogPostingSchema({ title, description, slug, datePublished
       name: SITE_NAME,
       url: SITE_URL,
     },
-    mainEntityOfPage: url,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
   };
 }

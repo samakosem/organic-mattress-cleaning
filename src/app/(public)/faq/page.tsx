@@ -25,8 +25,10 @@ export default function FaqPage() {
     { name: "Home", url: "/" },
     { name: "FAQ", url: "/faq" },
   ]);
-  const allFaqs = [...GENERAL_FAQS, ...SERVICES.flatMap((s) => s.faqs)];
-  const faqSchema = buildFaqSchema(allFaqs);
+  // Schema only covers FAQs that are fully rendered as visible accordions on this page.
+  // Per-service FAQs appear only as 2-question previews, not full accordions, so
+  // they live in their own service page FAQPage schema instead.
+  const faqSchema = buildFaqSchema(GENERAL_FAQS);
 
   return (
     <>
