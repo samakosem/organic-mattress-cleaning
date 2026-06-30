@@ -564,6 +564,290 @@ export const BLOG_POSTS: BlogPost[] = [
     relatedAreaSlugs: ["los-angeles", "santa-monica", "beverly-hills"],
     isPublished: true,
   },
+  {
+    slug: "mattress-cleaning-cost-los-angeles",
+    title: "How Much Does Mattress Cleaning Cost in Los Angeles?",
+    category: "Mattress Cleaning Tips",
+    excerpt:
+      "A clear breakdown of what mattress cleaning costs in Los Angeles, what drives pricing up or down, and how to get an accurate quote.",
+    seoTitle: "Mattress Cleaning Cost Los Angeles | Organic Mattress Cleaning",
+    seoDescription:
+      "Understand mattress cleaning costs in Los Angeles: starting prices by size, what affects the final quote, and when organic professional cleaning makes sense.",
+    datePublished: "2026-07-01",
+    readMinutes: 7,
+    intro: [
+      "One of the most common questions we hear before a first booking is a simple one: how much does mattress cleaning actually cost in Los Angeles? It's a fair question, and the honest answer is that it depends on several factors, but the range is more predictable than most people expect.",
+      "This guide walks through the typical starting prices for professional mattress cleaning in Los Angeles by mattress size, the main factors that can move a quote higher or lower, and how to get an accurate number for your specific situation before scheduling a visit.",
+      "We cover costs for standard mattress cleaning as well as add-on treatments like stain removal, urine odor removal, and sanitizing, since these are often bundled into the same visit and affect the total differently depending on what the mattress actually needs.",
+    ],
+    answerBlock: [
+      {
+        q: "How much does mattress cleaning cost in Los Angeles?",
+        a: "Professional mattress cleaning in Los Angeles typically starts around $89 for a twin, $129 for a queen, and $149 for a king. Final pricing depends on mattress size, stain and odor conditions, fabric type, and whether additional treatments like sanitizing or urine odor removal are needed.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Starting Prices by Mattress Size",
+        body: [
+          "The most straightforward way to think about mattress cleaning cost is by mattress size, since that's the primary driver of how much time and product a visit requires. For professional organic mattress cleaning in Los Angeles, starting prices generally look like this: twin mattresses begin around $89, full-size around $109, queen around $129, and king or California king around $149. Crib and baby mattresses typically start lower, around $59, since they're smaller and use gentler treatments.",
+          "These are starting points, not flat rates. The condition of the mattress, the fabric type, and whether any add-on treatments are needed all play into where the final quote lands within or above that range. Our full mattress cleaning price guide covers the typical ranges in more detail, including what's included at each level.",
+        ],
+      },
+      {
+        heading: "What Drives the Price Up",
+        body: [
+          "Several factors consistently push a mattress cleaning quote above the starting price. Deep or large stains require targeted pre-treatment, more time, and sometimes multiple passes, which adds to the cost. Urine odor is the most common add-on, and it's priced separately from routine cleaning because it requires enzyme-based treatment rather than general cleaning product, typically adding $49 to $149 depending on how deeply the odor has penetrated the mattress.",
+          "Mattress fabric also matters. Memory foam, pillow-top, and latex mattresses require different handling than standard innerspring or hybrid constructions, and that can affect both the products used and the time required. Access factors like stairs, high-rise buildings, or limited parking occasionally factor in as well, so it's worth mentioning your building setup when requesting a quote.",
+          "Two-sided cleaning roughly doubles the surface area, which typically adds $40 to $100 depending on mattress size. If both sides need attention, it's usually worth doing in a single visit rather than scheduling separate visits.",
+        ],
+      },
+      {
+        heading: "What Keeps the Price Lower",
+        body: [
+          "A mattress in good general condition without deep stains or odors typically lands at or close to the starting price for its size. Routine cleaning visits, where the goal is freshening and dust mite reduction rather than tackling a specific problem, are the most straightforward and predictable in terms of cost.",
+          "Cleaning multiple mattresses in the same home visit is often more efficient from a scheduling and travel standpoint, which can be reflected in the overall quote. Mentioning how many mattresses you need cleaned when requesting a quote gives us the full picture upfront rather than discovering mid-visit that a second mattress needs attention.",
+        ],
+      },
+      {
+        heading: "Add-On Treatments and What They Cost",
+        body: [
+          "Beyond the base cleaning, the most common add-on treatments and their typical price ranges are: stain removal at $35 to $125 depending on stain type, size, age, and fabric; urine odor removal at $49 to $149 depending on depth of penetration; and sanitizing at $25 to $75 depending on mattress size and condition.",
+          "These aren't mandatory add-ons, and we'll tell you honestly which of them are likely to make a meaningful difference for your mattress and which aren't necessary. For example, if a mattress has general dustiness but no specific odor issue, sanitizing may not add much value over the standard cleaning. If there's a clear urine odor, the enzyme treatment is almost always worth it over trying to address it through standard cleaning alone.",
+        ],
+      },
+      {
+        heading: "Organic vs Traditional: Does It Cost More?",
+        body: [
+          "A common assumption is that organic, non-toxic mattress cleaning must cost more than traditional chemical-based cleaning. In practice, organic cleaning is our standard process on every visit, not a premium upgrade, so there's no additional charge for the non-toxic approach. You're not paying a surcharge to avoid harsh chemicals.",
+          "This matters particularly for households where the reason for booking includes a baby, young children, or family members with sensitivities. Our organic mattress cleaning process uses the same plant-based formulas regardless of what's driving the booking, and the pricing reflects that consistency rather than adding an eco-surcharge.",
+        ],
+      },
+      {
+        heading: "How to Get an Accurate Quote",
+        body: [
+          "The most reliable way to get an accurate number is to share the mattress size, the specific concerns you're dealing with (stain type, odor, general buildup), and your address so we can factor in any access considerations. With those details, we can confirm a clear quote before any work begins rather than giving a broad estimate that may shift at the door.",
+          "Call (800) 735-1242 or request a free quote through our contact page and we'll walk through your mattress specifics and give you a straightforward price. No pressure, no hidden fees, and no commitment until you're ready to book.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does queen mattress cleaning cost in Los Angeles?",
+        a: "Queen mattress cleaning typically starts at $129 in Los Angeles, with a typical range of $129 to $189 depending on stain and odor conditions, fabric type, and any additional treatments.",
+      },
+      {
+        q: "Is organic mattress cleaning more expensive than regular cleaning?",
+        a: "No. Organic, plant-based cleaning is our standard process on every visit, not a premium upgrade, so it's built into our starting prices rather than priced as an add-on.",
+      },
+      {
+        q: "What does urine odor removal cost?",
+        a: "Urine odor removal is a separate enzyme-based treatment, typically adding $49 to $149 to the base cleaning cost depending on how deeply the odor has settled into the mattress padding.",
+      },
+      {
+        q: "Do you charge more for memory foam or specialty mattresses?",
+        a: "Memory foam, latex, and pillow-top mattresses require slightly different handling than standard innerspring constructions, which can affect pricing. Mention your mattress type when requesting a quote.",
+      },
+      {
+        q: "Can I get a quote without committing to a booking?",
+        a: "Yes. Call (800) 735-1242 or use our contact form and we'll give you a clear price based on your mattress specifics, with no obligation to book until you're ready.",
+      },
+    ],
+    relatedServiceSlugs: ["mattress-cleaning", "organic-mattress-cleaning", "urine-odor-removal", "mattress-stain-removal"],
+    relatedAreaSlugs: ["los-angeles", "santa-monica", "beverly-hills"],
+    isPublished: true,
+  },
+  {
+    slug: "dust-mite-mattress-cleaning-guide",
+    title: "Dust Mite Mattress Cleaning Guide",
+    category: "Allergy-Sensitive Homes",
+    excerpt:
+      "What dust mites are, where they live in a mattress, why vacuuming alone rarely addresses them, and what professional cleaning can realistically do.",
+    seoTitle: "Dust Mite Mattress Cleaning Guide | Organic Mattress Cleaning",
+    seoDescription:
+      "A practical guide to dust mites in mattresses: what they are, why standard vacuuming misses them, and how professional dust mite cleaning works for LA homes.",
+    datePublished: "2026-07-01",
+    readMinutes: 8,
+    intro: [
+      "Dust mites are one of the most common household allergen sources, and the mattress is one of the places they tend to concentrate most heavily. They're microscopic, invisible without magnification, and they live deep within mattress padding rather than on the surface where a vacuum can reach them.",
+      "This guide covers what dust mites actually are, why they settle into mattresses so readily, what the limitations of at-home approaches are, and how professional dust mite mattress cleaning addresses the problem in ways that routine vacuuming can't.",
+      "We work with allergy-sensitive households across Los Angeles regularly, and dust mites are one of the most consistent topics that comes up. This is our honest, non-medical overview of the issue and how cleaning fits into managing it.",
+    ],
+    answerBlock: [
+      {
+        q: "Can professional cleaning remove dust mites from a mattress?",
+        a: "Professional extraction cleaning can significantly reduce dust mites and the allergen particles they leave behind by reaching deep into mattress padding where household vacuums typically cannot. Complete, permanent elimination is not claimed — they will gradually return over time with normal use.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What Dust Mites Are",
+        body: [
+          "Dust mites are microscopic arachnids — related to spiders but far too small to see with the naked eye — that feed on shed human skin cells. Every person sheds a small amount of skin daily through normal activity and sleep, and a mattress accumulates this material over time in the warm, humid environment where dust mites tend to thrive.",
+          "A single mattress that hasn't been professionally cleaned in a year or more can harbor a large dust mite population, all living within the padding layers. The mites themselves aren't the primary issue for most allergy-sensitive people. It's the waste particles and shed exoskeleton material they leave behind that are most commonly cited as household allergen sources.",
+        ],
+      },
+      {
+        heading: "Why Mattresses Are a Dust Mite Hotspot",
+        body: [
+          "Dust mites need three things: warmth, humidity, and a food source. A mattress that's used for eight or more hours per night provides all three in abundance. Body heat keeps the mattress surface warm; sweat adds moisture; shed skin cells provide the food supply. This is why mattresses tend to have higher dust mite concentrations than most other surfaces in the same home.",
+          "Pillows and upholstered furniture face a similar issue, but a mattress sees the most prolonged direct contact over the longest period of time, which is part of why dust mite mattress cleaning is a dedicated service rather than something addressed casually with a furniture vacuum attachment.",
+        ],
+      },
+      {
+        heading: "Why Vacuuming Alone Usually Falls Short",
+        body: [
+          "A household vacuum can lift loose debris from the top layer of a mattress, but the suction and nozzle design of most home vacuums aren't built to extract material that's settled into the deeper padding layers. Dust mites and the particles they leave behind live throughout the padding, not just on the surface, which is why a thorough vacuuming can feel helpful in the moment but often doesn't meaningfully reduce the deeper population.",
+          "Some mattress covers advertise dust mite resistance and can help slow accumulation on the surface, but they don't address what's already inside the mattress and don't substitute for periodic deep cleaning once buildup has established itself.",
+        ],
+      },
+      {
+        heading: "What Professional Dust Mite Cleaning Involves",
+        body: [
+          "Professional dust mite mattress cleaning uses a two-part approach: pre-treatment that loosens debris within the mattress fibers, followed by extraction equipment designed to pull that loosened material out from deeper in the padding rather than simply collecting what's on the surface. The extraction step is what separates professional cleaning from household vacuuming.",
+          "At Organic Mattress Cleaning, our dust mite cleaning service uses non-toxic, fragrance-free solutions rather than harsh chemical treatments. For allergy-sensitive households in particular, avoiding synthetic fragrance and chemical residue matters, since these can be irritants in their own right and partially defeat the purpose of the cleaning.",
+        ],
+      },
+      {
+        heading: "How Often to Clean for Dust Mite Reduction",
+        body: [
+          "For most households, a professional mattress cleaning every six months is a reasonable starting point. For allergy-sensitive households or those managing specific allergy conditions, a schedule closer to every three to four months is often more effective at keeping dust mite buildup from compounding between visits.",
+          "Homes with pets that sleep on the bed, or households with young children, often benefit from a tighter schedule as well, since both factors tend to accelerate how quickly organic material accumulates in mattress fibers. If you're not sure where your household falls, a first cleaning gives a baseline for setting a more personalized schedule based on what we find.",
+        ],
+      },
+      {
+        heading: "Honest Expectations: What Cleaning Can and Can't Do",
+        body: [
+          "Professional dust mite cleaning can significantly reduce the concentration of mites and allergen particles in a mattress, and many allergy-sensitive households notice a difference in how they sleep in the days and weeks following a cleaning. We don't make medical claims, and we don't promise to permanently eliminate dust mites or cure any allergy condition.",
+          "Dust mites will gradually return over time as normal mattress use continues. The goal of regular professional cleaning is to keep their population and the particles they leave behind at a lower, more manageable level between visits, rather than reaching a one-time solution. For households where this is an active concern, it's best thought of as an ongoing part of home maintenance rather than a one-off treatment.",
+        ],
+      },
+      {
+        heading: "For Allergy-Sensitive Homes Specifically",
+        body: [
+          "Our allergy mattress cleaning service is built specifically for households where dust, dander, and dust mite buildup are a meaningful concern. It uses the same fragrance-free, plant-based approach as our standard cleaning, with extra attention to pre-treatment and extraction in the areas of highest buildup.",
+          "For Los Angeles households managing allergy concerns, our mobile service means we bring professional-grade equipment directly to the bedroom rather than requiring anything to be transported. Call (800) 735-1242 or contact us online to talk through your specific situation before booking.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Can dust mites be completely eliminated from a mattress?",
+        a: "We don't claim complete or permanent elimination. Professional extraction cleaning can significantly reduce dust mite populations and the allergen particles they leave behind, but they will gradually return with normal mattress use over time.",
+      },
+      {
+        q: "Is vacuuming a mattress enough to address dust mites?",
+        a: "Household vacuums generally only reach the surface layer of a mattress. Dust mites and the particles they leave behind live deeper in the padding, which is the gap professional extraction equipment is designed to address.",
+      },
+      {
+        q: "How often should I have my mattress professionally cleaned for dust mites?",
+        a: "Every six months is a reasonable starting point for most households. Allergy-sensitive homes or households with pets on the bed often do better on a three-to-four-month cycle.",
+      },
+      {
+        q: "Is non-toxic cleaning better for allergy-sensitive homes?",
+        a: "For households already managing sensitivities, fragrance-free and chemical-free cleaning avoids introducing additional irritants during the process. This is part of why our allergy cleaning uses plant-based, non-toxic solutions as standard.",
+      },
+      {
+        q: "What is the difference between dust mite cleaning and general mattress cleaning?",
+        a: "General mattress cleaning addresses surface buildup, stains, and overall freshening. Dust mite cleaning emphasizes deeper extraction and pre-treatment specifically aimed at reducing the concentration of mites and the allergen particles they leave within the padding layers.",
+      },
+    ],
+    relatedServiceSlugs: ["dust-mite-mattress-cleaning", "allergy-mattress-cleaning", "mattress-cleaning", "organic-mattress-cleaning"],
+    relatedAreaSlugs: ["los-angeles", "santa-monica", "pasadena"],
+    isPublished: true,
+  },
+  {
+    slug: "baby-mattress-cleaning-guide",
+    title: "Baby Mattress Cleaning Guide for Parents",
+    category: "Family & Baby Mattress Care",
+    excerpt:
+      "A practical guide to keeping a crib or toddler mattress clean between professional visits, knowing when to call a professional, and why non-toxic cleaning matters for infant sleep surfaces.",
+    seoTitle: "Baby Mattress Cleaning Guide for Parents | Organic Mattress Cleaning",
+    seoDescription:
+      "How to keep a crib or baby mattress clean, when professional non-toxic cleaning is worth it, and what parents should know about organic baby mattress cleaning in Los Angeles.",
+    datePublished: "2026-07-01",
+    readMinutes: 8,
+    intro: [
+      "A baby or toddler mattress sees more direct, prolonged contact than any other mattress in the home. Infants spend most of their day and night on a crib mattress, in direct face-down or face-to-side contact with the surface. That makes what's on and in the mattress a more pressing consideration than it might be for an adult bed.",
+      "This guide covers what builds up in a crib or toddler mattress over time, practical steps for everyday maintenance between professional visits, what to look for when choosing a cleaning approach, and why organic, non-toxic baby mattress cleaning uses a different standard than general mattress cleaning.",
+      "We clean baby and toddler mattresses regularly as part of our mobile service across Los Angeles. The questions parents ask are consistent, so this is our practical, honest answer to the ones that come up most often.",
+    ],
+    answerBlock: [
+      {
+        q: "Is it safe to professionally clean a baby mattress?",
+        a: "Yes, when non-toxic, fragrance-free, and chemical-free products are used. Our baby mattress cleaning process uses plant-based enzyme treatments and avoids the harsh solvents or synthetic fragrance used in some traditional cleaning methods.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What Builds Up in a Crib Mattress",
+        body: [
+          "A crib mattress accumulates the same kinds of buildup as an adult mattress, but often faster and more intensely. Babies and toddlers sweat proportionally more than adults relative to their body size, and the mattress absorbs that moisture directly. Nighttime accidents add urine on a regular basis for most families during infancy and potty training. Spit-up, formula, and food residue contribute as well, particularly once a child starts eating solid foods.",
+          "Dust mites, skin cells, and general household dust settle into the same padding layers they settle into in an adult mattress. Because a crib or toddler mattress tends to be used at a higher frequency with more direct body contact per square inch, these issues can compound faster than in a mattress that sees normal adult use.",
+        ],
+      },
+      {
+        heading: "Between-Visit Maintenance: What Parents Can Do",
+        body: [
+          "A waterproof mattress cover is one of the most effective everyday tools for a crib mattress. A good waterproof cover catches most liquid accidents before they reach the mattress itself, which keeps the cleanup surface-level and prevents the deep penetration that makes odors harder to address later. Look for covers that are snug-fitting and breathable rather than plastic-backed covers that can trap heat.",
+          "When accidents do happen and reach the cover, wash the cover immediately and let the mattress surface air out before replacing it. If any moisture got through to the mattress, blot it with a clean towel rather than wiping or scrubbing, and let the mattress air dry before remaking the crib. Avoid any household cleaning sprays, bleach, or scented products directly on the mattress surface.",
+        ],
+      },
+      {
+        heading: "Why Non-Toxic Cleaning Matters More for Infant Mattresses",
+        body: [
+          "For an adult mattress, the primary concern with harsh chemical cleaning products is residue that lingers on a surface you'll sleep on later. For an infant mattress, the stakes are higher because infants spend hours in direct face-to-surface contact without the ability to move away from any residue or fragrance.",
+          "This is why our baby mattress cleaning uses plant-based, enzyme-based treatments and no synthetic fragrance or bleach. The non-toxic standard we use across all of our organic mattress cleaning work matters everywhere, but it's most important on a surface a baby sleeps on directly. This also means parents don't need to wait a long drying period to put the baby back to sleep after a professional cleaning.",
+        ],
+      },
+      {
+        heading: "When to Book a Professional Cleaning",
+        body: [
+          "For crib and toddler mattresses, professional cleaning more frequently than the six-month adult guideline is usually a better fit. Many parents find every three to four months works well, especially during the period when nighttime accidents are happening regularly. After a significant accident that soaked through the waterproof cover, a professional visit is worth scheduling sooner rather than waiting for the next routine cleaning.",
+          "If a crib mattress has developed a persistent smell even after airing it out and washing the cover, that's usually a sign that odor has reached the mattress padding itself. At-home remedies and baking soda treatments can help temporarily but rarely address odor that's settled into the deeper layers. Our baby mattress cleaning service uses enzyme treatments specifically because they break down the organic material in urine and sweat at the source rather than masking it.",
+        ],
+      },
+      {
+        heading: "Dealing With Urine on a Baby Mattress",
+        body: [
+          "Urine is the most common issue on a baby or toddler mattress, and it's also the one most likely to leave a lasting odor if not addressed properly. The key is acting quickly when accidents happen and using the right treatment.",
+          "For fresh accidents: blot immediately with a clean towel, avoiding any rubbing. If it's reached the mattress, a small amount of cool water can help dilute the residue, but avoid oversaturating the mattress. Let it air dry fully. For recurring or deep odor: this is where professional urine odor removal makes the most practical difference. Enzyme-based treatment breaks down the uric acid compounds that carry the persistent smell, which is the part a basic wipe-down or surface spray won't reach on its own.",
+        ],
+      },
+      {
+        heading: "What Our Baby Mattress Cleaning Looks Like",
+        body: [
+          "Our baby mattress cleaning follows the same organic, plant-based process we use on every mattress, with careful attention to using only non-toxic, fragrance-free products on a surface a child sleeps on directly. We inspect the mattress for any areas that need targeted treatment, apply appropriate enzyme or cleaning solution, extract moisture and loosened material using professional-grade equipment, and leave the mattress to dry in a state that's safe for use the same day.",
+          "We're a mobile service covering Los Angeles and nearby communities, which means no transporting a crib mattress anywhere. Call (800) 735-1242 or request a free quote online and we'll walk through what the mattress needs and give you a clear price before scheduling.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How often should a baby mattress be professionally cleaned?",
+        a: "Every three to four months is a reasonable target for most families, especially during the period when nighttime accidents are happening regularly. After a significant soaking accident, scheduling a visit sooner rather than waiting for the next routine cleaning is usually worth it.",
+      },
+      {
+        q: "Is professional baby mattress cleaning safe?",
+        a: "When non-toxic, fragrance-free products are used, yes. Our baby mattress cleaning uses plant-based enzyme treatments and avoids bleach, harsh solvents, and synthetic fragrance specifically because infants spend extended time in direct contact with the mattress surface.",
+      },
+      {
+        q: "Can urine smell be removed from a crib mattress?",
+        a: "In most cases, yes. Enzyme-based treatments are designed to break down the uric acid compounds that carry persistent urine odor, which surface wipes and baking soda can't fully reach on their own.",
+      },
+      {
+        q: "Should I use a waterproof mattress cover?",
+        a: "Yes. A snug, breathable waterproof cover is one of the most effective everyday tools for keeping liquid accidents from reaching the mattress itself, which makes both at-home cleanup and professional cleaning more manageable.",
+      },
+      {
+        q: "How soon can my baby sleep on the mattress after a professional cleaning?",
+        a: "Our low-moisture process and quick-dry approach are designed so the mattress is ready to use the same day as the cleaning. We'll let you know when it's fully dry before we leave.",
+      },
+    ],
+    relatedServiceSlugs: ["baby-mattress-cleaning", "organic-mattress-cleaning", "urine-odor-removal", "mattress-sanitizing"],
+    relatedAreaSlugs: ["los-angeles", "santa-monica", "burbank"],
+    isPublished: true,
+  },
 ];
 
 export const PLANNED_BLOG_POSTS: PlannedBlogPost[] = [
@@ -572,13 +856,6 @@ export const PLANNED_BLOG_POSTS: PlannedBlogPost[] = [
     category: "Stain & Odor Removal",
     excerpt:
       "Why pet urine odor tends to return after a quick cleanup, and what an enzyme-based approach can help address at the source.",
-    isPublished: false,
-  },
-  {
-    title: "Tips for Cleaning a Baby or Toddler Mattress Safely",
-    category: "Family & Baby Mattress Care",
-    excerpt:
-      "Practical, gentle guidance for keeping a crib or toddler mattress fresh between professional visits without harsh chemicals.",
     isPublished: false,
   },
   {

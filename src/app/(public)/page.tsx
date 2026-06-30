@@ -551,31 +551,50 @@ export default function HomePage() {
         </section>
       )}
 
-      {/* Helpful mattress cleaning guides */}
+      {/* Mattress Cleaning Resources for Los Angeles Homes */}
       <section className="py-16 sm:py-20 bg-white border-t border-primary/10">
         <div className="max-w-6xl mx-auto px-5 sm:px-6">
           <SectionHeading
             subheading="Helpful Resources"
-            heading="Helpful Mattress Cleaning Guides"
-            description="Learn how stains, mattress materials, drying time, and DIY cleaning choices affect your mattress cleaning results."
+            heading="Mattress Cleaning Resources for Los Angeles Homes"
+            description="Guides on cleaning costs, stain types, allergy concerns, baby mattresses, and how to choose the right cleaning approach for your home."
             className="mb-10"
           />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { title: "Mattress Stain Guide", href: "/mattress-stain-guide" },
-              { title: "Mattress Material Cleaning Guide", href: "/mattress-material-cleaning-guide" },
-              { title: "After-Care Guide", href: "/after-care" },
-              { title: "Professional vs DIY Cleaning", href: "/professional-vs-diy-mattress-cleaning" },
-            ].map((guide) => (
+              { title: "Mattress Cleaning Prices in Los Angeles", href: "/pricing", badge: "Pricing" },
+              { title: "How Much Does Mattress Cleaning Cost?", href: "/blog/mattress-cleaning-cost-los-angeles", badge: "Guide" },
+              { title: "Mattress Stain Guide", href: "/mattress-stain-guide", badge: "Guide" },
+              { title: "Dust Mite Mattress Cleaning Guide", href: "/blog/dust-mite-mattress-cleaning-guide", badge: "Guide" },
+              { title: "Baby Mattress Cleaning Guide", href: "/blog/baby-mattress-cleaning-guide", badge: "Guide" },
+              { title: "How to Remove Urine Smell from a Mattress", href: "/blog/how-to-remove-urine-smell-from-a-mattress", badge: "Guide" },
+              { title: "Mattress Cleaning for Allergy-Sensitive Homes", href: "/blog/mattress-cleaning-for-allergy-sensitive-homes", badge: "Guide" },
+              { title: "Organic vs Traditional Mattress Cleaning", href: "/blog/organic-mattress-cleaning-vs-traditional-cleaning", badge: "Guide" },
+              { title: "How Often Should You Clean Your Mattress?", href: "/blog/how-often-should-you-clean-your-mattress", badge: "Guide" },
+              { title: "Mattress Material Cleaning Guide", href: "/mattress-material-cleaning-guide", badge: "Guide" },
+              { title: "Professional vs DIY Mattress Cleaning", href: "/professional-vs-diy-mattress-cleaning", badge: "Guide" },
+              { title: "After-Care Guide", href: "/after-care", badge: "Guide" },
+            ].map((item) => (
               <Link
-                key={guide.href}
-                href={guide.href}
+                key={item.href}
+                href={item.href}
                 className="group bg-surface rounded-2xl p-5 border border-primary/12 hover:border-cta/30 hover:shadow-md hover:shadow-primary/10 transition-all duration-200 flex items-center justify-between gap-3"
               >
-                <span className="text-sm font-bold text-text-primary group-hover:text-primary-dark transition-colors">{guide.title}</span>
+                <div className="flex items-center gap-2.5 min-w-0">
+                  <span className="shrink-0 px-2 py-0.5 rounded-full bg-primary-light text-primary-dark text-[10px] font-bold uppercase tracking-wide">
+                    {item.badge}
+                  </span>
+                  <span className="text-sm font-semibold text-text-primary group-hover:text-primary-dark transition-colors truncate">{item.title}</span>
+                </div>
                 <ArrowRight className="w-3.5 h-3.5 text-text-secondary/50 shrink-0 group-hover:translate-x-0.5 transition-transform" aria-hidden />
               </Link>
             ))}
+          </div>
+          <div className="mt-8 text-center">
+            <Link href="/blog" className="btn btn-outline">
+              Browse All Guides
+              <ArrowRight className="w-4 h-4" aria-hidden />
+            </Link>
           </div>
         </div>
       </section>
