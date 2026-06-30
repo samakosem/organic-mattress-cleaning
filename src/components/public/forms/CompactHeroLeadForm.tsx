@@ -76,14 +76,14 @@ export function CompactHeroLeadForm({
             <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-cta" />
           </span>
           <span className="text-[11px] font-bold text-primary-dark uppercase tracking-wide">
-            24/7 Dispatch Available Now
+            Fast Response · Free Quote
           </span>
         </div>
 
         <h2 className="text-xl sm:text-2xl font-bold text-text-primary leading-tight mb-1.5">
-          Get a Fast Free Quote
+          Get a Free Mattress Cleaning Quote
         </h2>
-        <p className="text-xs text-text-secondary mb-5">24/7 dispatch • Eco-friendly cleaning • Los Angeles</p>
+        <p className="text-xs text-text-secondary mb-5">Open 24/7 • Eco-friendly cleaning • Los Angeles</p>
 
         <form action={action} className="space-y-3" noValidate>
           <input type="hidden" name="source" value={source} />

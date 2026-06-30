@@ -18,7 +18,7 @@ export function StickyMobileCta() {
           <span className="motion-safe:animate-ping absolute inline-flex h-full w-full rounded-full bg-cta opacity-60" />
           <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-cta" />
         </span>
-        <span className="text-[11px] font-bold text-primary-dark uppercase tracking-wide">Available Now</span>
+        <span className="text-[11px] font-bold text-primary-dark uppercase tracking-wide">Fast Response · Free Quote</span>
       </div>
       <div className="flex">
         <PhoneLink

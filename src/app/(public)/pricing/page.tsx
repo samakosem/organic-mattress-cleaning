@@ -477,7 +477,9 @@ export default function PricingPage() {
       <section className="py-10 bg-surface border-t border-primary/10">
         <div className="max-w-3xl mx-auto px-5 sm:px-6 text-center">
           <p className="text-sm text-text-secondary">
-            Want more detail before booking? See our{" "}
+            Want more detail before booking? Read our{" "}
+            <Link href="/blog/mattress-cleaning-cost-los-angeles" className="text-cta hover:text-primary-dark font-semibold transition-colors">mattress cleaning cost guide for Los Angeles</Link>,
+            {" "}our{" "}
             <Link href="/mattress-stain-guide" className="text-cta hover:text-primary-dark font-semibold transition-colors">mattress stain guide</Link>,{" "}
             <Link href="/mattress-material-cleaning-guide" className="text-cta hover:text-primary-dark font-semibold transition-colors">mattress material cleaning guide</Link>, or{" "}
             <Link href="/professional-vs-diy-mattress-cleaning" className="text-cta hover:text-primary-dark font-semibold transition-colors">professional vs DIY comparison</Link>.

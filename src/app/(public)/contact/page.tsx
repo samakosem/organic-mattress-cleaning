@@ -130,7 +130,24 @@ export default function ContactPage() {
 
             <div className="bg-surface rounded-3xl p-8 border border-primary/15 shadow-sm">
               <h3 className="text-lg font-bold text-text-primary mb-1.5">Send Us a Message</h3>
-              <p className="text-text-secondary text-sm mb-6">We&apos;ll respond as soon as possible.</p>
+              <p className="text-text-secondary text-sm mb-4">We review your request and follow up with availability and pricing as quickly as possible.</p>
+              <div className="rounded-xl bg-white border border-primary/12 p-4 mb-6">
+                <p className="text-xs font-bold text-cta uppercase tracking-widest mb-2">Helpful to include</p>
+                <ul className="space-y-1.5">
+                  {[
+                    "Mattress size (twin, queen, king, crib)",
+                    "Any stain or odor concerns",
+                    "Pets or young children in the home",
+                    "Your city or neighborhood",
+                    "Preferred day or time window",
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-2 text-xs text-text-secondary leading-relaxed">
+                      <span className="w-1 h-1 rounded-full bg-cta/60 shrink-0 mt-1.5" aria-hidden />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
               <LeadForm variant="contact" />
 
               <div className="flex flex-wrap gap-x-4 gap-y-2 mt-6 pt-6 border-t border-primary/10">
