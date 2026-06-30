@@ -23,7 +23,7 @@ import { buildFaqSchema } from "@/lib/schema/faq";
 import { buildServiceSchema } from "@/lib/schema/local-business";
 import { SITE_URL } from "@/lib/constants/business";
 import { SERVICES } from "@/data/services";
-import { SERVICE_AREAS, getAreaHref } from "@/data/serviceAreas";
+import { SERVICE_AREAS } from "@/data/serviceAreas";
 import { getImagesForUse, beforeAfterImages } from "@/data/images";
 
 const STAIN_RELATED_SLUGS = ["mattress-stain-removal", "urine-odor-removal", "dust-mite-mattress-cleaning"];
@@ -92,11 +92,11 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
     .map((s) => SERVICES.find((svc) => svc.slug === s))
     .filter((s): s is NonNullable<typeof s> => Boolean(s));
 
-  const featuredAreas = SERVICE_AREAS.slice(0, 6);
+  const featuredAreas = SERVICE_AREAS.filter((a) => !a.isPrimaryMarket).slice(0, 6);
   const relatedAreaItems = featuredAreas.map((area) => ({
-    href: getAreaHref(area),
+    href: `/service-areas/${area.slug}`,
     typeLabel: "Service Area",
-    title: area.isPrimaryMarket ? `${service.name} in ${area.name} (Main Service Area)` : `${service.name} in ${area.name}`,
+    title: `${service.name} in ${area.name}`,
     description: area.heroTagline,
   }));
 

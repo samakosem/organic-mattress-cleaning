@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Leaf, ShieldCheck, Heart, Clock, Phone } from "lucide-react";
 import { HeroSection } from "@/components/public/sections/HeroSection";
 import { CtaSection } from "@/components/public/sections/CtaSection";
@@ -93,6 +94,39 @@ export default function ReviewsPage() {
               <TestimonialCard key={`${t.name}-${i}`} testimonial={t} />
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Contextual internal links */}
+      <section className="py-8 bg-white border-t border-primary/10">
+        <div className="max-w-5xl mx-auto px-5 sm:px-6">
+          <p className="text-sm text-text-secondary leading-relaxed">
+            Interested in booking?{" "}
+            <Link href="/contact" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              Request a free quote
+            </Link>{" "}
+            or see our{" "}
+            <Link href="/pricing" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              mattress cleaning prices in Los Angeles
+            </Link>
+            . We offer{" "}
+            <Link href="/organic-mattress-cleaning" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              organic mattress cleaning in Los Angeles
+            </Link>
+            ,{" "}
+            <Link href="/mattress-stain-removal" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              mattress stain removal
+            </Link>
+            ,{" "}
+            <Link href="/urine-odor-removal" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              urine odor removal from mattresses
+            </Link>
+            , and more, serving{" "}
+            <Link href="/" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              mattress cleaning in Los Angeles
+            </Link>{" "}
+            and surrounding communities.
+          </p>
         </div>
       </section>
 

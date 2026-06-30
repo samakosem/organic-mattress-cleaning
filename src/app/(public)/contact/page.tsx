@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Phone, Mail, MapPin, Clock, ShieldCheck, Leaf, Users } from "lucide-react";
 import { HeroSection } from "@/components/public/sections/HeroSection";
 import { LiveAvailabilityWidget } from "@/components/public/sections/LiveAvailabilityWidget";
@@ -148,6 +149,34 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      {/* Contextual internal links */}
+      <section className="py-8 bg-surface border-t border-primary/10">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6">
+          <p className="text-sm text-text-secondary leading-relaxed">
+            See our{" "}
+            <Link href="/pricing" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              mattress cleaning prices in Los Angeles
+            </Link>{" "}
+            before you book. We offer{" "}
+            <Link href="/mattress-cleaning" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              professional mattress cleaning in Los Angeles
+            </Link>
+            ,{" "}
+            <Link href="/organic-mattress-cleaning" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              organic and non-toxic mattress cleaning
+            </Link>
+            , and{" "}
+            <Link href="/urine-odor-removal" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              urine odor removal
+            </Link>
+            . Serving{" "}
+            <Link href="/" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              mattress cleaning in Los Angeles
+            </Link>{" "}
+            and surrounding areas 24/7.
+          </p>
         </div>
       </section>
     </>

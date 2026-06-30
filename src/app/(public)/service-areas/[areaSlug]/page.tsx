@@ -157,6 +157,35 @@ export default async function ServiceAreaDetailPage({ params }: AreaPageProps) {
         </div>
       </section>
 
+      {/* Contextual internal links */}
+      <section className="py-8 bg-white border-t border-primary/10">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6">
+          <p className="text-sm text-text-secondary leading-relaxed">
+            Looking for pricing? See our{" "}
+            <Link href="/pricing" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              mattress cleaning prices in Los Angeles
+            </Link>
+            . Read what customers say on our{" "}
+            <Link href="/reviews" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              mattress cleaning reviews page
+            </Link>
+            . Our core services include{" "}
+            <Link href="/mattress-cleaning" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              mattress cleaning in Los Angeles
+            </Link>{" "}
+            and{" "}
+            <Link href="/organic-mattress-cleaning" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              organic mattress cleaning in Los Angeles
+            </Link>
+            .{" "}
+            <Link href="/contact" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+              Request a free quote
+            </Link>{" "}
+            any time — we&apos;re available 24/7.
+          </p>
+        </div>
+      </section>
+
       {/* Why eco-friendly here + common issues */}
       <section className="py-16 sm:py-24 bg-surface border-t border-primary/10">
         <div className="max-w-6xl mx-auto px-5 sm:px-6">
@@ -253,13 +282,13 @@ export default async function ServiceAreaDetailPage({ params }: AreaPageProps) {
                 <div className="pt-5 border-t border-primary/10">
                   <p className="text-xs text-text-secondary/70 mb-2 font-medium uppercase tracking-wide">Also serving nearby</p>
                   <div className="flex flex-wrap gap-2">
-                    {nearbyLinks.map((nearby) => (
+                    {nearbyLinks.slice(0, 4).map((nearby) => (
                       <Link
                         key={nearby.slug}
                         href={getAreaHref(nearby)}
                         className="px-3 py-1 bg-surface border border-primary/15 rounded-full text-xs text-text-secondary hover:border-cta/35 hover:text-primary-dark transition-colors"
                       >
-                        {nearby.isPrimaryMarket ? `${nearby.name} (Main Service Area)` : nearby.name}
+                        {nearby.name}
                       </Link>
                     ))}
                   </div>

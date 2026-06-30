@@ -78,6 +78,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedServiceSlugs: ["mattress-cleaning", "organic-mattress-cleaning", "mattress-sanitizing"],
+    relatedAreaSlugs: ["los-angeles", "santa-monica"],
     isPublished: true,
   },
   {
@@ -163,6 +164,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedServiceSlugs: ["dust-mite-mattress-cleaning", "allergy-mattress-cleaning", "mattress-cleaning"],
+    relatedAreaSlugs: ["los-angeles", "beverly-hills"],
     isPublished: true,
   },
   {
@@ -241,6 +243,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedServiceSlugs: ["organic-mattress-cleaning", "mattress-cleaning", "allergy-mattress-cleaning"],
+    relatedAreaSlugs: ["los-angeles", "santa-monica"],
     isPublished: true,
   },
   {
