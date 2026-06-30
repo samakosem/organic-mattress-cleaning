@@ -168,6 +168,35 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      {/* What happens after you submit */}
+      <section className="py-12 sm:py-16 bg-surface border-t border-primary/10">
+        <div className="max-w-3xl mx-auto px-5 sm:px-6">
+          <p className="inline-flex items-center gap-1.5 text-xs font-bold text-cta tracking-widest uppercase mb-3">
+            <span className="w-1.5 h-1.5 rounded-full bg-leaf inline-block" aria-hidden />
+            After You Submit
+          </p>
+          <h2 className="text-xl sm:text-2xl font-bold text-text-primary leading-tight mb-6">
+            What Happens After You Send Your Request
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {[
+              { n: "01", t: "We review your request", d: "We look at the mattress details, location, and any stain or odor concerns you mentioned." },
+              { n: "02", t: "We confirm the details", d: "If we have questions about the mattress size, fabric, or condition, we follow up to get a clearer picture." },
+              { n: "03", t: "We answer pricing questions", d: "We walk through starting prices, any add-ons for stains or odor treatment, and what affects the final quote." },
+              { n: "04", t: "We help schedule the visit", d: "We find a time that works for you, including same-day or next-day options when available." },
+            ].map((step) => (
+              <div key={step.n} className="bg-white rounded-2xl p-5 border border-primary/12 flex gap-4">
+                <span className="text-xs font-bold text-cta/50 tracking-widest shrink-0 mt-0.5">{step.n}</span>
+                <div>
+                  <h3 className="text-sm font-bold text-text-primary mb-1">{step.t}</h3>
+                  <p className="text-xs text-text-secondary leading-relaxed">{step.d}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Contextual internal links */}
       <section className="py-8 bg-surface border-t border-primary/10">
         <div className="max-w-6xl mx-auto px-5 sm:px-6">

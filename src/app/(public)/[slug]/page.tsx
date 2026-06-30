@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { CheckCircle2, ClipboardList, Wrench, PartyPopper, Users, Leaf } from "lucide-react";
+import { CheckCircle2, ClipboardList, Wrench, PartyPopper, Users, Leaf, Ban, Droplet, MapPin, Tag, MessageSquare, Wind } from "lucide-react";
 import { HeroSection } from "@/components/public/sections/HeroSection";
 import { ServicesSection } from "@/components/public/sections/ServicesSection";
 import { ProcessStepsSection } from "@/components/public/sections/ProcessStepsSection";
@@ -293,6 +293,44 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
               <div key={item} className="flex items-start gap-3 p-5 rounded-2xl bg-primary-light/60 border border-primary/10">
                 <CheckCircle2 className="w-4 h-4 text-cta shrink-0 mt-0.5" aria-hidden />
                 <span className="text-sm text-text-primary leading-relaxed">{item}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Organic Mattress Cleaning */}
+      <section className="py-16 sm:py-24 bg-surface border-t border-primary/10">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6">
+          <div className="max-w-2xl mb-10">
+            <p className="inline-flex items-center gap-1.5 text-xs font-bold text-cta tracking-widest uppercase mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-leaf inline-block" aria-hidden />
+              Why Choose Us
+            </p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-3">
+              Why Choose Organic Mattress Cleaning
+            </h2>
+            <p className="text-text-secondary text-base leading-relaxed">
+              A non-toxic, family-safe approach with transparent pricing and honest expectations on every visit.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {[
+              { Icon: Leaf, title: "Organic, plant-based formulas", body: "Every cleaning uses non-toxic, plant-based solutions — the same approach on every visit, including baby mattresses and allergy-sensitive homes." },
+              { Icon: Ban, title: "No bleach, ammonia, or harsh synthetic fragrance", body: "We avoid the chemical shortcuts that leave strong odors or residue behind. Your mattress smells clean, not chemical-treated." },
+              { Icon: Droplet, title: "Stain and odor focused care", body: "We approach each mattress based on its specific condition — stain type, odor depth, fabric, and prior treatments all factor into how we clean." },
+              { Icon: Users, title: "Family and pet-sensitive homes", body: "Our process is designed for households with kids, pets, and allergy concerns — no harsh residue, no strong fumes, and no shortcuts." },
+              { Icon: MapPin, title: "Mobile Los Angeles service", body: "We come to you. No hauling your mattress anywhere — we clean it in your home, bedroom, or building." },
+              { Icon: Tag, title: "Clear quotes before we start", body: "We explain the price and what's included before any cleaning begins. No surprise add-ons, no pressure." },
+              { Icon: Wind, title: "Drying and after-care guidance", body: "We tell you what to expect for drying, when to put sheets back on, and how to keep your mattress fresher longer." },
+              { Icon: MessageSquare, title: "Honest about what's possible", body: "Results depend on stain age, mattress material, and previous products used. We explain what's realistic before we start, not after." },
+            ].map((card) => (
+              <div key={card.title} className="bg-white rounded-2xl p-6 border border-primary/12 hover:border-cta/30 hover:shadow-md hover:shadow-primary/10 transition-all duration-200 flex flex-col gap-3">
+                <div className="w-10 h-10 rounded-xl bg-primary-light ring-1 ring-primary/15 flex items-center justify-center shrink-0">
+                  <card.Icon className="w-5 h-5 text-cta" aria-hidden />
+                </div>
+                <h3 className="font-bold text-text-primary text-base leading-snug">{card.title}</h3>
+                <p className="text-sm text-text-secondary leading-relaxed">{card.body}</p>
               </div>
             ))}
           </div>

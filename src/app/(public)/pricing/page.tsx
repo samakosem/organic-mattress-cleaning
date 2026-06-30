@@ -370,6 +370,32 @@ export default function PricingPage() {
         </div>
       </section>
 
+      {/* Why a free quote is the most accurate way to price */}
+      <section className="py-12 sm:py-16 bg-white border-t border-primary/10">
+        <div className="max-w-4xl mx-auto px-5 sm:px-6">
+          <div className="rounded-2xl bg-primary-light/50 border border-primary/15 p-6 sm:p-8">
+            <p className="text-xs font-bold text-cta uppercase tracking-widest mb-3">Why a Free Quote Matters</p>
+            <h2 className="text-lg sm:text-xl font-bold text-text-primary leading-snug mb-3">
+              Why a free quote is the most accurate way to understand your price
+            </h2>
+            <p className="text-sm sm:text-base text-text-secondary leading-relaxed mb-4">
+              Starting prices reflect base-level cleaning for a mattress in good condition. Most real-world quotes
+              involve at least one variable that affects the price: a specific stain, urine odor that needs enzyme
+              treatment, a moisture-sensitive foam mattress, a high-rise building, or two-sided cleaning needs.
+            </p>
+            <p className="text-sm text-text-secondary leading-relaxed mb-5">
+              The fastest way to get an accurate price is to share your mattress size, any stains or odors, and
+              your service address. We walk through the options and give a clear quote before anything is scheduled.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/contact" className="btn btn-primary text-sm">Get a Free Quote</Link>
+              <Link href="/mattress-stain-removal" className="btn btn-outline text-sm">Stain Removal Pricing</Link>
+              <Link href="/urine-odor-removal" className="btn btn-outline text-sm">Urine Odor Removal Pricing</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Price examples */}
       <section className="py-16 sm:py-24 bg-white">
         <div className="max-w-6xl mx-auto px-5 sm:px-6">

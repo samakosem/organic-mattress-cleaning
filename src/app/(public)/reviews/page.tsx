@@ -130,8 +130,65 @@ export default function ReviewsPage() {
         </div>
       </section>
 
-      {/* Organic / non-toxic trust section */}
+      {/* What customers care about before booking */}
       <section className="py-16 sm:py-24 bg-white border-t border-primary/10">
+        <div className="max-w-5xl mx-auto px-5 sm:px-6">
+          <div className="max-w-2xl mb-10">
+            <p className="inline-flex items-center gap-1.5 text-xs font-bold text-cta tracking-widest uppercase mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-leaf inline-block" aria-hidden />
+              Before You Book
+            </p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-3">
+              What Customers Usually Want to Know
+            </h2>
+            <p className="text-text-secondary text-base leading-relaxed">
+              Most people have similar questions before booking mattress cleaning for the first time. Here&apos;s what
+              comes up most often.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            {[
+              {
+                q: "Will it remove my specific stain?",
+                a: "Results depend on stain type, age, mattress fabric, and prior cleaning attempts. We give an honest assessment before work begins and don't guarantee outcomes on stains we haven't seen.",
+              },
+              {
+                q: "Is the cleaning safe for children and pets?",
+                a: "Our process uses plant-based, non-toxic solutions with no harsh chemical residue. It's designed for everyday household use in kids' rooms, nurseries, and pet-friendly homes.",
+              },
+              {
+                q: "How long will the mattress take to dry?",
+                a: "Drying depends on mattress type, moisture used, and room ventilation. We explain the expected drying window after each visit and give after-care guidance.",
+              },
+              {
+                q: "Do I need to be home?",
+                a: "Yes, access to the room is needed. Someone should be home for the visit so we can walk through the mattress condition and confirm what's needed before we start.",
+              },
+              {
+                q: "What does the price include?",
+                a: "Your quote covers the specific cleaning requested for that mattress. Stain removal, urine odor treatment, and sanitizing are priced separately. See our pricing guide.",
+              },
+              {
+                q: "How do I know the process is safe?",
+                a: "We use the same plant-based cleaning solutions on every mattress, including baby mattresses and allergy-sensitive households. You can ask us about specific products before we start.",
+              },
+            ].map((item) => (
+              <div key={item.q} className="bg-surface rounded-2xl p-6 border border-primary/12">
+                <h3 className="text-sm font-bold text-text-primary mb-2 leading-snug">{item.q}</h3>
+                <p className="text-sm text-text-secondary leading-relaxed">{item.a}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/pricing" className="btn btn-outline text-sm">View Pricing Guide</Link>
+            <Link href="/faq" className="btn btn-outline text-sm">Read All FAQs</Link>
+            <Link href="/contact" className="btn btn-primary text-sm">Get a Free Quote</Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Organic / non-toxic trust section */}
+      <section className="py-16 sm:py-24 bg-surface border-t border-primary/10">
         <div className="max-w-4xl mx-auto px-5 sm:px-6 text-center">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-primary-light ring-1 ring-primary/15 mb-6">
             <Leaf className="w-6 h-6 text-primary-dark" aria-hidden />

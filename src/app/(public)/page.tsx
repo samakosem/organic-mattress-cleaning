@@ -75,13 +75,13 @@ const WHY_ORGANIC = [
   },
   {
     Icon: Heart,
-    title: "Built for allergy relief",
-    body: "Deep extraction targets dust mites, dander, and allergens that regular vacuuming leaves behind.",
+    title: "Designed with allergies in mind",
+    body: "Deep extraction may help reduce dust mites, dander, and buildup that regular vacuuming leaves behind.",
   },
   {
     Icon: Sparkles,
-    title: "Visible, lasting results",
-    body: "Stains lift, odors disappear, and your mattress looks and feels noticeably fresher after each visit.",
+    title: "Noticeably fresher mattress",
+    body: "Stains and odors often improve significantly. Results depend on fabric, stain age, and mattress condition.",
   },
 ];
 

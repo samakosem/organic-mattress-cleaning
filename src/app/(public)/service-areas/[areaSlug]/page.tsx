@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { CheckCircle2, ArrowLeft, Truck, Leaf } from "lucide-react";
+import { CheckCircle2, ArrowLeft, Truck, Leaf, Ban, Droplet, MapPin, Tag, Wind } from "lucide-react";
 import { HeroSection } from "@/components/public/sections/HeroSection";
 import { ServicesSection } from "@/components/public/sections/ServicesSection";
 import { FaqSection } from "@/components/public/sections/FaqSection";
@@ -257,6 +257,43 @@ export default async function ServiceAreaDetailPage({ params }: AreaPageProps) {
           showCta={false}
         />
       )}
+
+      {/* Why Choose Organic Mattress Cleaning */}
+      <section className="py-16 sm:py-24 bg-white border-t border-primary/10">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6">
+          <div className="max-w-2xl mb-10">
+            <p className="inline-flex items-center gap-1.5 text-xs font-bold text-cta tracking-widest uppercase mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-leaf inline-block" aria-hidden />
+              Why Choose Us
+            </p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-text-primary leading-tight mb-3">
+              Why {area.name} Households Choose Organic Mattress Cleaning
+            </h2>
+            <p className="text-text-secondary text-base leading-relaxed">
+              Non-toxic, plant-based mattress care with transparent pricing and honest expectations — delivered
+              directly to your {area.name} home.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {[
+              { Icon: Leaf, title: "Organic, plant-based formulas", body: "We use non-toxic, plant-based solutions on every visit — including baby mattresses and allergy-sensitive homes." },
+              { Icon: Ban, title: "No bleach, ammonia, or harsh fragrance", body: "Your mattress smells clean after we leave, not chemical-treated. No residue, no strong fumes." },
+              { Icon: Droplet, title: "Stain and odor focused care", body: "We assess each mattress individually — stain type, odor depth, fabric, and prior treatments all guide our approach." },
+              { Icon: MapPin, title: "Mobile service to your home", body: `We come directly to your ${area.name} home, apartment, or condo — no hauling your mattress anywhere.` },
+              { Icon: Tag, title: "Clear quotes before we clean", body: "We explain the price and what's included before starting. No surprise add-ons, no pressure to upgrade." },
+              { Icon: Wind, title: "Drying and after-care guidance", body: "After each visit we explain drying time, ventilation, and how to keep your mattress in better shape longer." },
+            ].map((card) => (
+              <div key={card.title} className="bg-surface rounded-2xl p-6 border border-primary/12 hover:border-cta/30 hover:shadow-md hover:shadow-primary/10 transition-all duration-200 flex flex-col gap-3">
+                <div className="w-10 h-10 rounded-xl bg-primary-light ring-1 ring-primary/15 flex items-center justify-center shrink-0">
+                  <card.Icon className="w-5 h-5 text-cta" aria-hidden />
+                </div>
+                <h3 className="font-bold text-text-primary text-base leading-snug">{card.title}</h3>
+                <p className="text-sm text-text-secondary leading-relaxed">{card.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Lead form + scheduling */}
       <section className="py-16 sm:py-24 bg-white">
