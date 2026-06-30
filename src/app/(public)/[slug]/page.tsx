@@ -97,7 +97,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
     href: `/service-areas/${area.slug}`,
     typeLabel: "Service Area",
     title: `${service.name} in ${area.name}`,
-    description: area.heroTagline,
+    description: `Mobile ${service.name.toLowerCase()} available in ${area.name}, CA. ${area.heroTagline}.`,
   }));
 
   const topImage = getImagesForUse(slug)[0];
@@ -345,7 +345,15 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 <Link href="/pricing" className="text-cta hover:text-primary-dark font-semibold transition-colors">
                   mattress cleaning price guide
                 </Link>{" "}
-                for typical starting prices.
+                for typical starting prices, or{" "}
+                <Link href="/reviews" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+                  read what local customers say
+                </Link>{" "}
+                before you book.{" "}
+                <Link href="/contact" className="text-cta hover:text-primary-dark font-semibold transition-colors">
+                  Contact us
+                </Link>{" "}
+                any time — we&apos;re open 24/7.
               </p>
               <div className="p-5 rounded-2xl bg-surface border border-primary/12 mb-4">
                 <h3 className="text-sm font-bold text-text-primary mb-1.5">When to Schedule</h3>
