@@ -177,25 +177,14 @@ export function HeroSection({
               </div>
             )}
 
-            {/* Mobile/tablet: compact lead form sits below the CTAs and badges, full width, not overlapping the image */}
-            {showLeadForm && (
-              <div className="lg:hidden mt-8">
-                <CompactHeroLeadForm
-                  className="w-full"
-                  idPrefix="hero-m"
-                  source={leadFormSource ? `${leadFormSource}-mobile` : undefined}
-                  defaultServiceSlug={leadFormServiceSlug}
-                />
-              </div>
-            )}
           </div>
 
-          {/* Desktop: floating glass lead form in its own column, clear of the mattress/tool area of the image */}
+          {/* Single form instance — sits in the right column on desktop, stacks below content on mobile */}
           {showLeadForm && (
-            <div className="hidden lg:block lg:justify-self-end w-full">
+            <div className="order-last lg:order-none lg:justify-self-end w-full mt-8 lg:mt-0">
               <CompactHeroLeadForm
-                idPrefix="hero-d"
-                source={leadFormSource ? `${leadFormSource}-desktop` : undefined}
+                idPrefix="hero"
+                source={leadFormSource}
                 defaultServiceSlug={leadFormServiceSlug}
               />
             </div>

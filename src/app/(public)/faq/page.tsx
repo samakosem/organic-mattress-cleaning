@@ -12,10 +12,11 @@ import { SERVICES } from "@/data/services";
 
 export function generateMetadata(): Metadata {
   return buildMetadata({
-    title: "Frequently Asked Questions",
+    title: "Mattress Cleaning FAQ Los Angeles | Organic Mattress Cleaning",
     description:
-      "Answers to common questions about organic mattress cleaning in Los Angeles, including process, safety, pricing, and what to expect.",
+      "Answers to common questions about organic mattress cleaning in Los Angeles — process, safety, pricing, stain removal, and what to expect. Open 24/7.",
     canonical: "/faq",
+    exactTitle: true,
   });
 }
 

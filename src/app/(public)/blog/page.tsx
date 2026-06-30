@@ -12,10 +12,11 @@ import { getImagesForUse } from "@/data/images";
 
 export function generateMetadata(): Metadata {
   return buildMetadata({
-    title: "Blog",
+    title: "Mattress Cleaning Tips & Guides | Organic Mattress Cleaning Blog",
     description:
       "Mattress cleaning tips, stain and odor removal guides, eco-friendly cleaning advice, and Los Angeles home care guides from Organic Mattress Cleaning.",
     canonical: "/blog",
+    exactTitle: true,
   });
 }
 

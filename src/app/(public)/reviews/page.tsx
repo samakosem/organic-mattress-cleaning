@@ -11,10 +11,11 @@ import { TESTIMONIALS } from "@/data/testimonials";
 
 export function generateMetadata(): Metadata {
   return buildMetadata({
-    title: "Customer Testimonials",
+    title: "Mattress Cleaning Reviews Los Angeles | Organic Mattress Cleaning",
     description:
       "What local customers say about Organic Mattress Cleaning's eco-friendly, non-toxic mattress cleaning service across Los Angeles.",
     canonical: "/reviews",
+    exactTitle: true,
   });
 }
 
