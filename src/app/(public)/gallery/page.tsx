@@ -155,6 +155,13 @@ export default function GalleryPage() {
             image pairs for every job, so these are shown as project photos rather than documented before/after
             comparisons.
           </p>
+          <div className="rounded-xl bg-white border border-primary/15 px-4 py-3.5 mb-6 max-w-2xl">
+            <p className="text-xs text-text-secondary leading-relaxed">
+              <strong className="text-text-primary">About these photos:</strong> Photos are provided to show the service process and equipment.
+              Results vary by mattress material, stain age, and previous products used.
+              Individual results may differ from what is shown.
+            </p>
+          </div>
           <div className="flex flex-wrap gap-2 mb-10">
             {GALLERY_CATEGORIES.map((cat) => (
               <span key={cat} className="px-3.5 py-1.5 rounded-full bg-white border border-primary/15 text-xs font-semibold text-text-primary">
@@ -177,6 +184,20 @@ export default function GalleryPage() {
               </div>
             );
           })}
+
+          <div className="pt-6 border-t border-primary/10">
+            <p className="text-sm font-semibold text-text-primary mb-4">Explore our services:</p>
+            <div className="flex flex-wrap gap-3 mb-6">
+              <Link href="/mattress-cleaning" className="btn btn-outline text-sm">Mattress Cleaning</Link>
+              <Link href="/mattress-stain-removal" className="btn btn-outline text-sm">Stain Removal</Link>
+              <Link href="/urine-odor-removal" className="btn btn-outline text-sm">Urine Odor Removal</Link>
+              <Link href="/organic-mattress-cleaning" className="btn btn-outline text-sm">Organic Cleaning</Link>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Link href="/contact" className="btn btn-primary">Get a Free Quote</Link>
+              <Link href="/pricing" className="btn btn-outline">View Pricing</Link>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -7,10 +7,10 @@ interface TrustBadge {
 }
 
 const BADGES: TrustBadge[] = [
-  { src: "/images/badge/eco-safe-badge.webp", alt: "Eco Safe trust badge", label: "Eco Safe" },
-  { src: "/images/badge/organic-products-badge.webp", alt: "Organic Products trust badge", label: "Organic Products" },
-  { src: "/images/badge/non-toxic-badge.webp", alt: "Non-Toxic trust badge", label: "Non-Toxic" },
-  { src: "/images/badge/family-pet-safe-badge.webp", alt: "Family and Pet Safe trust badge", label: "Family & Pet Safe" },
+  { src: "/images/badge/eco-safe-badge.webp", alt: "", label: "Eco Safe" },
+  { src: "/images/badge/organic-products-badge.webp", alt: "", label: "Organic Products" },
+  { src: "/images/badge/non-toxic-badge.webp", alt: "", label: "Non-Toxic" },
+  { src: "/images/badge/family-pet-safe-badge.webp", alt: "", label: "Family & Pet Safe" },
 ];
 
 interface InternalHeroTrustBadgesProps {

@@ -15,8 +15,8 @@ export interface ImageAsset {
 /** Hero */
 export const heroImages: ImageAsset[] = [
   {
-    src: "/images/hero/mattress-cleaning-hero.webp",
-    alt: "Organic, non-toxic mattress cleaning in a fresh, healthy Los Angeles bedroom",
+    src: "/images/hero/organic-mattress-cleaning-hero-bedroom.webp",
+    alt: "Bright, clean bedroom prepared for organic mattress cleaning service",
     category: "hero",
     suggestedUse: ["homepage-hero", "all-hero-backgrounds"],
     width: 1672,
@@ -207,7 +207,7 @@ export const ecoImages: ImageAsset[] = [
   },
   {
     src: "/images/eco/ChatGPT Image Jun 21, 2026, 01_17_09 PM (1).webp",
-    alt: "Organic mattress cleaning solution used for non-toxic mattress cleaning in Los Angeles",
+    alt: "Organic plant-based cleaning solution used for mattress care",
     title: "Organic Mattress Cleaning Products",
     category: "eco",
     suggestedUse: ["organic-cleaning-products"],
