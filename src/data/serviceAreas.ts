@@ -78,10 +78,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "santa-monica",
     name: "Santa Monica",
     region: "Westside",
-    heroTagline: "Coastal Mattress Care",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Santa Monica, CA",
     heroSubheading:
-      "Plant-based mattress cleaning designed for Santa Monica's coastal air, salt humidity, and active beach-town lifestyle.",
+      "Organic, non-toxic mattress cleaning for Santa Monica homes, apartments, and beachfront condos — built for coastal air and salt humidity.",
     introHeading: "Beach-Close Living Comes With Its Own Mattress Demands",
     introParagraphs: [
       "Santa Monica's proximity to the ocean means consistently higher humidity than inland LA, which can encourage musty odors and slower drying in fabric that doesn't get cleaned regularly. Add in sandy feet, salty air, and an active outdoor lifestyle, and mattresses here tend to need more frequent attention than you'd expect.",
@@ -126,9 +126,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Yes, we regularly serve renters in Santa Monica's many apartment buildings as well as homeowners, with the same organic, non-toxic process either way.",
       },
     ],
-    seoTitle: "Mattress Cleaning Santa Monica, CA | Organic, Non-Toxic Mobile Service",
+    seoTitle: "Mattress Cleaning Santa Monica, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Santa Monica, CA. Organic, non-toxic service for stains, odors, coastal humidity, and allergens. Mobile service, open 24/7. Free quotes.",
+      "Professional mattress cleaning in Santa Monica, CA. Organic, non-toxic service for stains, odors, coastal humidity, and allergens. Free quotes.",
     whyEcoFriendly:
       "Santa Monica's ocean-adjacent humidity keeps moisture lingering in fabric longer than inland neighborhoods, which is exactly the kind of environment where harsh chemical deodorizers tend to get reapplied over and over without solving the underlying dampness. Plant-based, fast-drying formulas address the musty-odor cycle directly instead of just masking it between cleanings.",
     commonIssues: [
@@ -166,7 +166,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Malibu, CA",
     heroSubheading:
-      "Organic, non-toxic mattress cleaning for Malibu homes, beachfront properties, condos, guest rooms, and family households.",
+      "Organic, non-toxic mattress cleaning for Malibu homes, beachfront properties, and condos — suited to coastal air, salt humidity, and vacation rental turnover.",
     introHeading: "Coastal Living Deserves a Cleaner, Healthier Mattress",
     introParagraphs: [
       "Malibu homes live close to the ocean, and that proximity brings a specific set of mattress challenges that inland Los Angeles households rarely deal with. Salt air and ocean moisture work their way into bedrooms even with windows closed, and the constant in-and-out of beach days near Zuma Beach, Carbon Beach, or Broad Beach means sand, sunscreen, and salt residue regularly end up on bedding and, eventually, the mattress underneath it. Add in the wear from kids, pets, and frequent guests in larger Malibu Colony and Point Dume households, and a mattress here tends to need more attention than the average suburban home.",
@@ -219,9 +219,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Call (800) 735-1242 or request a free quote online. We're open 24/7 and will confirm a mobile appointment time that works for your property.",
       },
     ],
-    seoTitle: "Mattress Cleaning Malibu, CA | Organic, Coastal-Ready Service",
+    seoTitle: "Mattress Cleaning Malibu, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Malibu, CA. Organic, non-toxic service for stains, odors, coastal humidity, and allergens. Family-safe, pet-safe. Free quotes, open 24/7.",
+      "Professional mattress cleaning in Malibu, CA. Organic, non-toxic service for stains, odors, coastal humidity, and allergens. Family-safe, pet-safe. Free quotes.",
     whyEcoFriendly:
       "Malibu's ocean-adjacent air keeps moisture and salt residue lingering in fabric longer than inland homes ever experience, which is exactly the kind of environment where strong chemical deodorizers tend to get reapplied repeatedly without actually resolving the underlying buildup. Plant-based, fast-drying formulas are built to work with that coastal humidity instead of fighting it, addressing odor and residue at the source rather than just masking it between visits.",
     commonIssues: [
@@ -257,10 +257,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "beverly-hills",
     name: "Beverly Hills",
     region: "Westside",
-    heroTagline: "Premium In-Home Service",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Beverly Hills, CA",
     heroSubheading:
-      "A premium, discreet mattress cleaning experience using organic formulas suited to Beverly Hills' finest bedrooms.",
+      "Organic, non-toxic mattress cleaning for Beverly Hills homes, condos, and family households — careful treatment for premium and specialty mattress materials.",
     introHeading: "A Standard of Care to Match Your Home",
     introParagraphs: [
       "Beverly Hills homes often feature high-end, premium mattresses, and those investments deserve a cleaning approach that treats delicate fabrics and specialty materials with care rather than a one-size-fits-all chemical treatment. Many of these mattresses use natural latex, organic cotton, or wool layers that can be damaged by harsh solvents.",
@@ -305,9 +305,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Yes, just let us know about gate codes, security check-in, or any access requirements when scheduling, and we'll plan our visit accordingly.",
       },
     ],
-    seoTitle: "Mattress Cleaning Beverly Hills, CA | Organic, Discreet In-Home Service",
+    seoTitle: "Mattress Cleaning Beverly Hills, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Beverly Hills, CA. Organic, non-toxic service for premium and specialty mattresses. Discreet in-home appointments. Free quotes, open 24/7.",
+      "Professional mattress cleaning in Beverly Hills, CA. Organic, non-toxic service for premium and specialty mattresses. Discreet in-home appointments. Free quotes.",
     whyEcoFriendly:
       "Beverly Hills homes frequently feature premium mattresses built with natural latex, wool, or organic cotton layers, and those specialty materials are exactly the kind of fabric that harsh solvents and synthetic deodorizers can damage over time. Plant-based formulas protect the investment in the mattress itself while still delivering a thorough, professional-grade clean.",
     commonIssues: [
@@ -342,10 +342,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "west-hollywood",
     name: "West Hollywood",
     region: "Westside",
-    heroTagline: "Mobile Mattress Cleaning",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in West Hollywood, CA",
     heroSubheading:
-      "Non-toxic mattress cleaning fit for West Hollywood's mix of apartments, condos, and pet-friendly households.",
+      "Organic, non-toxic mattress cleaning for West Hollywood apartments, condos, and pet-friendly households.",
     introHeading: "Built for WeHo's Compact, Pet-Friendly Living",
     introParagraphs: [
       "West Hollywood is known for its walkable streets, dense apartment and condo living, and an unusually high number of pet owners for a neighborhood this size. That combination means mattresses here often deal with pet hair, dander, and the close quarters of smaller living spaces where odor has fewer places to dissipate.",
@@ -390,9 +390,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Renters are welcome to book directly. Many of our West Hollywood customers are renters in apartment and condo buildings.",
       },
     ],
-    seoTitle: "Mattress Cleaning West Hollywood, CA | Pet-Friendly, Non-Toxic",
+    seoTitle: "Mattress Cleaning West Hollywood, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in West Hollywood, CA. Organic, non-toxic service for pet odors, dander, stains, and dust mites in apartments and condos. Free quotes, open 24/7.",
+      "Professional mattress cleaning in West Hollywood, CA. Organic, non-toxic service for pet odors, dander, stains, and dust mites in apartments and condos. Free quotes.",
     whyEcoFriendly:
       "West Hollywood's dense apartment and condo living means odor and dander have fewer places to dissipate than in a larger home, and that's compounded by an unusually high concentration of pet owners in the neighborhood. Enzyme-based, organic treatments address pet dander and accidents at the source rather than relying on synthetic fragrance in a space where chemical smells linger longer.",
     commonIssues: [
@@ -427,10 +427,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "hollywood",
     name: "Hollywood",
     region: "Central LA",
-    heroTagline: "Citywide Mobile Service",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Hollywood, CA",
     heroSubheading:
-      "Plant-based mattress cleaning for Hollywood's mix of historic apartments, new builds, and busy renters.",
+      "Organic, non-toxic mattress cleaning for Hollywood homes, apartments, and condos — from historic walk-ups to new high-rises.",
     introHeading: "From Historic Walk-Ups to New High-Rises",
     introParagraphs: [
       "Hollywood's housing stock spans decades, from older walk-up apartment buildings with limited ventilation to newer high-rise developments. Older units in particular can struggle with trapped odor and humidity in bedrooms that don't get much fresh air circulation, which makes regular mattress care more impactful here than in newer construction.",
@@ -475,9 +475,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Yes, we can clean a mattress between tenants or before move-in, helping freshen a unit that's had previous occupants.",
       },
     ],
-    seoTitle: "Mattress Cleaning Hollywood, CA | Organic, Non-Toxic Apartment Service",
+    seoTitle: "Mattress Cleaning Hollywood, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Hollywood, CA. Organic, non-toxic service for stains, odors, dust mites, and allergens in apartments and high-rises. Free quotes, open 24/7.",
+      "Professional mattress cleaning in Hollywood, CA. Organic, non-toxic service for stains, odors, dust mites, and allergens in apartments and high-rises. Free quotes.",
     whyEcoFriendly:
       "Hollywood's housing stock ranges from 1930s walk-ups with minimal ventilation to brand-new high-rises, and older units in particular tend to trap humidity and odor near the bedroom. A non-toxic, organic deodorizing process matters here because it addresses that trapped odor directly instead of adding synthetic fragrance to an already low-airflow room.",
     commonIssues: [
@@ -512,10 +512,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "burbank",
     name: "Burbank",
     region: "San Fernando Valley",
-    heroTagline: "Family Mattress Care",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Burbank, CA",
     heroSubheading:
-      "Family-safe, non-toxic mattress cleaning designed for Burbank's suburban homes and busy households.",
+      "Organic, non-toxic mattress cleaning for Burbank family homes, apartments, and condos — safe for kids, pets, and busy school-day schedules.",
     introHeading: "Built for Burbank's Family-Centered Homes",
     introParagraphs: [
       "Burbank's suburban, family-oriented neighborhoods mean a lot of mattresses here are shared by kids, pets, and parents juggling busy schedules between work and school routines. That combination tends to bring a steady mix of spills, allergens, and everyday wear that benefits from a periodic deep clean rather than just surface upkeep.",
@@ -560,9 +560,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Yes, our fragrance-free, organic deep cleaning can help reduce allergen buildup in kids' mattresses, which many Burbank parents ask about during allergy season.",
       },
     ],
-    seoTitle: "Mattress Cleaning Burbank, CA | Family-Safe, Non-Toxic Service",
+    seoTitle: "Mattress Cleaning Burbank, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Burbank, CA. Organic, non-toxic service for stains, odors, dust mites, and allergy-sensitive family homes. Mobile service, free quotes, open 24/7.",
+      "Professional mattress cleaning in Burbank, CA. Organic, non-toxic service for kids' room spills, pet dander, dust mites, and allergens in family homes. Free quotes.",
     whyEcoFriendly:
       "Burbank's suburban, family-centered households mean a lot of mattresses are shared between kids, pets, and parents juggling school and work schedules, so the cleaning products used need to hold up to real everyday messes without adding chemical exposure. Eco-friendly, family-safe formulas let parents keep one consistent non-toxic standard for every bedroom in the house.",
     commonIssues: [
@@ -597,10 +597,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "glendale",
     name: "Glendale",
     region: "San Fernando Valley",
-    heroTagline: "Multi-Generational Home Care",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Glendale, CA",
     heroSubheading:
-      "Non-toxic mattress cleaning suited to Glendale's multi-generational households and diverse home styles.",
+      "Organic, non-toxic mattress cleaning for Glendale homes, apartments, condos, and multi-generational family households.",
     introHeading: "Caring for Homes With Many Generations Under One Roof",
     introParagraphs: [
       "Glendale is known for its multi-generational households, where grandparents, parents, and kids often share the same home, and sometimes the same bedrooms over time as family needs shift. That kind of usage means mattresses can see a wide range of conditions and sensitivities across a single household, from a senior family member's mobility needs to a young child's allergies.",
@@ -645,9 +645,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Most mattresses are dry to the touch within a few hours thanks to our low-moisture extraction process, though full drying time can vary by mattress size and material.",
       },
     ],
-    seoTitle: "Mattress Cleaning Glendale, CA | Multi-Generational, Non-Toxic Service",
+    seoTitle: "Mattress Cleaning Glendale, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Glendale, CA. Organic, fragrance-free service for stains, odors, dust mites, and allergy-sensitive multi-generational homes. Free quotes, open 24/7.",
+      "Professional mattress cleaning in Glendale, CA. Organic, fragrance-free service for stains, odors, dust mites, and allergy-sensitive multi-generational homes. Free quotes.",
     whyEcoFriendly:
       "Glendale's multi-generational households often have grandparents, parents, and kids sharing one home, which means a wide range of sensitivities under one roof, from a senior's respiratory concerns to a young child's allergies. A single fragrance-free, organic standard works across that entire range without needing a different chemical approach for each family member.",
     commonIssues: [
@@ -682,10 +682,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "pasadena",
     name: "Pasadena",
     region: "San Gabriel Valley",
-    heroTagline: "Historic Home Mattress Care",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Pasadena, CA",
     heroSubheading:
-      "Plant-based mattress cleaning suited to Pasadena's historic homes, established neighborhoods, and warmer inland climate.",
+      "Organic, non-toxic mattress cleaning for Pasadena homes, apartments, condos, and family households — suited to historic homes and inland heat.",
     introHeading: "Caring for Mattresses in Pasadena's Classic Homes",
     introParagraphs: [
       "Pasadena's tree-lined streets and historic Craftsman and Spanish-style homes often come with older bedrooms that trap heat during the area's warmer inland summers. That warmth, combined with established homes that may have older HVAC systems, can accelerate sweat absorption and odor buildup in mattresses faster than in more temperate, coastal-adjacent neighborhoods.",
@@ -730,9 +730,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Yes, we service condos and apartment buildings throughout Pasadena in addition to historic single-family homes.",
       },
     ],
-    seoTitle: "Mattress Cleaning Pasadena, CA | Organic Service for Historic Homes",
+    seoTitle: "Mattress Cleaning Pasadena, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Pasadena, CA. Organic, non-toxic service for stains, heat-driven odors, and dust buildup in historic Craftsman homes. Free quotes, open 24/7.",
+      "Professional mattress cleaning in Pasadena, CA. Organic, non-toxic service for stains, heat-driven odors, and dust buildup in historic and family homes. Free quotes.",
     whyEcoFriendly:
       "Many Pasadena homes are decades-old Craftsman and Spanish-style properties with older HVAC systems, and the area's warmer inland summers tend to accelerate sweat absorption into mattress fibers faster than in coastal-adjacent neighborhoods. Gentle, plant-based formulas address that heat-driven buildup without introducing harsh solvents that could affect the character materials often found in these older homes.",
     commonIssues: [
@@ -767,10 +767,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "encino",
     name: "Encino",
     region: "San Fernando Valley",
-    heroTagline: "Valley Mattress Cleaning",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Encino, CA",
     heroSubheading:
-      "Non-toxic mattress cleaning for Encino's spacious homes and warm San Fernando Valley summers.",
+      "Organic, non-toxic mattress cleaning for Encino homes, hillside properties, and valley apartments — suited to larger mattresses and San Fernando Valley heat.",
     introHeading: "Valley Heat Means Different Mattress Needs",
     introParagraphs: [
       "Encino's larger homes and hillside properties sit deep in the San Fernando Valley, where summer heat runs noticeably higher than the LA basin. That extra heat increases sweat absorption into mattress fibers, and larger primary bedrooms often mean larger mattresses that take more effort to deep clean thoroughly without professional equipment.",
@@ -815,9 +815,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Yes, we regularly service condos and apartment buildings throughout Encino in addition to single-family and hillside homes.",
       },
     ],
-    seoTitle: "Mattress Cleaning Encino, CA | Organic Service for Valley Homes",
+    seoTitle: "Mattress Cleaning Encino, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Encino, CA. Organic, non-toxic service for stains, sweat buildup, odors, and dust mites in spacious San Fernando Valley homes. Free quotes, open 24/7.",
+      "Professional mattress cleaning in Encino, CA. Organic, non-toxic service for sweat buildup, odors, and dust mites in larger valley homes and hillside properties. Free quotes.",
     whyEcoFriendly:
       "Encino's larger homes and hillside properties sit deep in the San Fernando Valley, where summer heat runs noticeably higher than the LA basin and increases sweat absorption into bigger primary mattresses. Plant-based formulas paired with professional-scale extraction handle that heat-driven buildup across larger mattress sizes without relying on harsher chemical treatments to compensate.",
     commonIssues: [
@@ -852,10 +852,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "sherman-oaks",
     name: "Sherman Oaks",
     region: "San Fernando Valley",
-    heroTagline: "Active Household Mattress Care",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Sherman Oaks, CA",
     heroSubheading:
-      "Plant-based mattress cleaning for Sherman Oaks' active families and busy valley professionals.",
+      "Organic, non-toxic mattress cleaning for Sherman Oaks homes, townhomes, and apartments — built for active households and busy valley schedules.",
     introHeading: "Keeping Pace With Sherman Oaks' Busy Households",
     introParagraphs: [
       "Sherman Oaks attracts a mix of young families and working professionals who tend to keep active schedules, from gym routines to weekend outings, which often means mattresses absorb more sweat and everyday wear than in less active households. Layer in the valley's warm stretches of the year, and that buildup tends to accumulate faster than people expect.",
@@ -900,9 +900,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Yes, we regularly clean mattresses in condos and townhomes throughout Sherman Oaks in addition to single-family homes.",
       },
     ],
-    seoTitle: "Mattress Cleaning Sherman Oaks, CA | Organic, Non-Toxic Service",
+    seoTitle: "Mattress Cleaning Sherman Oaks, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Sherman Oaks, CA. Organic, non-toxic service for stains, sweat odors, and dust mites in active households. Mobile service, free quotes, open 24/7.",
+      "Professional mattress cleaning in Sherman Oaks, CA. Organic, non-toxic service for sweat, stains, pet dander, and dust mites in active family and professional households. Free quotes.",
     whyEcoFriendly:
       "Sherman Oaks' mix of active families and working professionals tends to put mattresses through more sweat and everyday wear than less active households, especially during the valley's warmer months. Plant-based deep-cleaning formulas keep up with that faster buildup without needing harsher chemicals to compensate for heavier daily use.",
     commonIssues: [
@@ -940,7 +940,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Woodland Hills, CA",
     heroSubheading:
-      "Organic, non-toxic mattress cleaning for Woodland Hills homes, apartments, condos, and family households.",
+      "Organic, non-toxic mattress cleaning for Woodland Hills homes, apartments, condos, and family households — suited to valley heat and indoor dust.",
     introHeading: "Valley Heat and Family Life Both Take a Toll on a Mattress",
     introParagraphs: [
       "Woodland Hills sits deep in the San Fernando Valley, where summer heat runs noticeably warmer than the Westside and dust and pollen tend to settle indoors more persistently during dry stretches of weather. That combination speeds up how quickly a mattress accumulates dust, allergens, and the general buildup that comes from daily use, especially in family homes near Warner Center and along Ventura Boulevard, where households are often larger and bedrooms see more daily traffic.",
@@ -995,7 +995,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     ],
     seoTitle: "Mattress Cleaning Woodland Hills, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Woodland Hills, CA with organic, non-toxic stain, odor, dust mite and allergen treatment. Safe for kids and pets.",
+      "Professional mattress cleaning in Woodland Hills, CA. Organic, non-toxic service for dust mites, allergens, valley-heat odors, and pet accidents in Warner Center homes and apartments. Free quotes.",
     whyEcoFriendly:
       "Woodland Hills' warmer Valley climate means windows often stay closed against the heat, which traps dust, pollen, and everyday odor indoors rather than letting it air out naturally. Harsh chemical cleaners can add another layer of airborne residue to that already-closed environment, while plant-based, fragrance-free formulas address dust mites and odor at the source without contributing to indoor air quality concerns.",
     commonIssues: [
@@ -1031,10 +1031,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "studio-city",
     name: "Studio City",
     region: "San Fernando Valley",
-    heroTagline: "Hillside & Flat Mattress Care",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Studio City, CA",
     heroSubheading:
-      "Non-toxic mattress cleaning for Studio City's mix of hillside homes, condos, and entertainment-industry households.",
+      "Organic, non-toxic mattress cleaning for Studio City hillside homes, bungalows, and condos — flexible scheduling for entertainment-industry households.",
     introHeading: "Flexible Care for Studio City's Varied Living Spaces",
     introParagraphs: [
       "Studio City sits at the intersection of hillside homes, flat-street bungalows, and condo developments, drawing a mix of families and entertainment-industry professionals who often keep unconventional, production-driven schedules. That variety means our mobile team needs to adapt to everything from steep driveway access to early-call-time scheduling requests — which is exactly what our mobile-only setup is built for.",
@@ -1083,9 +1083,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Yes. Our enzyme-based stain treatment handles common stains including sweat discoloration, food spills, and accident spots. Results depend on stain type and age, but we assess the mattress first and set honest expectations before starting.",
       },
     ],
-    seoTitle: "Mattress Cleaning Studio City, CA | Non-Toxic, Flexible Scheduling",
+    seoTitle: "Mattress Cleaning Studio City, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Studio City, CA. Organic, non-toxic service for stains, odors, and dust mites in hillside homes, condos, and bungalows. Free quotes, open 24/7.",
+      "Professional mattress cleaning in Studio City, CA. Organic, non-toxic service for stains, odors, and dust mites in hillside homes and entertainment-industry households. Free quotes.",
     whyEcoFriendly:
       "Studio City's mix of hillside homes, flat-street bungalows, and condos draws entertainment-industry households with unconventional, often last-minute schedules, so a service built around flexibility matters as much as the products used. A consistent, non-toxic organic process means residents get the same safe result whether the appointment lands at dawn or between back-to-back production days.",
     commonIssues: [
@@ -1120,10 +1120,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "van-nuys",
     name: "Van Nuys",
     region: "San Fernando Valley",
-    heroTagline: "Affordable Family Mattress Care",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Van Nuys, CA",
     heroSubheading:
-      "Non-toxic, family-friendly mattress cleaning for Van Nuys' diverse households and multi-unit apartment communities.",
+      "Organic, non-toxic mattress cleaning for Van Nuys apartment communities, single-family homes, and multi-generational households.",
     introHeading: "Reliable Mattress Care for Van Nuys Families",
     introParagraphs: [
       "Van Nuys is home to a wide mix of apartment communities and single-family homes, with many households balancing multiple generations or several kids sharing bedroom space. That kind of everyday, high-use living means mattresses here see steady wear — spills, sweat, the occasional accident — and a periodic organic deep clean goes a long way toward keeping bedrooms feeling genuinely fresh between bigger furniture changes.",
@@ -1172,9 +1172,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Yes. Our enzyme-based urine odor treatment is specifically designed for child bedwetting situations and is safe for kids' mattresses. The enzyme formula helps break down the odor source rather than masking it with fragrance.",
       },
     ],
-    seoTitle: "Mattress Cleaning Van Nuys, CA | Non-Toxic Family Service",
+    seoTitle: "Mattress Cleaning Van Nuys, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Van Nuys, CA. Organic, non-toxic service for stains, odors, dust mites, and allergy-sensitive family households. Mobile service, free quotes, open 24/7.",
+      "Professional mattress cleaning in Van Nuys, CA. Organic, non-toxic service for urine odors, allergens, stains, and everyday wear in apartment communities and family homes. Free quotes.",
     whyEcoFriendly:
       "Van Nuys' mix of apartment communities and single-family homes often means several kids or multiple generations sharing bedroom space, which puts mattresses through steady, high-use wear. A non-toxic, family-friendly process keeps that everyday upkeep safe for shared rooms without adding chemical exposure to already heavily used bedrooms.",
     commonIssues: [
@@ -1209,10 +1209,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "north-hollywood",
     name: "North Hollywood",
     region: "San Fernando Valley",
-    heroTagline: "Arts District Mattress Care",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in North Hollywood, CA",
     heroSubheading:
-      "Plant-based mattress cleaning for North Hollywood's creative renters, growing families, and busy NoHo households.",
+      "Organic, non-toxic mattress cleaning for North Hollywood apartments, condos, and homes — serving NoHo renters, growing families, and creative households.",
     introHeading: "Serving NoHo's Mix of Renters and Growing Families",
     introParagraphs: [
       "North Hollywood's NoHo Arts District has drawn a steady wave of renters, young professionals, and growing families into a mix of newer apartment developments and older multi-unit buildings along Lankershim Boulevard and Magnolia Avenue. That blend means mattress conditions vary widely from one address to the next — a brand-new foam mattress in a modern studio sits very differently from an older innerspring in a 1970s building — and our technicians adjust their approach based on what they find.",
@@ -1261,9 +1261,9 @@ export const SERVICE_AREAS: ServiceArea[] = [
         a: "Yes. Enzyme-based urine odor treatment is one of our most common requests in apartment-dense neighborhoods like NoHo. The treatment helps break down uric acid compounds at the source rather than just masking the smell.",
       },
     ],
-    seoTitle: "Mattress Cleaning North Hollywood, CA | Organic, Non-Toxic Service",
+    seoTitle: "Mattress Cleaning North Hollywood, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in North Hollywood, CA. Organic, non-toxic service for stains, odors, and dust mites in NoHo apartments and homes. Free quotes, open 24/7.",
+      "Professional mattress cleaning in North Hollywood, CA. Organic, non-toxic service for pet urine odors, stains, allergens, and renter move-in refreshes in NoHo apartments and homes. Free quotes.",
     whyEcoFriendly:
       "North Hollywood's NoHo Arts District mixes newer apartment developments with older multi-unit buildings, drawing renters, freelancers, and growing families with very different schedules and mattress histories. An organic, non-toxic process gives every household the same safe standard regardless of building age or how unconventional their work hours are.",
     commonIssues: [
@@ -1298,10 +1298,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "culver-city",
     name: "Culver City",
     region: "Westside",
-    heroTagline: "Westside Mattress Cleaning",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Culver City, CA",
     heroSubheading:
-      "Non-toxic mattress cleaning for Culver City's growing tech and media workforce and family neighborhoods.",
+      "Organic, non-toxic mattress cleaning for Culver City homes, apartments, and condos — serving tech and media professionals alongside established family neighborhoods.",
     introHeading: "Care for a Fast-Growing Westside Community",
     introParagraphs: [
       "Culver City has grown rapidly as a hub for tech and media companies, drawing a mix of young professionals into newer apartment buildings alongside longtime family neighborhoods near the historic downtown core and the Helms Bakery district. That growth means a wide range of mattress ages and types across the city, often within a few blocks of each other, and our approach adapts to whatever we find at your address.",
@@ -1352,7 +1352,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     ],
     seoTitle: "Mattress Cleaning Culver City, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Culver City, CA. Organic, non-toxic service for stains, odors, and dust mites for professionals and families. Open 24/7.",
+      "Professional mattress cleaning in Culver City, CA. Organic, non-toxic service for stains, sweat buildup, and odors in tech-hub apartments and established family homes. Free quotes.",
     whyEcoFriendly:
       "Culver City's rapid growth as a tech and media hub has put brand-new high-rise apartments just blocks from longtime family homes near the historic downtown core, creating a wide range of mattress ages and types across a small area. A consistent organic, non-toxic process suits both newer mattresses in modern units and older heirloom pieces in established homes without compromise.",
     commonIssues: [
@@ -1387,10 +1387,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "marina-del-rey",
     name: "Marina del Rey",
     region: "Westside",
-    heroTagline: "Waterfront Mattress Care",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Marina del Rey, CA",
     heroSubheading:
-      "Plant-based mattress cleaning suited to Marina del Rey's waterfront condos and humid coastal air.",
+      "Organic, non-toxic mattress cleaning for Marina del Rey homes, apartments, and waterfront condos — built for marine humidity and coastal air.",
     introHeading: "Waterfront Living Calls for a Different Approach",
     introParagraphs: [
       "Marina del Rey's waterfront condos and apartments sit right at the edge of constant marine humidity, which tends to slow natural drying and can encourage musty odor buildup in mattresses faster than in drier, inland neighborhoods. Residents along Admiralty Way and near the marina docks live with that humidity year-round, and even newer buildings with good ventilation can struggle to fully offset it in bedroom-facing units.",
@@ -1441,7 +1441,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     ],
     seoTitle: "Mattress Cleaning Marina del Rey, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Marina del Rey, CA. Organic, non-toxic service for stains, odors, and coastal humidity in waterfront condos. Open 24/7.",
+      "Professional mattress cleaning in Marina del Rey, CA. Organic, non-toxic service for stains, odors, and coastal humidity in waterfront condos. Free quotes.",
     whyEcoFriendly:
       "Marina del Rey's waterfront condos sit at the edge of constant marine humidity, which slows natural drying and encourages musty odor buildup faster than in drier, inland neighborhoods. Fast-drying, plant-based formulas work with that humidity instead of leaving behind a synthetic fragrance that simply masks dampness rather than resolving it.",
     commonIssues: [
@@ -1476,10 +1476,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "venice",
     name: "Venice",
     region: "Westside",
-    heroTagline: "Beach Town Mattress Cleaning",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Venice, CA",
     heroSubheading:
-      "Non-toxic mattress cleaning built for Venice's sandy beach air, bohemian bungalows, and laid-back canal-side living.",
+      "Organic, non-toxic mattress cleaning for Venice homes, apartments, bungalows, and canal-side cottages — built for sandy beach air and coastal humidity.",
     introHeading: "Sand, Salt Air, and Venice's Beach-Close Lifestyle",
     introParagraphs: [
       "Venice's beach-close lifestyle means sand and salt air find their way into homes more easily than almost anywhere else in LA, settling into mattress fibers along with the humidity that rolls in off the coastline. Between beach bungalows along the boardwalk, canal-front cottages on the water, and newer builds near Abbot Kinney Boulevard, mattresses here see a distinct kind of everyday exposure that inland LA households rarely deal with.",
@@ -1530,7 +1530,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     ],
     seoTitle: "Mattress Cleaning Venice, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Venice, CA. Organic, non-toxic service for stains, odors, and sandy coastal buildup. Open 24/7.",
+      "Professional mattress cleaning in Venice, CA. Organic, non-toxic service for stains, odors, and sandy coastal buildup in beach homes and bungalows. Free quotes.",
     whyEcoFriendly:
       "Venice's beach-close lifestyle brings sand and salt air into homes more easily than almost anywhere else in LA, and that exposure pairs naturally with the neighborhood's laid-back, environmentally conscious culture. Plant-based, biodegradable formulas fit how Venice residents already think about what they bring into their homes, while still handling sand and humidity head-on.",
     commonIssues: [
@@ -1565,10 +1565,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
     slug: "brentwood",
     name: "Brentwood",
     region: "Westside",
-    heroTagline: "Upscale Residential Service",
+    heroTagline: "Organic & Non-Toxic Mattress Care",
     heroHeading: "Mattress Cleaning in Brentwood, CA",
     heroSubheading:
-      "Premium, non-toxic mattress cleaning suited to Brentwood's upscale family homes and quiet residential streets.",
+      "Organic, non-toxic mattress cleaning for Brentwood family homes and multi-bedroom households — careful treatment for premium and specialty mattress materials.",
     introHeading: "Quiet Streets, High Standards",
     introParagraphs: [
       "Brentwood's quiet, tree-lined residential streets are home to families who tend to invest in higher-end mattresses and expect a similarly careful standard from any service that comes into the bedroom. The neighborhood draws a stable, long-term resident base — families who've been in the same home for years, parents managing busy school schedules, and households that simply want a trustworthy, non-toxic option for mattress care without making it complicated.",
@@ -1619,7 +1619,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     ],
     seoTitle: "Mattress Cleaning Brentwood, CA | Organic Mattress Cleaning",
     seoDescription:
-      "Professional mattress cleaning in Brentwood, CA. Organic, non-toxic, discreet service for stains, odors, and allergy-sensitive family homes. Open 24/7.",
+      "Professional mattress cleaning in Brentwood, CA. Organic, non-toxic service for premium mattress materials, stains, odors, and allergy-sensitive family bedrooms. Free quotes.",
     whyEcoFriendly:
       "Brentwood's quiet, tree-lined streets are home to families who tend to invest in higher-end mattresses across multiple bedrooms, and that kind of investment calls for a cleaning standard that won't compromise the materials with harsh chemicals. Plant-based formulas paired with professional-grade extraction deliver a thorough result that matches the household's overall standard of care.",
     commonIssues: [
